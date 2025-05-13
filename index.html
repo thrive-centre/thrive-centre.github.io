@@ -118,17 +118,11 @@
   </ul>
 </nav>
 
-    
-
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/">
-          Minimal Mistakes
-          <span class="site-subtitle">A Jekyll theme</span>
-        </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
                 href="/docs/quick-start-guide/"
@@ -179,45 +173,180 @@
 
     <div class="initial-content">
       
+
+<!-- Slideshow Container -->
+
+<style>
+          .logo {
+            height:100px;
+          }
+.header-logos {
+  background-color: white;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 100px;
+}
+    .slideshow-container {
+      position: relative;
+      height: 500px;
+      overflow: hidden;
+      background-color: #5e616c;
+      margin-bottom:30px;
+    }
+    
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .slide.active {
+      opacity: 1;
+    }
+    
+    .slide-content {
+      text-align: center;
+      color: white;
+      max-width: 800px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+    }
+    
+    .slide-title {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .slide-description {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .slide-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: transparent;
+      color: white;
+      text-decoration: none;
+      border: 2px solid white;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+    
+    .slide-button:hover {
+      background-color: white;
+      color: #5e616c;
+    }
+    
+    .slideshow-nav {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 10;
+    }
+    
+    .slideshow-nav-button {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.5);
+      margin: 0 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .slideshow-nav-button.active {
+      background-color: white;
+    }
+
+    .slide-badge {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+  </style>
+
+
+<div class="slideshow-container">
   
-
-
-
-
-
-
-
-<div class="page__hero--overlay"
-  style="background-color: #5e616c; background-image: url('/assets/images/mm-home-page-feature.jpg');"
->
-  
-    <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-        
-          Minimal Mistakes
-
-        
-      </h1>
-      
-        <p class="page__lead">A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br /> <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.1">Latest release v4.27.1</a></small>
-</p>
-      
-      
-
-
-      
-        <p>
-        
-          <a href="/docs/quick-start-guide/" class="btn btn--light-outline btn--large"><i class='fas fa-download'></i> Install now</a>
-        
-        </p>
-      
+  <!-- Slide 1 -->
+  <div class="slide active" style="background-image: url('/assets/images/landing page/istockphoto-874072090-1024x1024.jpg');">
+    <span class="slide-badge">Latest release v4.27.1</span>
+    <div class="slide-content">
+      <h1 class="slide-title">Minimal Mistakes</h1>
+      <p class="slide-description">A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.</p>
     </div>
+  </div>
   
+  <!-- Slide 2 -->
+  <div class="slide" style="background-image: url('/assets/images/landing page/istockphoto-950086574-2048x2048.jpg');">
+    <div class="slide-content">
+      <h1 class="slide-title">Powerful Features</h1>
+      <p class="slide-description">Responsive layouts, SEO-friendly structure, and social sharing features built right in.</p>
+    </div>
+  </div>
+  
+  <!-- Slide 3 -->
+  <div class="slide" style="background-image: url('/assets/images/landing page/istockphoto-1722284772-2048x2048.jpg');">
+    <div class="slide-content">
+      <h1 class="slide-title">Customizable Design</h1>
+      <p class="slide-description">Easily personalize your site with custom skins, layouts, and components.</p>
+    </div>
+  </div>
+  
+  <!-- Slide 4 -->
+  <div class="slide" style="background-image: url('/assets/images/landing page/istockphoto-2024513576-2048x2048.jpg');">
+    <div class="slide-content">
+      <h1 class="slide-title">Well Documented</h1>
+      <p class="slide-description">Comprehensive documentation makes setup and customization a breeze.</p>
+    </div>
+  </div>
+  
+  <!-- Slide 5 -->
+  <div class="slide" style="background-image: url('/assets/images/landing page/istockphoto-2194245609-2048x2048.jpg');">
+    <div class="slide-content">
+      <h1 class="slide-title">Well Documented</h1>
+      <p class="slide-description">Comprehensive documentation makes setup and customization a breeze.</p>
+    </div>
+  </div>
+  <!-- Navigation Dots -->
+  <div class="slideshow-nav">
+    <span class="slideshow-nav-button active" data-slide="0"></span>
+    <span class="slideshow-nav-button" data-slide="1"></span>
+    <span class="slideshow-nav-button" data-slide="2"></span>
+    <span class="slideshow-nav-button" data-slide="3"></span>
+    <span class="slideshow-nav-button" data-slide="4"></span>
+  </div>
   
 </div>
 
-
+      <div style="text-align: center;">
+        <h1>To be filled</h1>
+        <p>pay special attention to ... </p>
+      </div>
 
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
@@ -475,7 +604,44 @@ $(document).ready(function() {
 </style>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-
+<script>
+  // Slideshow functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.slide');
+    const navButtons = document.querySelectorAll('.slideshow-nav-button');
+    let currentSlide = 0;
+    let slideInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+    
+    // Manual navigation
+    navButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        clearInterval(slideInterval);
+        goToSlide(parseInt(this.getAttribute('data-slide')));
+        slideInterval = setInterval(nextSlide, 5000);
+      });
+    });
+    
+    // Go to specific slide
+    function goToSlide(slideIndex) {
+      slides[currentSlide].classList.remove('active');
+      navButtons[currentSlide].classList.remove('active');
+      
+      currentSlide = slideIndex;
+      
+      slides[currentSlide].classList.add('active');
+      navButtons[currentSlide].classList.add('active');
+    }
+    
+    // Next slide function
+    function nextSlide() {
+      let nextSlideIndex = currentSlide + 1;
+      if (nextSlideIndex >= slides.length) {
+        nextSlideIndex = 0;
+      }
+      goToSlide(nextSlideIndex);
+    }
+  });
+</script>
 
 
 

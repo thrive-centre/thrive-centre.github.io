@@ -99,22 +99,25 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/michael-rose.jpg"
-  bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
-  location         : "Buffalo, NY"
+  avatar           : "/assets/images/thrive_logo.jpg"
+  bio              : "UWL Centre for Translational Healthcare Research, Innovation, Vision, and Excellence."
+  location         : "London, UK"
   links:
-    - label: "Made Mistakes"
+    - label: "Thrive Centre"
       icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
+      url: "https://ai4thrive.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://github.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/"
 
 
 # Site Footer

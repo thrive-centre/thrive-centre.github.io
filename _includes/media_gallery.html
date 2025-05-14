@@ -39,7 +39,21 @@
       {% endif %}
       
       <div class="media-gallery__item-info">
-        <h2 class="media-gallery__item-title" id="item-title">{{ first_item.title }}</h2>
+        <h2 class="media-gallery__item-title" id="item-title">
+          {% if first_item.type == "video" %}
+            <a href="{{ first_item.url }}" target="_blank">{{ first_item.title }}</a>
+          {% else %}
+            {% if first_item.link %}
+                {% if first_item.link contains 'http' %}
+                  <a href="{{ first_item.link }}" target="_blank">{{ first_item.title }}</a>
+                {% else %}
+                  <a href="{{ first_item.link | relative_url }}">{{ first_item.title }}</a>
+                {% endif %}
+            {% else %}
+                {{ first_item.title }}
+            {% endif %}
+          {% endif %}
+        </h2>
         <div class="media-gallery__item-description" id="item-description">
           {{ first_item.description }}
         </div>

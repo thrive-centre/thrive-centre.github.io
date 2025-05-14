@@ -20,7 +20,7 @@ header:
       title: "AI-Driven Heart Exam"
       description: ""
 feature_row:
-  - image_path: /assets/images/landing_page/istockphoto-1946361629-612x612.jpg
+  - image_path: /assets/images/landing_page/istockphoto-522478990-612x612.jpg
     alt: "About THRIVE"
     title: "About Us"
     excerpt: "Learn about our strategic vision, the value of joining our Centre, and current opportunities."
@@ -45,7 +45,7 @@ feature_row:
     title: "Partnerships"
     excerpt: "A leading hub for for cross-institutional collaboration and impact-driven innovation."
     link: "/partnerships/"
-  - image_path: /assets/images/landing_page/istockphoto-2153478836-612x612.jpg
+  - image_path: /assets/images/landing_page/istockphoto-497605752-612x612.jpg
     alt: "Events"
     title: "Infrastructure"
     excerpt: "Explore our research facilities research facilities, platforms, and expert consultancy services."

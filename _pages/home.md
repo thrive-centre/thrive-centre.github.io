@@ -110,4 +110,6 @@ gallery_items:
 </div>
 {% include feature_row %}
 
+<hr style="width: 60%; margin: 20px auto; border: 1px solid #ccc;">
+
 {% include media_gallery.html items=page.gallery_items %}

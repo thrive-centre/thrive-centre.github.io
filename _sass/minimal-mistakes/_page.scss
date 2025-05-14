@@ -678,14 +678,14 @@ body {
 
 .media-gallery__content {
   flex: 2;
-  max-width: 65%;
+  max-width: 50%;
   order: 1; /* Ensures content appears on the left */
 }
 
 .media-gallery__list {
   flex: 1;
   border-left: 1px solid #e5e5e5;
-  max-width: 35%;
+  max-width: 50%;
   overflow: hidden;
   order: 2; /* Ensures list appears on the right */
 }
@@ -750,7 +750,7 @@ body {
 }
 
 .media-gallery__list-item-title {
-  font-size: 14px;
+  font-size: 18px;
   margin: 0 0 5px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -758,7 +758,7 @@ body {
 }
 
 .media-gallery__list-item-short-desc {
-  font-size: 12px;
+  font-size: 15px !important;
   margin: 0;
   color: #666;
   display: -webkit-box;

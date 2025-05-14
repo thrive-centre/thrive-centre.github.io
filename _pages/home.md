@@ -98,7 +98,16 @@ gallery_items:
 
 
 ---
-
+<div style="text-align: center; max-width: 1200px; margin: 0 auto;">
+    <h1>Welcome to THRIVE: Shaping the Future of Health</h1>
+    <p>THRIVE is an interdisciplinary research centre dedicated to advancing translational health innovation through visionary, impact-driven research. By uniting expertise across AI, biomedical sciences, and healthcare technologies, THRIVE fosters collaboration that bridges discovery and real-world clinical impact.</p><p>
+          
+    </p>
+    <p>
+     The Centre supports cutting-edge <a href="{{ '/projects/' | url_relative }}" target="_blank"> research</a> in diagnostics, therapeutics, digital health, and health equity. With strong partnerships across academia, industry, and the healthcare sector, THRIVE is committed to shaping the future of health and care through inclusive, data-informed, and patient-centred solutions.
+    </p>
+  <hr style="width: 60%; margin: 20px auto; border: 1px solid #ccc;">
+</div>
 {% include feature_row %}
 
 {% include media_gallery.html items=page.gallery_items %}

@@ -1,0 +1,38 @@
+# Bundler config and gems
+vendor/
+.bundle/
+.bundler/
+
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Environment files
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Local development config files (optional)
+_config.dev.yml
+
+# Temporary files
+tmp/
+.tmp/

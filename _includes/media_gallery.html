@@ -1,0 +1,87 @@
+{% comment %}
+  Media Gallery Include - displays a list of media items (videos/images) on the right
+  and shows the selected content on the left.
+  
+  Parameters:
+    - items: An array of media items containing:
+      - title: The title of the media item
+      - description: Full description of the media item
+      - short_description: A shorter description for the thumbnail list
+      - type: "video" or "image"
+      - url: For videos, the YouTube video URL; for images, the image URL
+      - thumbnail: Thumbnail image URL (optional for videos - will use YouTube thumbnail if not provided)
+{% endcomment %}
+
+<div class="media-gallery">
+  <div class="media-gallery__content">
+    {% assign first_item = include.items | first %}
+    <div class="media-gallery__display" id="media-display">
+      {% if first_item.type == "video" %}
+        {% assign youtube_id = first_item.url | split: "v=" | last | split: "&" | first %}
+        <div class="media-gallery__video-container">
+          <iframe 
+            src="https://www.youtube.com/embed/{{ youtube_id }}" 
+            frameborder="0" 
+            allowfullscreen
+            class="media-gallery__video"
+            id="video-player"
+          ></iframe>
+        </div>
+      {% else %}
+        <div class="media-gallery__image-container">
+          <img 
+            src="{{ first_item.url }}" 
+            alt="{{ first_item.title }}" 
+            class="media-gallery__image" 
+            id="image-display"
+          />
+        </div>
+      {% endif %}
+      
+      <div class="media-gallery__item-info">
+        <h2 class="media-gallery__item-title" id="item-title">{{ first_item.title }}</h2>
+        <div class="media-gallery__item-description" id="item-description">
+          {{ first_item.description }}
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="media-gallery__list">
+    <div class="media-gallery__list-inner">
+      {% for item in include.items %}
+        {% assign item_id = forloop.index %}
+        {% if item.type == "video" and item.thumbnail == nil %}
+          {% assign youtube_id = item.url | split: "v=" | last | split: "&" | first %}
+          {% assign thumbnail = "https://img.youtube.com/vi/" | append: youtube_id | append: "/mqdefault.jpg" %}
+        {% else %}
+          {% assign thumbnail = item.thumbnail %}
+        {% endif %}
+        
+        <div class="media-gallery__list-item{% if forloop.first %} active{% endif %}" 
+             data-id="{{ item_id }}"
+             data-type="{{ item.type }}"
+             data-url="{{ item.url }}"
+             data-title="{{ item.title | escape }}"
+             data-description="{{ item.description | escape }}"
+             {% if item.type == "video" %}
+             data-youtube-id="{{ item.url | split: "v=" | last | split: "&" | first }}"
+             {% endif %}
+             onclick="selectMediaItem(this)">
+          <div class="media-gallery__list-item-thumbnail">
+            <img src="{{ thumbnail }}" alt="{{ item.title }}">
+            {% if item.type == "video" %}
+            <div class="media-gallery__play-icon">▶</div>
+            {% endif %}
+          </div>
+          <div class="media-gallery__list-item-info">
+            <h3 class="media-gallery__list-item-title">{{ item.title }}</h3>
+            <p class="media-gallery__list-item-short-desc">{{ item.short_description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script src="{{ '/assets/js/media-gallery.js' | relative_url }}"></script>

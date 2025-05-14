@@ -1,0 +1,23 @@
+{% assign slide_show = page.header.slide_show %}
+{% assign count = slide_show | size | minus: 1 %}
+
+<div class="slideshow-container">
+
+  {% for s in slide_show %}
+  <div class="slide" style="background-image: url('{{ s.image_path | relative_url }}');">
+    <div class="slide-content">
+        <h1 class="slide-title">{{ s.title }}</h1>
+        <p class="slide-description">{{ s.description }}</p>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="slideshow-nav">
+    <span class="slideshow-nav-button active" data-slide="0"></span>
+    {% for i in (1..count) %}
+      <span class="slideshow-nav-button" data-slide="{{ i }}"></span>
+    {% endfor %}
+  </div>
+</div>
+
+<script src="{{ '/assets/js/slide-show.js' | relative_url }}"></script>

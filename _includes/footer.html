@@ -1,0 +1,79 @@
+<div class="footer-container">
+  <!-- New contact info section -->
+  {% if site.footer.contact %}
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+        <p>{{ site.footer.contact.name }}</p>
+        <p>{{ site.footer.contact.address }}</p>
+        <p>{{ site.footer.contact.zip }}</p>
+        <p>Phone: {{ site.footer.contact.phone }}</p>
+        <p>Email: <a href="mailto:{{ site.footer.contact.email }}" title="{{ site.footer.contact.email }}" target="_blank">{{ site.footer.contact.email }}</a></p>
+    </div>
+  {% endif %}
+  
+  <!-- Original social links section -->
+  <div class="page__footer-follow">
+    <ul class="social-icons">
+      {% if site.data.ui-text[site.locale].follow_label %}
+        <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+      {% endif %}
+
+      {% if site.footer.links %}
+        {% for link in site.footer.links %}
+          {% if link.label and link.url %}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% unless site.atom_feed.hide %}
+        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+      {% endunless %}
+    </ul>
+    <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. All Rights Reserved</div>
+  </div>
+</div>
+
+
+<style>
+  /* Responsive footer layout */
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+  
+  .footer-contact {
+    flex: 1;
+    min-width: 250px;
+    margin-right: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .footer-contact h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  
+  .footer-contact p {
+    margin: 0.25em 0;
+  }
+  
+  .page__footer-follow {
+    flex: 2;
+    min-width: 250px;
+  }
+  
+  /* For small screens */
+  @media screen and (max-width: 600px) {
+    .footer-container {
+      flex-direction: column;
+    }
+    
+    .footer-contact, .page__footer-follow {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+</style>

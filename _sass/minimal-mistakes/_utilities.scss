@@ -239,6 +239,7 @@ $text-alignments: left, right, start, end, center, justify;
   width: $navicon-width;
   height: $navicon-height;
   background: $primary-color;
+  background: white;
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -251,6 +252,7 @@ $text-alignments: left, right, start, end, center, justify;
     width: $navicon-width;
     height: $navicon-height;
     background: $primary-color;
+    background: white;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }

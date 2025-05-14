@@ -5,7 +5,7 @@ hidden: true
 header:
   slide_show:
     - image_path: /assets/images/landing_page/istockphoto-1722284772-2048x2048.jpg
-      title: "Translational Medicine"
+      title: "Translational Medicine "
       description: ""
     - image_path: /assets/images/landing_page/istockphoto-950086574-2048x2048.jpg
       title: "Drug Development"

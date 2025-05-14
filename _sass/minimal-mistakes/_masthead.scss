@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .masthead {
+  background-color: black;
   position: relative;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
@@ -29,6 +30,7 @@
     }
 
     nav {
+      background-color: black;
       z-index: 10;
     }
 

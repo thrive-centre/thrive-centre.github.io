@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Minimal Mistakes</title>
+<!-- begin _includes/seo.html --><title>Thrive Centre</title>
 <meta name="description" content="A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios. Latest release v4.27.1">
 
 
@@ -96,6 +96,25 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
+<style>
+  .masthead {
+    background-color: #004080; /* Blue background for the whole top bar */
+  }
+
+  .greedy-nav {
+    background-color: transparent; /* Remove white box background */
+  }
+
+  .greedy-nav ul.visible-links li a {
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .greedy-nav ul.visible-links li a:hover {
+    text-decoration: underline;
+  }
+</style>
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
@@ -122,44 +141,32 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a
-                href="/docs/quick-start-guide/"
-                
-                
-              >Quick-Start Guide</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/about/"
-                
-                
-              >About</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/year-archive/"
-                
-                
-              >Sample Posts</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/collection-archive/"
-                
-                
-              >Sample Collections</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/terms/"
-                
-                
-              >Terms &amp; Privacy Policy</a>
-            </li></ul>
-        
+        <ul class="visible-links">
+          <li class="masthead__menu-item">
+            <a href="https://thrive-centre.github.io/index.html" target="_blank">Home</a>
+          </li>
+          <li class="masthead__menu-item">
+            <a href="https://thrive-centre.github.io/About.html" target="_blank">About</a>
+          </li>
+          <li class="masthead__menu-item">
+            <a href="https://thrive-centre.github.io/Projects.html" target="_blank">Projects</a>
+          </li>
+          <li class="masthead__menu-item">
+            <a href="https://thrive-centre.github.io/People.html" target="_blank">People</a>
+          </li>
+          <li class="masthead__menu-item">
+            <a href="https://thrive-centre.github.io/Partnerships.html" target="_blank">Partnerships</a>
+          </li>
+          <li class="masthead__menu-item">
+            <a href="https://thrive-centre.github.io/Contact.html" target="_blank">Contact Us</a>
+          </li>
+        </ul>
+
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
           <i class="fas fa-search"></i>
         </button>
-        
+
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
           <div class="navicon"></div>
@@ -169,7 +176,6 @@
     </div>
   </div>
 </div>
-
 
     <div class="initial-content">
       
@@ -192,7 +198,7 @@
 }
     .slideshow-container {
       position: relative;
-      height: 500px;
+      height: 600px;
       overflow: hidden;
       background-color: #5e616c;
       margin-bottom:30px;
@@ -218,9 +224,12 @@
     }
     
     .slide-content {
+      position: absolute;
+  bottom: 30px;
+  right: 30px;
       text-align: center;
       color: white;
-      max-width: 800px;
+      max-width: 600px;
       padding: 20px;
       background-color: rgba(0, 0, 0, 0.5);
       border-radius: 8px;
@@ -344,8 +353,13 @@
 </div>
 
       <div style="text-align: center;">
-        <h1>To be filled</h1>
-        <p>pay special attention to ... </p>
+        <h1>Welcome to THRIVE: Shaping the Future of Health</h1>
+        <p>THRIVE is an interdisciplinary research centre dedicated to advancing translational health innovation through visionary, impact-driven research. By uniting expertise across artificial intelligence, biomedical sciences, healthcare technologies, and social sciences, THRIVE fosters collaboration that bridges discovery and real-world clinical impact.<p>
+          
+<p>
+  The Centre supports cutting-edge <a href="https://thrive-centre.github.io/Projects.html" target="_blank"> research</a> in diagnostics, therapeutics, digital health, and health equity. With strong partnerships across academia, industry, and the healthcare sector, THRIVE is committed to shaping the future of health and care through inclusive, data-informed, and patient-centred solutions.
+</p>
+         <hr style="width: 60%; margin: 20px auto; border: 1px solid #ccc;">
       </div>
 
 <div id="main" role="main">
@@ -357,95 +371,120 @@
 
     <section class="page__content" itemprop="text">
       
+
+     
+ <style>
+  .feature__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .feature__item {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+
+  .feature__item:hover {
+    transform: scale(1.03);
+    background-color: #e2e2e2;
+  }
+
+  .archive__item-teaser img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .archive__item-body {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .archive__item-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .archive__item-title a {
+    text-decoration: underline;
+    color: #333;
+  }
+
+  .archive__item-title a:hover {
+    color: #007acc;
+  }
+
+  .archive__item-excerpt p {
+    margin: 8px 0 0 0;
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.4;
+  }
+</style>
+
 <div class="feature__wrapper">
 
-  
-    <div class="feature__item">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-            <img src="/assets/images/mm-customizable-feature.png" alt="customizable" />
-            
-          </div>
-        
-
-        <div class="archive__item-body">
-          
-            <h2 class="archive__item-title">Super customizable</h2>
-          
-
-          
-            <div class="archive__item-excerpt">
-              <p>Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter.</p>
-
-            </div>
-          
-
-          
-            <p><a href="/docs/configuration/" class="btn btn--primary">Learn more</a></p>
-          
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <img src="/assets/images/landing page/istockphoto-1484451383-612x612.jpg" alt="About THRIVE" />
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          <a href="https://thrive-centre.github.io/About.html" target="_blank">About Us</a>
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>Learn about the Centre’s origins and our vision for the future.</p>
         </div>
       </div>
     </div>
-  
-    <div class="feature__item">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-            <img src="/assets/images/mm-responsive-feature.png" alt="fully responsive" />
-            
-          </div>
-        
+  </div>
 
-        <div class="archive__item-body">
-          
-            <h2 class="archive__item-title">Responsive layouts</h2>
-          
-
-          
-            <div class="archive__item-excerpt">
-              <p>Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content.</p>
-
-            </div>
-          
-
-          
-            <p><a href="/docs/layouts/" class="btn btn--primary">Learn more</a></p>
-          
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <img src="/assets/images/landing page/istockphoto-1389681418-612x612.jpg" alt="Research Areas" />
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          <a href="https://thrive-centre.github.io/Projects.html" target="_blank">Research Themes</a>
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>Explore the Centre’s interdisciplinary research projects.</p>
         </div>
       </div>
     </div>
-  
-    <div class="feature__item">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-            <img src="/assets/images/mm-free-feature.png" alt="100% free" />
-            
-          </div>
-        
+  </div>
 
-        <div class="archive__item-body">
-          
-            <h2 class="archive__item-title">100% free</h2>
-          
-
-          
-            <div class="archive__item-excerpt">
-              <p>Free to use however you want under the MIT License. Clone it, fork it, customize it… whatever!</p>
-
-            </div>
-          
-
-          
-            <p><a href="/docs/license/" class="btn btn--primary">Learn more</a></p>
-          
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <img src="/assets/images/landing page/istockphoto-881542122-612x612.jpg" alt="Meet the Team" />
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">
+          <a href="https://thrive-centre.github.io/People.html" target="_blank">Our Team</a>
+        </h2>
+        <div class="archive__item-excerpt">
+          <p>Meet our multidisciplinary researchers from across UWL.</p>
         </div>
       </div>
     </div>
-  
+  </div>
 
-</div>
+</div>     
+      
+      
+      
+      
 
 
     </section>

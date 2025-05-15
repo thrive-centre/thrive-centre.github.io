@@ -8,6 +8,8 @@ toc: true
 
 # Welcome to THRIVE: Shaping the Future of Health
 
-THRIVE is an interdisciplinary research centre dedicated to advancing translational health innovation through visionary, impact-driven research. By uniting expertise across AI, biomedical sciences, and healthcare technologies, THRIVE fosters collaboration that bridges discovery and real-world clinical impact.
+THRIVE is a centre for translational health innovation that brings together researchers, clinicians, engineers, and digital scientists to accelerate real-world impact. We are driven by a strategic vision to reshape the future of health and care through collaborative, interdisciplinary research, integrating AI, biotherapeutics, digital health, and systems innovation.
 
-The Centre supports cutting-edge [research]({{ '/projects/' | url_relative }}) in diagnostics, therapeutics, digital health, and health equity. With strong partnerships across academia, industry, and the healthcare sector, THRIVE is committed to shaping the future of health and care through inclusive, data-informed, and patient-centred solutions.
+At THRIVE, we foster an environment where bold ideas turn into transformative solutions. Whether you are a researcher, industry partner, student, or healthcare professional, joining our Centre means becoming part of a vibrant ecosystem committed to advancing personalised, preventative, and equitable health innovations.
+
+Explore current opportunities to collaborate, contribute, or join our team, and be part of a mission that puts people and purpose at the heart of health research.

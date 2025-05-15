@@ -3,7 +3,7 @@ layout: splash
 permalink: /projects/
 title: "projects"
 excerpt: "Thrive Projects"
-last_modified_at: 2022-05-27T11:59:26-04:00
+last_modified_at: 2025-05-14T11:59:26-04:00
 toc: true
 feature_row:
   - image_path: /assets/images/projects/biobank.png

@@ -85,7 +85,12 @@ feature_row:
     link: ""
 ---
 
-Thrive projects
+# Transforming Health with AI
 
+## AI technology enables targeted interventions across a wide range of clinical pathways!
+
+Our research projects span the full spectrum of translational health innovation, combining fundamental discovery with real-world application. Our multidisciplinary portfolio reflects the centre’s mission to advance health and care through cutting-edge research in AI, biomedical engineering, biotherapeutics, digital health, and health systems innovation.
+
+From AI-guided diagnostics and smart medical devices to inhalable biologics and community-driven public health solutions, THRIVE projects exemplify both depth and breadth—addressing challenges across clinical, technological, and societal dimensions. Explore how our research teams are shaping the future of health through bold, collaborative inquiry.
 
 {% include feature_row %}

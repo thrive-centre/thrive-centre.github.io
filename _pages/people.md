@@ -3,7 +3,7 @@ layout: splash
 permalink: /people/
 title: "People"
 excerpt: "Thrive Team"
-last_modified_at: 2022-05-27T11:59:26-04:00
+last_modified_at: 2025-05-14T11:59:26-04:00
 ---
   <style>
     body {

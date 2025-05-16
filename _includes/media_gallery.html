@@ -80,6 +80,10 @@
              data-description="{{ item.description | escape }}"
              {% if item.type == "video" %}
              data-youtube-id="{{ item.url | split: "v=" | last | split: "&" | first }}"
+             {% elsif item.link contains 'http' %}
+             data-link="{{ item.link }}"
+             {% else %}
+             data-link="{{ item.link | relative_url }}"
              {% endif %}
              onclick="selectMediaItem(this)">
           <div class="media-gallery__list-item-thumbnail">

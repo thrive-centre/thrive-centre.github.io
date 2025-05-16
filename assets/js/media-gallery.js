@@ -10,8 +10,7 @@ function selectMediaItem(element) {
   const title = element.getAttribute('data-title');
   const description = element.getAttribute('data-description');
   
-  // Update title and description
-  document.getElementById('item-title').textContent = title;
+  // Update description
   document.getElementById('item-description').innerHTML = description;
   
   // Update content based on type
@@ -32,17 +31,21 @@ function selectMediaItem(element) {
           ></iframe>
         </div>
         <div class="media-gallery__item-info">
-          <h2 class="media-gallery__item-title" id="item-title">${title}</h2>
+          <h2 class="media-gallery__item-title" id="item-title">
+            <a href="${url}" target="_blank">${title}</a>
+          </h2>
           <div class="media-gallery__item-description" id="item-description">${description}</div>
         </div>
       `;
     } else {
-      // Just update the iframe source
+      // Just update the iframe source and title
+      document.getElementById('item-title').innerHTML = `<a href="${url}" target="_blank">${title}</a>`;
       document.getElementById('video-player').src = `https://www.youtube.com/embed/${youtubeId}`;
     }
   } else {
     // It's an image
     const display = document.getElementById('media-display');
+    const link = element.getAttribute('data-link');
     
     // Check if we need to replace video with image
     if (!document.getElementById('image-display')) {
@@ -56,14 +59,17 @@ function selectMediaItem(element) {
           />
         </div>
         <div class="media-gallery__item-info">
-          <h2 class="media-gallery__item-title" id="item-title">${title}</h2>
+          <h2 class="media-gallery__item-title" id="item-title">
+            <a href="${link}" target="_blank">${title}</a>
+          </h2>
           <div class="media-gallery__item-description" id="item-description">${description}</div>
         </div>
       `;
     } else {
-      // Just update the image source
+      // Just update the image source and title
       document.getElementById('image-display').src = url;
       document.getElementById('image-display').alt = title;
+      document.getElementById('item-title').innerHTML = `<a href="${link}" target="_blank">${title}</a>`;
     }
   }
 }

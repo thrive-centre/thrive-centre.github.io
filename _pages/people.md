@@ -4,416 +4,261 @@ permalink: /people/
 title: "People"
 excerpt: "Thrive Team"
 last_modified_at: 2025-05-14T11:59:26-04:00
+toc: true
+toc_sticky: true
+
+# Centre Leads Feature Row
+centre_leads:
+  - image_path: /assets/images/people/Massoud.png
+    alt: "Massoud Zolgharni"
+    title: "Massoud Zolgharni"
+    excerpt: "**Centre Director**  \nProfessor of Computer Vision"
+    link: "https://www.uwl.ac.uk/staff/massoud-zolgharni"
+  - image_path: /assets/images/people/Hani copy.png
+    alt: "Hanieh Khalili"
+    title: "Hanieh Khalili"
+    excerpt: "**Deputy Director**  \nAssociate Professor of Pharmaceutics"
+    link: "https://www.uwl.ac.uk/staff/hanieh-khalili"
+
+# Core/Associate Members Feature Row
+core_members:
+  - image_path: /assets/images/people/Jin.png
+    alt: "Jin Luo"
+    title: "Jin Luo"
+    excerpt: "**Theme Leader**  \nAssociate Professor in Medical Technology"
+    link: "https://www.uwl.ac.uk/staff/jin-luo"
+  - image_path: /assets/images/people/Nasim.jpeg
+    alt: "Nasim Dadashi Serej"
+    title: "Nasim Dadashi Serej"
+    excerpt: "**Core Academic**  \nLecturer in Computer Science"
+    link: "https://www.uwl.ac.uk/staff/nasim-dadashi-serej"
+  - image_path: /assets/images/people/Eman.png
+    alt: "Eman Alajrami"
+    title: "Eman Alajrami"
+    excerpt: "**Core Academic**  \nLecturer in Computer Science"
+    link: "https://www.uwl.ac.uk/staff/Eman-Alajrami"
+  - image_path: /assets/images/people/sama.jpg
+    alt: "Sama Aleshaiker"
+    title: "Sama Aleshaiker"
+    excerpt: "**Collaborating Academic**  \nLecturer in Computer Science"
+    link: "https://www.uwl.ac.uk/staff/sama-aleshaiker"
+  - image_path: /assets/images/people/AliG.jpg
+    alt: "Ali Gheitasy"
+    title: "Ali Gheitasy"
+    excerpt: "**Collaborating Academic**  \nLecturer in Computing"
+    link: "https://www.uwl.ac.uk/staff/ali-gheitasy"
+  - image_path: /assets/images/people/Eugenio.jpeg
+    alt: "Eugenio Donati"
+    title: "Eugenio Donati"
+    excerpt: "**Collaborating Academic**  \nLecturer in Audio Engineering"
+    link: "https://www.uwl.ac.uk/staff/eugenio-donati"
+  - image_path: /assets/images/people/Mayur(2).jpg
+    alt: "Mayur Agrawal"
+    title: "Mayur Agrawal"
+    excerpt: "**Research Associate**"
+    link: "https://www.linkedin.com/in/mayur-agrawal21"
+
+# PhD Students Feature Row
+phd_students:
+  - image_path: /assets/images/people/Preshen.jpg
+    alt: "Preshen Naidoo"
+    title: "Preshen Naidoo"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/preshen-n-190350a5/"
+  - image_path: /assets/images/people/Patty.PNG
+    alt: "Patricia Fernandes"
+    title: "Patricia Fernandes"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/patricia-fernandes-05770678/"
+  - image_path: /assets/images/people/Sara_Adibzadeh.jpeg
+    alt: "Sara Adibzadeh"
+    title: "Sara Adibzadeh"
+    excerpt: "PhD Student"
+    link: "https://www.researchgate.net/profile/Sara-Adibzadeh/"
+  - image_path: /assets/images/people/Arian.jpg
+    alt: "Arian Farokh"
+    title: "Arian Farokh"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/arian-farokh-ba687716a/"
+  - image_path: /assets/images/people/AbasAbdi.jpg
+    alt: "Abas Abdi"
+    title: "Abas Abdi"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/abas-abdi-422aba195/"
+  - image_path: /assets/images/people/Isreal(2).jpg
+    alt: "Isreal Ufumaka"
+    title: "Isreal Ufumaka"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/isreal-ufumaka"
+  - image_path: /assets/images/people/Camelia.jpeg
+    alt: "Camelia Bogdan"
+    title: "Camelia Bogdan"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/camelia-lucia-bogdan-55ab20178/"
+  - image_path: /assets/images/people/Wiktoria.jpeg
+    alt: "Wiktoria Roksana"
+    title: "Wiktoria Roksana"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/wiktoria-roksana-grabowska-5124881a9/"
+  - image_path: /assets/images/people/Hamid.jpeg
+    alt: "Hamid Heidari"
+    title: "Hamid Heidari"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/hamid-heidari-kashkooli-85380581/"
+  - image_path: /assets/images/people/Sama-Pirkalkhoran.png
+    alt: "Sama Pirkalkhoran"
+    title: "Sama Pirkalkhoran"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/sama-pirkalkhoran-b24a8754/"
+  - image_path: /assets/images/people/Zeina.jpeg
+    alt: "Zeina Kassem"
+    title: "Zeina Kassem"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/zeina-kassem-251143167/"
+  - image_path: /assets/images/people/Soroush.jpg
+    alt: "Soroush Elyasi"
+    title: "Soroush Elyasi"
+    excerpt: "PhD Student"
+    link: "https://ir.linkedin.com/in/soroush-elyasi-0692ba168"
+  - image_path: /assets/images/people/SinaKhalili.jpg
+    alt: "Sina Khalili"
+    title: "Sina Khalili"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/sina-khalili-md"
+  - image_path: /assets/images/people/Lasun.jpeg
+    alt: "Lasun Sosanya"
+    title: "Lasun Sosanya"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/lasun-s-ab670335"
+  - image_path: /assets/images/people/mohammad.jpg
+    alt: "Mohammad Zeinali"
+    title: "Mohammad Zeinali"
+    excerpt: "PhD Student"
+    link: "https://github.com/mhdzli"
+  - image_path: /assets/images/people/Alireza.jpg
+    alt: "Alireza Alibakhshi"
+    title: "Alireza Alibakhshi"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/alirezaalibakhshi"
+  - image_path: /assets/images/people/Naz.jpeg
+    alt: "Nazanin Faghih Mirzaei"
+    title: "Nazanin Faghih Mirzaei"
+    excerpt: "PhD Student"
+    link: "https://github.com/NazaninFaghih"
+
+# Visiting Academics Feature Row
+visiting_academics:
+  - image_path: /assets/images/people/Jevgeni.jpg
+    alt: "Jevgeni Jevsikov"
+    title: "Jevgeni Jevsikov"
+    excerpt: "Research Fellow"
+    link: "https://github.com/jjevsikov"
+
+# Alumni Feature Row
+alumni:
+  - image_path: /assets/images/people/Eman.png
+    alt: "Eman Alajrami"
+    title: "Eman Alajrami"
+    excerpt: "PhD Graduate"
+    link: "https://emanalajrami.github.io/Emanajrami/index.html"
+  - image_path: /assets/images/people/Cristiane.jpeg
+    alt: "Cristiane Girotto"
+    title: "Cristiane Girotto"
+    excerpt: "PhD Graduate"
+    link: "https://www.researchgate.net/profile/Cristiane-Girotto"
+  - image_path: /assets/images/people/profilepic_Jamie.JPG
+    alt: "Jamie Pordoy"
+    title: "Jamie Pordoy"
+    excerpt: "PhD Graduate"
+    link: "https://jpordoy.github.io/"
+  - image_path: /assets/images/people/Jevgeni.jpg
+    alt: "Jevgeni Jevsikov"
+    title: "Jevgeni Jevsikov"
+    excerpt: "PhD Graduate"
+    link: "https://github.com/jjevsikov"
+  - image_path: /assets/images/people/Henrique.jpeg
+    alt: "Henrique De Melo Ribeiro"
+    title: "Henrique De Melo Ribeiro"
+    excerpt: "PhD Graduate"
+    link: "https://www.linkedin.com/in/hdmribeiro"
+  - image_path: /assets/images/people/Beth.png
+    alt: "Beth Lane"
+    title: "Beth Lane"
+    excerpt: "PhD Graduate"
+    link: "https://www.linkedin.com/in/beth-lane"
+  - image_path: /assets/images/people/Rob.jpeg
+    alt: "Robert Labs"
+    title: "Robert Labs"
+    excerpt: "PhD Graduate"
+    link: "https://www.linkedin.com/in/drlabs-b-robert/?originalSubdomain=uk"
+  - image_path: /assets/images/people/Neda2.jpg
+    alt: "Neda Azarmehr"
+    title: "Neda Azarmehr"
+    excerpt: "PhD Graduate"
+    link: "https://www.sheffield.ac.uk/ijc/people/neda-azarmehr"
+  - image_path: /assets/images/people/scott.png
+    alt: "Scott Yang"
+    title: "Scott Yang"
+    excerpt: "Lecturer in Computer Science"
+    link: "https://www.swansea.ac.uk/staff/su.yang/"
+  - image_path: /assets/images/people/elahe.jpg
+    alt: "Elahe Kani-Zabihi"
+    title: "Elahe Kani-Zabihi"
+    excerpt: "Senior Lecturer in Computing"
+    link: "https://www.linkedin.com/in/dr-elahe-kani-zabihi-ba33bb6"
+  - image_path: /assets/images/people/Christos.JPG
+    alt: "Christos Chousidis"
+    title: "Christos Chousidis"
+    excerpt: "Senior Lecturer in Applied Sound Engineering"
+    link: "https://www.surrey.ac.uk/people/christos-chousidis"
+  - image_path: /assets/images/people/RameshwerMatharuPortrait.jpg
+    alt: "Rameshwer Matharu"
+    title: "Rameshwer Matharu"
+    excerpt: "Intern"
+    link: "https://www.linkedin.com/in/rameshwermatharu/"
+  - image_path: /assets/images/people/Valentinas.jpg
+    alt: "Valentinas Popovas"
+    title: "Valentinas Popovas"
+    excerpt: "Intern"
+    link: "https://www.linkedin.com/in/valentinaspopovas/"
+  - image_path: /assets/images/people/May.jpeg
+    alt: "May Hlaing Kyi"
+    title: "May Hlaing Kyi"
+    excerpt: "Intern"
+    link: "http://linkedin.com/in/may-h-kyi-76651b248/"
 ---
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background: #f9f9f9;
-    }
+<br>
+<br>
+# Our People
+{: .text-center}
 
-    h1, h2 {
-      color: #003366;
-    }
+## Centre Leads
+{: .text-center}
 
-    h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 4px;
-      margin-top: 40px;
-    }
+{% include feature_row id="centre_leads" %}
 
-    .people-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      margin-top: 20px;
-    }
+## Core/Associate Members
+{: .text-center}
 
-    .person-card {
-      background: white;
-      border-radius: 8px;
-      width: 220px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      overflow: hidden;
-      text-align: center;
-      padding: 15px;
-    }
+{% include feature_row id="core_members" %}
 
-    .person-card img {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-      border-bottom: 1px solid #ddd;
-    }
+## PhD Students
+{: .text-center}
 
-    .person-card h3 {
-      margin: 10px 0 5px;
-      font-size: 1.1em;
-    }
+{% include feature_row id="phd_students" %}
 
-    .person-card p {
-      font-size: 0.9em;
-      color: #555;
-      margin: 5px 0;
-    }
+## Visiting Academics
+{: .text-center}
 
-    .person-card a {
-      text-decoration: none;
-      color: #004080;
-      font-weight: bold;
-    }
+{% include feature_row id="visiting_academics" %}
 
-    .person-card a:hover {
-      text-decoration: underline;
-    }
-  </style>
-<body>
+## Alumni
+{: .text-center}
 
-  <h1>Our People</h1>
+{% include feature_row id="alumni" %}
 
-  <h2>Centre Leads</h2>
-<div class="people-grid">
-
-    <div class="person-card">
-      <img src="/assets/images/people/Massoud.png" alt="Massoud Zolgharni">
-      <h3><a href="https://www.uwl.ac.uk/staff/massoud-zolgharni" target="_blank">Massoud Zolgharni</a></h3>
-      <p>Centre Director</p>
-      <p>&nbsp;</p>
-      <p>Professor of Computer Vision</p>
-      <!-- <a href="mailto:massoud.zolgharni@uwl.ac.uk" title="Email massoud.zolgharni@uwl.ac.uk" target="_blank"><i class="fa fa-envelope-open"></i></a> -->
-    </div>
-    <div class="person-card">
-      <img src="/assets/images/people/Hani copy.png" alt="Hanieh Khalili">
-      <h3><a href="https://www.uwl.ac.uk/staff/hanieh-khalili" target="_blank">Hanieh Khalili</a></h3>
-      <p>Deputy Director</p>
-      <p>&nbsp;</p>
-      <p>Associate Professor of Pharmaceutics</p>
-      <!-- <a href="mailto:hanieh.khalili@uwl.ac.uk" title="Email hanieh.khalili@uwl.ac.uk" target="_blank"><i class="fa fa-envelope-open"></i></a> -->
-    </div>
-  
-  
-  
-
-</div>
-
-<h2>Core/Associate Members</h2>
-<div class="people-grid">
-
-      <div class="person-card">
-      <img src="/assets/images/people/Jin.png" alt="Jin Luo">
-      <h3><a href="https://www.uwl.ac.uk/staff/jin-luo" target="_blank">Jin Luo</a></h3>
-      <p>Theme Leader</p>
-      <p>&nbsp;</p>
-      <p>Associate Professor in Medical Technology</p>
-      <!-- <a href="mailto:jin.luo@uwl.ac.uk" title="Email jin.luo@uwl.ac.uk" target="_blank"><i class="fa fa-envelope-open"></i></a> -->
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Nasim.jpeg" alt="Nasim Dadashi Serej">
-      <h3><a href="https://www.uwl.ac.uk/staff/nasim-dadashi-serej" target="_blank">Nasim Dadashi Serej</a></h3>
-      <p>Core Academic</p>
-      <p>&nbsp;</p>
-      <p>Lecturer in Computer Science</p>
-      <!-- <a href="mailto:nasim.dadashi@uwl.ac.uk" title="Email nasim.dadashi@uwl.ac.uk" target="_blank"><i class="fa fa-envelope-open"></i></a> -->
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Eman.png" alt="Eman Alajrami">
-      <h3><a href="https://www.uwl.ac.uk/staff/Eman-Alajrami" target="_blank">Eman Alajrami</a></h3>
-      <p>Core Academic</p>
-      <p>&nbsp;</p>
-      <p>Lecturer in Computer Science</p>
-      <!-- <a href="mailto:eman.alajrami@uwl.ac.uk" title="Email eman.alajrami@uwl.ac.uk" target="_blank"><i class="fa fa-envelope-open"></i></a> -->
-    </div>
-  
- 
-
-    <div class="person-card">
-      <img src="/assets/images/people/sama.jpg" alt="Sama Aleshaiker">
-      <h3><a href="https://www.uwl.ac.uk/staff/sama-aleshaiker" target="_blank">Sama Aleshaiker</a></h3>
-      <p>Collaborating Academic</p>
-      <p>&nbsp;</p>
-      <p>Lecturer in Computer Science</p>
-      <!-- <a href="mailto:sama.aleshaiker@uwl.ac.uk" title="Email sama.aleshaiker@uwl.ac.uk" target="_blank"><i class="fa fa-envelope-open"></i></a> -->
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/AliG.jpg" alt="Ali Gheitasy">
-      <h3><a href="https://www.uwl.ac.uk/staff/ali-gheitasy" target="_blank">Ali Gheitasy</a></h3>
-      <p>Collaborating Academic</p>
-      <p>&nbsp;</p>
-      <p>Lecturer in Computing</p>
-      <!-- <a href="mailto:ali.gheitasy@uwl.ac.uk" title="Email ali.gheitasy@uwl.ac.uk" target="_blank"><i class="fa fa-envelope-open"></i></a> -->
-    </div>
-  
-      <div class="person-card">
-      <img src="/assets/images/people/Eugenio.jpeg" alt="Eugenio Donati">
-      <h3><a href="https://www.uwl.ac.uk/staff/eugenio-donati" target="_blank">Eugenio Donati</a></h3>
-      <p>Collaborating Academic</p>
-      <p>&nbsp;</p>
-      <p>Lecturer in Audio Engineering</p>
-      <!-- <a href="mailto:eugenio.donati@uwl.ac.uk" title="Email eugenio.donati@uwl.ac.uk" target="_blank"><i class="fa fa-envelope-open"></i></a> -->
-    </div>
-  
-  
-      <div class="person-card">
-      <img src="/assets/images/people/Mayur(2).jpg" alt="Mayur Agrawal">
-      <h3><a href="https://www.linkedin.com/in/mayur-agrawal21" target="_blank">Mayur Agrawal</a></h3>
-      <p>Research Associate</p>
-              <p>&nbsp;</p>
-
-      <!-- <a href="mailto:mayur.agrawal@uwl.ac.uk" title="Email mayur.agrawal@uwl.ac.uk" target="_blank"><i class="fa fa-envelope-open"></i></a> -->
-      
-    </div>
-  
-</div>
-
-<h2>PhD Students</h2>
-<div class="people-grid">
-
-
-
-
-
-    <div class="person-card">
-      <img src="/assets/images/people/Preshen.jpg" alt="Preshen Naidoo">
-      <h3><a href="https://www.linkedin.com/in/preshen-n-190350a5/" target="_blank">Preshen Naidoo</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Patty.PNG" alt="Patricia Fernandes">
-      <h3><a href="https://www.linkedin.com/in/patricia-fernandes-05770678/" target="_blank">Patricia Fernandes</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Sara_Adibzadeh.jpeg" alt="Sara Adibzadeh">
-      <h3><a href="https://www.researchgate.net/profile/Sara-Adibzadeh/" target="_blank">Sara Adibzadeh</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Arian.jpg" alt="Arian Farokh">
-      <h3><a href="https://www.linkedin.com/in/arian-farokh-ba687716a/" target="_blank">Arian Farokh</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/AbasAbdi.jpg" alt="Abas Abdi">
-      <h3><a href="https://www.linkedin.com/in/abas-abdi-422aba195/" target="_blank">Abas Abdi</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Isreal(2).jpg" alt="Isreal Ufumaka">
-      <h3><a href="https://www.linkedin.com/in/isreal-ufumaka" target="_blank">Isreal Ufumaka</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-  
-  
-      <div class="person-card">
-      <img src="/assets/images/people/Camelia.jpeg" alt="Camelia Bogdan">
-      <h3><a href="https://www.linkedin.com/in/camelia-lucia-bogdan-55ab20178/" target="_blank">Camelia Bogdan</a></h3>
-      <p>PhD Student</p>    
-    </div>
-  
-        <div class="person-card">
-      <img src="/assets/images/people/Wiktoria.jpeg" alt="Wiktoria Roksana">
-      <h3><a href="https://www.linkedin.com/in/wiktoria-roksana-grabowska-5124881a9/" target="_blank">Wiktoria Roksana</a></h3>
-      <p>PhD Student</p>    
-    </div>
-  
-          <div class="person-card">
-      <img src="/assets/images/people/Hamid.jpeg" alt="Hamid Heidari">
-      <h3><a href="https://www.linkedin.com/in/hamid-heidari-kashkooli-85380581/" target="_blank">Hamid Heidari</a></h3>
-      <p>PhD Student</p>    
-    </div>
-  
- 
-            <div class="person-card">
-      <img src="/assets/images/people/Sama-Pirkalkhoran.png" alt="Sama Pirkalkhoran">
-      <h3><a href="https://www.linkedin.com/in/sama-pirkalkhoran-b24a8754/" target="_blank">Sama Pirkalkhoran</a></h3>
-      <p>PhD Student</p>    
-    </div>
-  
-  
-  
-            <div class="person-card">
-      <img src="/assets/images/people/Zeina.jpeg" alt="Zeina Kassem">
-      <h3><a href="https://www.linkedin.com/in/zeina-kassem-251143167/" target="_blank">Zeina Kassem</a></h3>
-      <p>PhD Student</p>    
-    </div>
-  
-  
-  
-  
-  
-  
-    <div class="person-card">
-      <img src="/assets/images/people/Soroush.jpg" alt="Soroush Elyasi">
-      <h3><a href="https://ir.linkedin.com/in/soroush-elyasi-0692ba168" target="_blank">Soroush Elyasi</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/SinaKhalili.jpg" alt="Sina Khalili">
-      <h3><a href="https://www.linkedin.com/in/sina-khalili-md" target="_blank">Sina Khalili</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Lasun.jpeg" alt="Lasun Sosanya">
-      <h3><a href="https://www.linkedin.com/in/lasun-s-ab670335" target="_blank">Lasun Sosanya</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/mohammad.jpg" alt="Mohammad Zeinali">
-      <h3><a href="https://github.com/mhdzli" target="_blank">Mohammad Zeinali</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Alireza.jpg" alt="Alireza Alibakhshi">
-      <h3><a href="https://www.linkedin.com/in/alirezaalibakhshi" target="_blank">Alireza Alibakhshi</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-  
-  
-    <div class="person-card">
-      <img src="/assets/images/people/Naz.jpeg" alt="Nazanin Faghih Mirzaei">
-      <h3><a href="https://github.com/NazaninFaghih" target="_blank">Nazanin Faghih Mirzaei</a></h3>
-      <p>PhD Student</p>
-      
-    </div>
-  
-</div>
-
-<h2>Visiting Academics</h2>
-<div class="people-grid">
-
-    <div class="person-card">
-      <img src="/assets/images/people/Jevgeni.jpg" alt="Jevgeni Jevsikov">
-      <h3><a href="https://github.com/jjevsikov" target="_blank">Jevgeni Jevsikov</a></h3>
-      <p>Research Fellow</p>
-      
-    </div>
-</div>
-
-<h2>Alumni</h2>
-<div class="people-grid">
-
-  
-    <div class="person-card">
-      <img src="/assets/images/people/Eman.png" alt="Eman Alajrami">
-      <h3><a href="https://emanalajrami.github.io/Emanajrami/index.html" target="_blank">Eman Alajrami</a></h3>
-      <p>PhD Graduate</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Cristiane.jpeg" alt="Cristiane Girotto">
-      <h3><a href="https://www.researchgate.net/profile/Cristiane-Girotto" target="_blank">Cristiane Girotto</a></h3>
-      <p>PhD Graduate</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/profilepic_Jamie.JPG" alt="Jamie Pordoy">
-      <h3><a href="https://jpordoy.github.io/" target="_blank">Jamie Pordoy</a></h3>
-      <p>PhD Graduate</p>
-      
-    </div>
-
-      <div class="person-card">
-      <img src="/assets/images/people/Jevgeni.jpg" alt="Jevgeni Jevsikov">
-      <h3><a href="https://github.com/jjevsikov" target="_blank">Jevgeni Jevsikov</a></h3>
-      <p>PhD Graduate</p>
-      
-    </div>
-  
-  
-    <div class="person-card">
-      <img src="/assets/images/people/Henrique.jpeg" alt="Henrique De Melo Ribeiro">
-      <h3><a href="https://www.linkedin.com/in/hdmribeiro" target="_blank">Henrique De Melo Ribeiro</a></h3>
-      <p>PhD Graduate</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Beth.png" alt="Beth Lane">
-      <h3><a href="https://www.linkedin.com/in/beth-lane" target="_blank">Beth Lane</a></h3>
-      <p>PhD Graduate</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Rob.jpeg" alt="Robert Labs">
-      <h3><a href="https://www.linkedin.com/in/drlabs-b-robert/?originalSubdomain=uk" target="_blank">Robert Labs</a></h3>
-      <p>PhD Graduate</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Neda2.jpg" alt="Neda Azarmehr">
-      <h3><a href="https://www.sheffield.ac.uk/ijc/people/neda-azarmehr" target="_blank">Neda Azarmehr</a></h3>
-      <p>PhD Graduate</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/scott.png" alt="Scott Yang">
-      <h3><a href="https://www.swansea.ac.uk/staff/su.yang/" target="_blank">Scott Yang</a></h3>
-      <p>Lecturer in Computer Science</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/elahe.jpg" alt="Elahe Kani-Zabihi">
-      <h3><a href="https://www.linkedin.com/in/dr-elahe-kani-zabihi-ba33bb6" target="_blank">Elahe Kani-Zabihi</a></h3>
-      <p>Senior Lecturer in Computing</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Christos.JPG" alt="Christos Chousidis">
-      <h3><a href="https://www.surrey.ac.uk/people/christos-chousidis" target="_blank">Christos Chousidis</a></h3>
-      <p>Senior Lecturer in Applied Sound Engineerin</p>
-      
-    </div>
-    <div class="person-card">
-      <img src="/assets/images/people/RameshwerMatharuPortrait.jpg" alt="Rameshwer Matharu">
-      <h3><a href="https://www.linkedin.com/in/rameshwermatharu/" target="_blank">Rameshwer Matharu</a></h3>
-      <p>Intern</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/Valentinas.jpg" alt="Valentinas Popovas">
-      <h3><a href="https://www.linkedin.com/in/valentinaspopovas/" target="_blank">Valentinas Popovas</a></h3>
-      <p>Intern</p>
-      
-    </div>
-
-    <div class="person-card">
-      <img src="/assets/images/people/May.jpeg" alt="May Hlaing Kyi">
-      <h3><a href="http://linkedin.com/in/may-h-kyi-76651b248/" target="_blank">May Hlaing Kyi</a></h3>
-      <p>Intern</p>
-      
-    </div>
-</div>
-
-</body>
+<style>
+.archive__item-teaser img {
+    height: 350px !important;
+}
+</style>

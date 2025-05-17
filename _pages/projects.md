@@ -145,6 +145,9 @@ feature_row:
   margin: 2rem 0;
   display: none;
 }
+.archive__item-title {
+  font-size: 0.9rem !important;
+}
 </style>
 
 <br>

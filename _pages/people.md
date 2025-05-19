@@ -6,6 +6,7 @@ excerpt: "Thrive Team"
 last_modified_at: 2025-05-14T11:59:26-04:00
 toc: true
 toc_sticky: true
+author_profile: false
 
 # Centre Leads Feature Row
 centre_leads:

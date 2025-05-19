@@ -137,3 +137,16 @@ sidebar-sample:
         url: /
       - title: "Child Page D2"
         url: /
+
+# people
+people:
+  - title: "Centre Leads"
+    url: /people/#centre-leads
+  - title: "Core/Associate Members"
+    url: /people/#coreassociate-members
+  - title: "PhD Students"
+    url: /people/#phd-students
+  - title: "Visiting Academics"
+    url: /people/#visiting-academics
+  - title: "Alumni"
+    url: /people/#alumni

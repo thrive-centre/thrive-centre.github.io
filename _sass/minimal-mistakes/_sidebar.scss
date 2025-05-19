@@ -110,6 +110,12 @@
     position: relative;
     float: inline-end;
     margin-inline-end: 0;
+    &.splash__side {
+      position: webkit-sticky;
+      position: sticky;
+      margin-top: 15px;
+      margin-right: -200px;
+    }
   }
 
   @include breakpoint($x-large) {

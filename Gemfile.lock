@@ -53,6 +53,7 @@ GEM
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
     ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2-x64-mingw-ucrt)
     ffi (1.17.2-x86_64-linux-gnu)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
@@ -257,6 +258,8 @@ GEM
       uri
     nokogiri (1.18.8-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.18.8-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.18.8-x86_64-linux-gnu)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -300,6 +303,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-24
+  x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES

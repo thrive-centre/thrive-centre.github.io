@@ -7,9 +7,6 @@ header:
     - image_path: /assets/images/landing_page/istockphoto-1722284772-2048x2048.jpg
       title: "Translational Medicine"
       description: ""
-    - image_path: /assets/images/landing_page/istockphoto-950086574-2048x2048.jpg
-      title: "Drug Development"
-      description: ""
     - image_path: /assets/images/landing_page/istockphoto-874072090-1024x1024.jpg
       title: "Personalised Treatment"
       description: ""
@@ -19,6 +16,12 @@ header:
     - image_path: /assets/images/landing_page/istockphoto-2194245609-2048x2048.jpg
       title: "AI-Driven Heart Exam"
       description: ""
+    - image_path: /assets/images/landing_page/iStock-626627110.jpg
+      title: "VR-Assisted Training"
+      description: ""
+    - image_path: /assets/images/landing_page/istockphoto-950086574-2048x2048.jpg
+      title: "Biotherapeutic Drug Development"
+      description: ""
 feature_row:
   - image_path: /assets/images/landing_page/istockphoto-522478990-612x612.jpg
     alt: "About THRIVE"
@@ -27,7 +30,7 @@ feature_row:
     link: "/about/"
   - image_path: /assets/images/landing_page/istockphoto-1389681418-612x612.jpg
     alt: "Research Areas"
-    title: "Research Themes"
+    title: "Our Research"
     excerpt: "Discover our interdisciplinary research themes, and portfolio of pioneering projects."
     link: "/projects/"
   - image_path: /assets/images/landing_page/istockphoto-881542122-612x612.jpg
@@ -48,7 +51,7 @@ feature_row:
   - image_path: /assets/images/landing_page/istockphoto-497605752-612x612.jpg
     alt: "Events"
     title: "Infrastructure"
-    excerpt: "Explore our research facilities research facilities, platforms, and expert consultancy services."
+    excerpt: "Our research is supported by world-class research facilities, technologies, and biobanks."
     link: "/infrastructure/"
 gallery_items:
 

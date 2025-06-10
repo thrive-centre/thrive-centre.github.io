@@ -99,10 +99,20 @@
   background-color: white;
 }
 
+.logohead a {
+  max-height: 100px;
+  display: flex;
+  max-width: 25%;
+}
+
 .toplogo {
   max-height: 100px;
   width: auto;
   max-width: 25%;
+}
+
+.logohead a .toplogo {
+  max-width: 100%;
 }
 
 .logohead-text {

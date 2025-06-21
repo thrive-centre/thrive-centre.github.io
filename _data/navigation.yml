@@ -28,10 +28,8 @@ main:
     url: /projects/
   - title: "People"
     url: /people/
-  - title: "PhD"
-    url: /phd/
-  - title: "Partnerships"
-    url: /partnerships/
+  - title: "Opportunities"
+    url: /opportunities/
   - title: "Infrastructure"
     url: /infrastructure/
 

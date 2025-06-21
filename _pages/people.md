@@ -155,6 +155,25 @@ visiting_academics:
     excerpt: "Research Fellow"
     link: "https://github.com/jjevsikov"
 
+# Interns Feature Row
+interns:
+  - image_path: /assets/images/people/arshian.jpg
+    alt: "Arshian Hussain"
+    title: "Arshian Hussain"
+    excerpt: "Intern"
+    link: "https://www.linkedin.com/in/arshian-hussain-8b9b53264/"
+  - image_path: /assets/images/people/malcolm.jpg
+    alt: "Malcolm Sanha"
+    title: "Malcolm Sanha"
+    excerpt: "Intern"
+    link: "https://www.linkedin.com/in/malcolm-sanha-138918269/"
+  - image_path: /assets/images/people/yush.jpg
+    alt: "Yush Shrestha"
+    title: "Yush Shrestha"
+    excerpt: "Intern"
+    link: "https://www.linkedin.com/in/yushshresthax"
+
+
 # Alumni Feature Row
 alumni:
   - image_path: /assets/images/people/Eman.png
@@ -238,7 +257,7 @@ alumni:
 
 {% include feature_row id="centre_leads" %}
 
-## Core/Associate Members
+## Core/Associate Faculty
 {: .text-center}
 
 {% include feature_row id="core_members" %}
@@ -247,6 +266,11 @@ alumni:
 {: .text-center}
 
 {% include feature_row id="phd_students" %}
+
+## Interns
+{: .text-center}
+
+{% include feature_row id="interns" %}
 
 ## Visiting Academics
 {: .text-center}
@@ -260,6 +284,12 @@ alumni:
 
 <style>
 .archive__item-teaser img {
-    height: 350px !important;
+    height: 250px !important;
+}
+ .feature__item {
+    width: 18% !important;
+}
+.feature__item .archive__item-title {
+    font-size: 1rem !important;
 }
 </style>

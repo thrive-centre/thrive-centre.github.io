@@ -7,7 +7,7 @@
   <div class="slide" style="background-image: url('{{ s.image_path | relative_url }}');">
     <div class="slide-content">
         <h1 class="slide-title">{{ s.title }}</h1>
-        <p class="slide-description">{{ s.description }}</p>
+        <!-- <p class="slide-description">{{ s.description }}</p> -->
     </div>
   </div>
   {% endfor %}

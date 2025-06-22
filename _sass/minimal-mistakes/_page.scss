@@ -331,7 +331,7 @@ body {
 
 .slideshow-nav {
   position: absolute;
-  bottom: 20px;
+  bottom: 7px;
   left: 0;
   right: 0;
   text-align: center;
@@ -342,15 +342,25 @@ body {
   display: inline-block;
   width: 12px;
   height: 12px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
   margin: 0 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+
+.slideshow-nav-button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
 }
 
 .slideshow-nav-button.active {
-  background-color: white;
+  background: rgba(255, 255, 255, 0.8);
+  border-color: #fff;
 }
 
 .slide-badge {

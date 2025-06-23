@@ -92,7 +92,7 @@ phd_students:
     title: "Abas Abdi"
     excerpt: "PhD Student"
     link: "https://www.linkedin.com/in/abas-abdi-422aba195/"
-  - image_path: /assets/images/people/Isreal(2).jpg
+  - image_path: /assets/images/people/Isreal.jpg
     alt: "Isreal Ufumaka"
     title: "Isreal Ufumaka"
     excerpt: "PhD Student"

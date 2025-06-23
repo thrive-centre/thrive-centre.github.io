@@ -224,7 +224,7 @@ feature_row:
   <div class="filter-group">
     <label for="faculty-filter">Faculty:</label>
     <select id="faculty-filter">
-      <option value="ALL" selected>ALL</option>
+      <option value="ALL" selected>All</option>
       <option value="Massoud Zolgharni">Massoud Zolgharni</option>
       <option value="Hanieh Khalili">Hanieh Khalili</option>
       <option value="Nasim Dadashi">Nasim Dadashi</option>

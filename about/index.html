@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>About - Thrive Centre</title>
-<meta name="description" content="UWL Centre for Translational Healthcare Research, Innovation, Vision, and Excellence.">
+<!-- begin _includes/seo.html --><title>Who We Are - Thrive Centre</title>
+<meta name="description" content="UWL Centre for Translational Healthcare Research">
 
 
   <meta name="author" content="Thrive Centre">
@@ -21,11 +21,11 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Thrive Centre">
-<meta property="og:title" content="About">
+<meta property="og:title" content="Who We Are">
 <meta property="og:url" content="http://localhost:4000/about/">
 
 
-  <meta property="og:description" content="UWL Centre for Translational Healthcare Research, Innovation, Vision, and Excellence.">
+  <meta property="og:description" content="UWL Centre for Translational Healthcare Research">
 
 
 
@@ -34,8 +34,8 @@
 
 
   <meta name="twitter:site" content="@mmistakes">
-  <meta name="twitter:title" content="About">
-  <meta name="twitter:description" content="UWL Centre for Translational Healthcare Research, Innovation, Vision, and Excellence.">
+  <meta name="twitter:title" content="Who We Are">
+  <meta name="twitter:description" content="UWL Centre for Translational Healthcare Research">
   <meta name="twitter:url" content="http://localhost:4000/about/">
 
   
@@ -76,8 +76,6 @@
 <!-- end _includes/seo.html -->
 
 
-
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Thrive Centre Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
@@ -95,6 +93,11 @@
     <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="icon" type="image/png" href="/assets/images/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/images/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/images/favicon/site.webmanifest" />
 
 <!-- end custom head snippets -->
 
@@ -111,8 +114,10 @@
 
     
 <div class="logohead">
-  <img src="/assets/images/thrive_logo.jpg" alt="Left Logo" class="toplogo">
-  <div class="logohead-text">Centre for Translational Healthcare Research, Innovation, Vision, and Excellence</div>
+  <a  href="/">
+    <img src="/assets/images/thrive_logo.jpg" alt="Left Logo" class="toplogo">
+  </a>
+  <div class="logohead-text">UWL Centre for Translational Healthcare Research</div>
   <img src="/assets/images/uwl-logo.png" alt="Right Logo" class="toplogo">
 </div>
 <div class="masthead">
@@ -150,16 +155,10 @@
               >People</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/phd/"
+                href="/opportunities/"
                 
                 
-              >PhD</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/partnerships/"
-                
-                
-              >Partnerships</a>
+              >Opportunities</a>
             </li><li class="masthead__menu-item">
               <a
                 href="/infrastructure/"
@@ -239,7 +238,7 @@
           
         
           
-            <li><a href="https://github.com/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/thrive-centre" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
           
         
           
@@ -317,16 +316,16 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="About">
+    <meta itemprop="headline" content="Who We Are">
     <meta itemprop="description" content="">
     
-    <meta itemprop="dateModified" content="2025-05-13T11:59:26-04:00">
+    
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/about/" itemprop="url">About
+            <a href="http://localhost:4000/about/" itemprop="url">Who We Are
 </a>
           </h1>
           
@@ -337,20 +336,58 @@
 
       <section class="page__content" itemprop="text">
         
-          <aside class="sidebar__right ">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#welcome-to-thrive-shaping-the-future-of-health">Welcome to THRIVE: Shaping the Future of Health</a></li></ul>
-            </nav>
-          </aside>
-        
-        <h1 id="welcome-to-thrive-shaping-the-future-of-health">Welcome to THRIVE: Shaping the Future of Health</h1>
+        <style>
+  .fixed-quote {
+    position: fixed;
+    top: 300px; /* lowered position */
+    right: 50px;
+    width: 380px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-left: 4px solid #0072ce;
+    font-style: italic;
+    font-size: 0.95em;
+    z-index: 1000;
+  }
+  .fixed-quote cite a {
+    font-style: normal;
+    color: #0072ce;
+    text-decoration: none;
+  }
 
-<p>THRIVE is a centre for translational health innovation that brings together researchers, clinicians, engineers, and digital scientists to accelerate real-world impact. We are driven by a strategic vision to reshape the future of health and care through collaborative, interdisciplinary research, integrating AI, biotherapeutics, digital health, and systems innovation.</p>
+  @media (max-width: 992px) {
+    .fixed-quote {
+      display: none;
+    }
+  }
+</style>
 
-<p>At THRIVE, we foster an environment where bold ideas turn into transformative solutions. Whether you are a researcher, industry partner, student, or healthcare professional, joining our Centre means becoming part of a vibrant ecosystem committed to advancing personalised, preventative, and equitable health innovations.</p>
+<blockquote class="fixed-quote">
+  <p>Our mission is to accelerate the translation of scientific discovery into clinical solutions that improve lives.</p>
+  <cite><a href="https://www.uwl.ac.uk/staff/massoud-zolgharni" target="_blank">Professor Massoud Zolgharni, Director of THRIVE</a></cite>
+</blockquote>
 
-<p>Explore current opportunities to collaborate, contribute, or join our team, and be part of a mission that puts people and purpose at the heart of health research.</p>
+<hr />
+
+<p>THRIVE, the Centre for Translational Healthcare Research, Innovation, Vision, and Excellence, is a university-based initiative dedicated to accelerating the journey from scientific discovery to clinical impact. We bring together expertise in artificial intelligence, biomedical science, health systems, and patient engagement to transform how healthcare is delivered and experienced.</p>
+
+<h1 id="vision--mission">Vision &amp; Mission</h1>
+<p>We aim to bridge the gap between academic research and real-world implementation by fostering interdisciplinary collaboration, clinical partnerships, and translational readiness from the outset of research programmes.</p>
+
+<h1 id="our-values">Our Values</h1>
+<ul>
+  <li><strong>Impact-Driven</strong> – We prioritise real-world outcomes that improve lives.</li>
+  <li><strong>Collaborative</strong> – We unite diverse disciplines across academia, healthcare, and industry.</li>
+  <li><strong>Inclusive</strong> – We champion health equity and patient involvement in innovation.</li>
+  <li><strong>Ethical &amp; Responsible</strong> – We embed governance, reproducibility, and fairness in all we do.</li>
+</ul>
+
+<h1 id="our-ecosystem">Our Ecosystem</h1>
+<ul>
+  <li><a href="/people/">Our Team</a></li>
+  <li><a href="/projects/">Research Projects</a></li>
+  <li><a href="/infrastructure/">Infrastructure &amp; Resources</a></li>
+</ul>
 
         
       </section>
@@ -361,8 +398,6 @@
 
 
         
-
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-05-13">May 13, 2025</time></p>
 
       </footer>
 
@@ -441,8 +476,6 @@
         
       
 
-      
-        <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
       
     </ul>
     <div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Thrive Centre</a>. All Rights Reserved</div>

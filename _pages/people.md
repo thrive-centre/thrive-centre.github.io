@@ -3,7 +3,6 @@ layout: splash
 permalink: /people/
 title: "People"
 excerpt: "Thrive Team"
-last_modified_at: 2025-05-14T11:59:26-04:00
 toc: true
 toc_sticky: true
 author_profile: false
@@ -61,6 +60,11 @@ core_members:
 
 # PhD Students Feature Row
 phd_students:
+  - image_path: /assets/images/people/Arian.jpg
+    alt: "Arian Farokh"
+    title: "Arian Farokh"
+    excerpt: "PhD Student"
+    link: "/people/arian-farokh"
   - image_path: /assets/images/people/Preshen.jpg
     alt: "Preshen Naidoo"
     title: "Preshen Naidoo"
@@ -76,11 +80,6 @@ phd_students:
     title: "Sara Adibzadeh"
     excerpt: "PhD Student"
     link: "https://www.researchgate.net/profile/Sara-Adibzadeh/"
-  - image_path: /assets/images/people/Arian.jpg
-    alt: "Arian Farokh"
-    title: "Arian Farokh"
-    excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/arian-farokh-ba687716a/"
   - image_path: /assets/images/people/AbasAbdi.jpg
     alt: "Abas Abdi"
     title: "Abas Abdi"
@@ -135,7 +134,7 @@ phd_students:
     alt: "Mohammad Zeinali"
     title: "Mohammad Zeinali"
     excerpt: "PhD Student"
-    link: "https://github.com/mhdzli"
+    link: "/people/mohammad-zeinali"
   - image_path: /assets/images/people/Alireza.jpg
     alt: "Alireza Alibakhshi"
     title: "Alireza Alibakhshi"
@@ -249,7 +248,9 @@ alumni:
 ---
 <br>
 <br>
-# Our People
+# THRIVE Team
+{: .text-center}
+Meet the researchers, academics, and students driving innovation at the THRIVE Centre.
 {: .text-center}
 
 ## Centre Leads

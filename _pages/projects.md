@@ -5,79 +5,123 @@ title: "projects"
 excerpt: "Thrive Projects"
 last_modified_at: 2025-05-14T11:59:26-04:00
 feature_row:
-  - image_path: /assets/images/projects/biobank.png
-    alt: "Unity BioBank"
-    title: "Unity BioBank"
+  - image_path: /assets/images/projects/istockphoto-2194245609-612x612.jpg
+    alt: "UNITY"
+    title: "UNITY"
     link: "https://www.intsav.com/biobank.html"
-    areas: "Medical Imaging,AI"
+    areas: "Cardiology,Medical Imaging,AI"
+    faculty: "Massoud Zolgharni,Nasim Dadashi,Ali Gheitasy,Eman Alajrami,Jevgeni Jevsikov"
+    students: "Patricia Fernandes,Isreal Ufumaka,Preshen Naidoo,Sara Adibzadeh,Abas Abdi,Soroush Elyasi,Alireza Alibakhshi"
+
+  - image_path: /assets/images/projects/biobank.png
+    alt: "BioBank"
+    title: "BioBank"
+    link: "https://www.intsav.com/biobank.html"
+    areas: "Cardiology,Medical Imaging,AI"
     faculty: "Massoud Zolgharni,Nasim Dadashi"
-    students: "Patricia Fernandes,Isreal Ufumaka,Preshen Naidoo"
+    students: "Patricia Fernandes,Isreal Ufumaka,Alireza Alibakhshi"
     
   - image_path: /assets/images/projects/PulseNote.jpg
     alt: "PulseNote"
     title: "PulseNote"
     link: "https://www.intsav.com/PulseNote.html"
-    areas: "Biomedical Signal Processing,AI"
+    areas: "Cardiology,AI,Signal Processing"
     faculty: "Massoud Zolgharni"
     students: "Mohammad Zeinali"
+
+  - image_path: /assets/images/projects/istockphoto-2147671579-612x612.jpg
+    alt: "EchoForge"
+    title: "EchoForge"
+    link: "https://www.intsav.com/biobank.html"
+    areas: "Cardiology,Medical Imaging,AI"
+    faculty: "Massoud Zolgharni,Nasim Dadashi,Mayur Agrawal"
+    students: "Isreal Ufumaka"
     
   - image_path: /assets/images/projects/ecg.jpg
     alt: "Real-time ECG Analysis"
     title: "Real-time ECG Analysis"
     link: "https://www.intsav.com/realtime_ecg.html"
-    areas: "Biomedical Signal Processing,AI"
-    faculty: "Massoud Zolgharni,Sama Aleshaiker"
+    areas: "Cardiology,AI,Signal Processing"
+    faculty: "Massoud Zolgharni,Sama Aleshaiker,Eman Alajrami"
     students: "Mohammad Zeinali"
-
-  - image_path: /assets/images/projects/seizure.jpg
-    alt: "Real-Time Seizure Detection"
-    title: "Real-Time Seizure Detection"
-    link: "https://www.intsav.com/seizure_detection.html"
-
-  - image_path: /assets/images/projects/electroglottography.jpg
-    alt: "Electroglottography"
-    title: "Electroglottography"
-    link: "https://www.intsav.com/electroglottography.html"
-
-  - image_path: /assets/images/projects/spinal.jpg
-    alt: "Spinal Mechanics"
-    title: "Spinal Mechanics"
-    link: "https://www.intsav.com/spinal.html"
-
-  - image_path: /assets/images/projects/strabismus.jpg
-    alt: "Surgical Planning for Strabismus Surgery"
-    title: "Surgical Planning for Strabismus Surgery"
-    link: "https://www.intsav.com/strabismus.html"
 
   - image_path: /assets/images/projects/tbi.jpg
     alt: "Prognosis Prediction in Traumatic Brain Injury"
     title: "Prognosis Prediction in Traumatic Brain Injury"
     link: "https://www.intsav.com/tbi.html"
+    areas: "Neurology,AI"
+    faculty: "Massoud Zolgharni,Nasim Dadashi"
+    students: "Alireza Alibakhshi"
+
+  - image_path: /assets/images/projects/spinal.jpg
+    alt: "Predictive Modelling for Spinal Fracture"
+    title: "Predictive Modelling for Spinal Fracture"
+    link: "https://www.intsav.com/spinal.html"
+    areas: "Orthopedics,AI,Medical Imaging"
+    faculty: "Massoud Zolgharni,Jin Luo"
+    students: "Lasun Sosanya"
+
+  - image_path: /assets/images/projects/strabismus.jpg
+    alt: "Surgical Planning for Strabismus Surgery"
+    title: "Surgical Planning for Strabismus Surgery"
+    link: "https://www.intsav.com/strabismus.html"
+    areas: "Ophthalmology,AI"
+    faculty: "Massoud Zolgharni"
+    students: "Sina Khalili"
+
+  - image_path: /assets/images/projects/istockphoto-1086330560-612x612.jpg
+    alt: "Multiple Sclerosis Detection"
+    title: "Multiple Sclerosis Detection"
+    link: "https://www.intsav.com/biobank.html"
+    areas: "Neurology,Medical Imaging,AI"
+    faculty: "Nasim Dadashi"
+    students: "Nazanin Faghih Mirzaei"
+
+  - image_path: /assets/images/projects/seizure.jpg
+    alt: "Real-Time Seizure Detection"
+    title: "Real-Time Seizure Detection"
+    link: "https://www.intsav.com/seizure_detection.html"
+    areas: "Neurology,AI"
+    faculty: "Massoud Zolgharni,Nasim Dadashi"
+    students: ""
+ 
+
+  - image_path: /assets/images/projects/electroglottography.jpg
+    alt: "Electroglottography"
+    title: "Electroglottography"
+    link: "https://www.intsav.com/electroglottography.html"
+    areas: "Otolaryngology,AI"
+    faculty: "Massoud Zolgharni,Eugenio Donati"
+    students: ""
+
 
   - image_path: /assets/images/projects/er.jpg
     alt: "Risk Assessment in Emergency"
     title: "Risk Assessment in Emergency"
     link: "https://www.intsav.com/Risk_Assessment_ED.html"
+    areas: "Emergency Medicine,AI"
+    faculty: "Massoud Zolgharni"
+    students: ""
 
   - image_path: /assets/images/projects/Nerve_Tissue_Implant.png
     alt: "3D  Nerve Tissue Implant"
     title: "3D  Nerve Tissue Implant"
-    areas: "3d Bioprinting,Nerve Regeneration"
+    areas: "3D Bioprinting,Tissue Regeneration"
     faculty: "Hanieh Khalili"
     students: "Camelia Bogdan"
 
   - image_path: /assets/images/projects/Robotic Assist 3D Brain model.png
     alt: "Robotic Assist 3D Brain model"
     title: "Robotic Assist 3D Brain model"
-    areas: "3d Bioprinting,Neurology"
-    faculty: "Hanieh Khalili,Massoud Zolgharni"
-    students: ""
+    areas: "3D Bioprinting,Neurology"
+    faculty: "Hanieh Khalili"
+    students: "Arian Farokh"
 
   - image_path: /assets/images/projects/3D Ocular micro implact .png
-    alt: "3D Ocular micro implact "
-    title: "3D Ocular micro implact "
-    areas: "Orthopedics,Ophthalmology"
-    faculty: "Hanieh Khalili,Massoud Zolgharni"
+    alt: "3D Ocular micro implact"
+    title: "3D Ocular micro implact"
+    areas: "3D Bioprinting, AI"
+    faculty: "Hanieh Khalili,Massoud Zolgharni,Eman Alajrami"
     students: "Arian Farokh"
 
   - image_path: /assets/images/projects/Bispecific Single Chain Antibody mimetics.png
@@ -163,16 +207,17 @@ feature_row:
       <option value="ALL" selected>All</option>
       <option value="Cardiology">Cardiology</option>
       <option value="Neurology">Neurology</option>
-      <option value="Orthopedics">Orthopedics</option>
       <option value="Ophthalmology">Ophthalmology</option>
+      <option value="Orthopedics">Orthopedics</option>
+      <option value="Otolaryngology">Otolaryngology</option>
+      <option value="Emergency Medicine">Emergency Medicine</option>
       <option value="AI">AI</option>
-      <option value="Retinal Regeneration">Retinal Regeneration</option>
-      <option value="Nerve Regeneration">Nerve Regeneration</option>
+      <option value="3D Bioprinting">3D Bioprinting</option>
+      <option value="Medical Imaging">Medical Imaging</option>
+      <option value="Signal Processing">Signal Processing</option>
+      <option value="Tissue Regeneration">Tissue Regeneration</option>
       <option value="Biotherapeutic Drug Development">Biotherapeutic Drug Development</option>
       <option value="Antibody Fragment synthesis">Antibody Fragment synthesis</option>
-      <option value="Medical Imaging">Medical Imaging</option>
-      <option value="Biomedical Signal Processing">Biomedical Signal Processing</option>
-      <option value="3d Bioprinting">3d Bioprinting</option>
     </select>
   </div>
   
@@ -182,9 +227,9 @@ feature_row:
       <option value="ALL" selected>ALL</option>
       <option value="Massoud Zolgharni">Massoud Zolgharni</option>
       <option value="Hanieh Khalili">Hanieh Khalili</option>
-      <option value="Jin Luo">Jin Luo</option>
       <option value="Nasim Dadashi">Nasim Dadashi</option>
       <option value="Eman Alajrami">Eman Alajrami</option>
+      <option value="Jin Luo">Jin Luo</option>
       <option value="Sama Aleshaiker">Sama Aleshaiker</option>
       <option value="Ali Gheitasy">Ali Gheitasy</option>
       <option value="Eugenio Donati">Eugenio Donati</option>

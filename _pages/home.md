@@ -39,20 +39,22 @@ feature_row:
     excerpt: "Meet our multidisciplinary researchers from across UWL faculties."
     link: "/people/"
   - image_path: /assets/images/landing_page/istockphoto-1484451383-612x612.jpg
-    alt: "PhD Programme"
-    title: "PhD Programme"
-    excerpt: "Find out about our PhD course in Translational Medicine, and how to join."
-    link: "/phd/"
-  - image_path: /assets/images/landing_page/istockphoto-1460172015-612x612.jpg
-    alt: "Partnerships"
-    title: "Partnerships"
-    excerpt: "A leading hub for for cross-institutional collaboration and impact-driven innovation."
-    link: "/partnerships/"
+    alt: "Train to Transform"
+    title: "Train to Transform"
+    excerpt: "We nurture future leaders through world-class translational research training."
+    link: "/opportunities/"
+  
   - image_path: /assets/images/landing_page/istockphoto-497605752-612x612.jpg
-    alt: "Events"
+    alt: "Infrastructure"
     title: "Infrastructure"
     excerpt: "Our research is supported by world-class research facilities, technologies, and biobanks."
     link: "/infrastructure/"
+
+  - image_path: /assets/images/landing_page/istockphoto-1460172015-612x612.jpg
+    alt: "Support Us"
+    title: "Support Us"
+    excerpt: "Support us to accelerate cutting-edge research, training, and impact."
+    link: "https://alumni.uwl.ac.uk/donate-now"
 gallery_items:
 
   - title: "Special Session: AI in Echocardiography"

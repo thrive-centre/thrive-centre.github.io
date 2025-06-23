@@ -1,8 +1,7 @@
 ---
-title: "Mohammad Zeinali"
+title: ""
 author: Mohammad Zeinali
 excerpt: "PhD in Computer Science"
-last_modified_at: 2025-06-19T12:32:27-04:00
 toc: true
 toc_sticky: true
 ---
@@ -25,14 +24,11 @@ As I advance in my research, my goal is to help bridge the gap between AI theory
 - B.Sc. in Electrical Engineering (Control), Iran University of Science and Technology (IUST)
 
 # Supervisors 
-1. Principal: Professor Massoud Zolgharni
-1. Second: Dr. Sama Aleshaiker
+Dr. Sama Aleshaiker, [Professor Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni)
 
 # Research Projects
-
-## Applying machine learning to medical signal processing (ECG data) to support the early detection of rare cardiac conditions
-
-My research focuses on applying machine learning to medical signal processing—specifically using ECG data to support the early detection of rare cardiac conditions such as Brugada syndrome. My goal is to help develop diagnostic tools that are both intelligent and clinically reliable.
+- [Pulse Note](https://www.intsav.com/PulseNote.html)
+- [Real-time ECG Analysis](https://www.intsav.com/realtime_ecg.html)
 
 
 # Research Interests
@@ -43,14 +39,6 @@ My research focuses on applying machine learning to medical signal processing—
 - Open-source medical software
 - Human-centered and trustworthy computing
 
-# Collaborators
-
-
-Lorem ipsum dolor sit amet. Sed dolorum Quis ex neque quia sed velit iusto quo possimus repellendus. Qui saepe explicabo nam totam excepturi non facilis eligendi. Sed dignissimos internos est officiis inventore id omnis optio.
-
-Et voluptas officiis aut voluptate sint sit explicabo assumenda quo excepturi voluptatem et assumenda quia. Sed sapiente velit et libero cumque sit dignissimos minima? Quo sint laboriosam est ullam optio sit voluptas quibusdam est similique culpa qui temporibus laudantium non culpa rerum ut possimus atque!
-
-Et blanditiis neque eum similique eligendi aut perspiciatis aspernatur a voluptate internos. Hic dolorem reprehenderit eos doloremque explicabo qui quisquam galisum qui recusandae amet non eaque cumque ut mollitia temporibus?
 
 # Teaching & Research
 

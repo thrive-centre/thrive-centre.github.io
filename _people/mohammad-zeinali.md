@@ -24,7 +24,7 @@ As I advance in my research, my goal is to help bridge the gap between AI theory
 - B.Sc. in Electrical Engineering (Control), Iran University of Science and Technology (IUST)
 
 # Supervisors 
-Dr. Sama Aleshaiker, [Professor Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni)
+[Dr. Sama Aleshaiker](https://www.uwl.ac.uk/staff/sama-aleshaiker), [Professor Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni)
 
 # Research Projects
 - [Pulse Note](https://www.intsav.com/PulseNote.html)

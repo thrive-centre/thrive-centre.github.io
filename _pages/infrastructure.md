@@ -98,29 +98,17 @@ feature_row7:
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
 
-<div id="hpc">
-  {% include feature_row id="feature_row2" type="left" %}
-</div>
+{% include feature_row id="feature_row2" type="left" %}
 
-<div id="data-labeling">
-  {% include feature_row id="feature_row3" type="right" %}
-</div>
+{% include feature_row id="feature_row3" type="right" %}
 
-<div id="biobanks">
-  {% include feature_row id="feature_row4" type="left" %}
-</div>
+{% include feature_row id="feature_row4" type="left" %}
 
-<div id="bioprinting">
-  {% include feature_row id="feature_row5" type="right" %}
-</div>
+{% include feature_row id="feature_row5" type="right" %}
 
-<div id="biotherapeutic">
-  {% include feature_row id="feature_row6" type="left" %}
-</div>
+{% include feature_row id="feature_row6" type="left" %}
 
-<div id="imaging">
-  {% include feature_row id="feature_row7" type="center" %}
-</div>
+{% include feature_row id="feature_row7" type="center" %}
 
 
 

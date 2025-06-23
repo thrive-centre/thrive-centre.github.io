@@ -1,10 +1,14 @@
 {% assign slide_show = page.header.slide_show %}
 {% assign count = slide_show | size | minus: 1 %}
 
+{% if slide_show.first %}
+<link rel="preload" as="image" href="{{ slide_show.first.image_path | relative_url }}">
+{% endif %}
+
 <div class="slideshow-container">
 
   {% for s in slide_show %}
-  <div class="slide" style="background-image: url('{{ s.image_path | relative_url }}');">
+  <div class="slide{% if forloop.first %} active{% endif %}" style="background-image: url('{{ s.image_path | relative_url }}');">
     <div class="slide-content">
         <h1 class="slide-title">{{ s.title }}</h1>
         <!-- <p class="slide-description">{{ s.description }}</p> -->

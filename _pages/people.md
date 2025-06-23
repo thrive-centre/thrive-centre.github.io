@@ -1,11 +1,18 @@
 ---
 layout: splash
 permalink: /people/
-title: "People"
+title: "Our Team"
 excerpt: "Thrive Team"
 toc: true
 toc_sticky: true
 author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.6"
+  overlay_image: /assets/images/people/IMG_0940.JPEG
+  actions:
+  caption: ""
+excerpt: "Meet the researchers, academics, and students driving innovation at the Centre."
 
 # Centre Leads Feature Row
 centre_leads:
@@ -250,7 +257,7 @@ alumni:
 <br>
 # THRIVE Team
 {: .text-center}
-Meet the researchers, academics, and students driving innovation at the THRIVE Centre.
+Our team brings together a wide range of expertise from across various schools at the University of West London.
 {: .text-center}
 
 ## Centre Leads

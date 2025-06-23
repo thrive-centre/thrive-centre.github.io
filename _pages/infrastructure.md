@@ -22,8 +22,8 @@ feature_row:
     excerpt: "GPU clusters and scalable systems for biomedical data analysis."
 
   - image_path: assets/images/infrastructure/istockphoto-1289523973-612x612.jpg
-    alt: "Data Labeling Platforms"
-    title: "<a href='/infrastructure#data-labeling'>Data Labeling Platforms</a>"
+    alt: "Data Labelling Platforms"
+    title: "<a href='/infrastructure#data-labeling'>Data Labelling Platforms</a>"
     excerpt: "Secure tools for expert annotation of clinical data."
 
   - image_path: assets/images/infrastructure/istockphoto-1730823257-612x612.jpg
@@ -56,8 +56,8 @@ feature_row2:
 
 feature_row3:
   - image_path: assets/images/infrastructure/istockphoto-1289523973-612x612.jpg
-    alt: "Data Labeling Platforms"
-    title: "<div style='text-align: left;'>Data Labeling Platforms</div>"
+    alt: "Data Labelling Platforms"
+    title: "<div style='text-align: left;'>Data Labelling Platforms</div>"
     excerpt: >
       <div style="text-align: left;">
         A suite of secure, purpose-built platforms for expert annotation of clinical signals and images. These tools support collaborative workflows and integrate with both cloud and NAS environments.<br><br>

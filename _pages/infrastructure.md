@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 layout: splash
-permalink: /infrastructure
+permalink: /infrastructure/
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"

@@ -121,7 +121,7 @@ phd_students:
     alt: "Zeina Kassem"
     title: "Zeina Kassem"
     excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/zeina-kassem-251143167/"
+    link: "/people/zeina-kassem"
   - image_path: /assets/images/people/Soroush.jpg
     alt: "Soroush Elyasi"
     title: "Soroush Elyasi"

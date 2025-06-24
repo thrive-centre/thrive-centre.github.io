@@ -7,13 +7,10 @@ Arian Farokh:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:arian.farokhboroojerdi@uwl.ac.uk"
+      url: "mailto:faroari@uwl.ac.uk"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arian-farokh"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/arian-farokh"
@@ -47,3 +44,15 @@ Mohammad Zeinali:
     - label: "Odysee"
       icon: "fab fa-fw fa-odysee"
       url: "https://odysee.com/@mzeinali:c"
+
+Zeina Kassem:
+  name        : "Zeina Kassem"
+  bio         : "PhD in Translational Medicine"
+  avatar      : "/assets/images/profile_photos/Zeina.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:zeina.kassem@uwl.ac.uk"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/zeina-kassem-251143167"

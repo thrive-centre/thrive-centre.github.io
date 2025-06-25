@@ -382,7 +382,7 @@
     }
 
     @include breakpoint($small) {
-      text-align: end;
+      text-align: start;
 
       .archive__item-teaser {
         float: inline-end;

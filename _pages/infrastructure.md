@@ -18,33 +18,39 @@ intro:
 feature_row:
   - image_path: assets/images/infrastructure/istockphoto-497603996-612x612.jpg
     alt: "High-Performance Computing"
-    title: "<a href='/infrastructure#hpc'>High-Performance Computing</a>"
+    title: "High-Performance Computing"
     excerpt: "GPU clusters and scalable systems for biomedical data analysis."
+    link: "/infrastructure/#hpc"
 
   - image_path: assets/images/infrastructure/istockphoto-1289523973-612x612.jpg
     alt: "Data Labelling Platforms"
-    title: "<a href='/infrastructure#data-labeling'>Data Labelling Platforms</a>"
+    title: "Data Labelling Platforms"
     excerpt: "Secure tools for expert annotation of clinical data."
+    link: "/infrastructure/#data-labeling"
 
   - image_path: assets/images/infrastructure/istockphoto-1730823257-612x612.jpg
     alt: "Biobanks"
-    title: "<a href='/infrastructure#biobanks'>Biobanks</a>"
+    title: "Biobanks"
     excerpt: "Curated biospecimens and health datasets for research."
+    link: "/infrastructure/#biobanks"
 
   - image_path: assets/images/infrastructure/istockphoto-2143486801-612x612.jpg
     alt: "3D Bioprinting Suite"
-    title: "<a href='/infrastructure#bioprinting'>3D Bioprinting Suite</a>"
+    title: "3D Bioprinting Suite"
     excerpt: "Fabrication of tissue scaffolds and organ models."
+    link: "/infrastructure/#bioprinting"
 
   - image_path: assets/images/infrastructure/istockphoto-1278644484-612x612.jpg
     alt: "Biotherapeutic Facilities"
-    title: "<a href='/infrastructure#biotherapeutic'>Biotherapeutic Facilities</a>"
+    title: "Biotherapeutic Facilities"
     excerpt: "Labs for antibody engineering and protein expression."
+    link: "/infrastructure/#biotherapeutic"
 
   - image_path: assets/images/infrastructure/istockphoto-1184471397-612x612.jpg
     alt: "Medical Imaging"
-    title: "<a href='/infrastructure#imaging'>Medical Imaging</a>"
+    title: "Medical Imaging"
     excerpt: "Advanced ultrasound, cardiac echo, and optical systems."
+    link: "/infrastructure/#imaging"
     
 
 feature_row2:
@@ -57,13 +63,11 @@ feature_row2:
 feature_row3:
   - image_path: assets/images/infrastructure/istockphoto-1289523973-612x612.jpg
     alt: "Data Labelling Platforms"
-    title: "<div style='text-align: left;'>Data Labelling Platforms</div>"
+    title: "Data Labelling Platforms"
     excerpt: >
-      <div style="text-align: left;">
         A suite of secure, purpose-built platforms for expert annotation of clinical signals and images. These tools support collaborative workflows and integrate with both cloud and NAS environments.<br><br>
         – <a href="https://unityimaging.net/" target="_blank">Unity</a>: browser-based annotation of echocardiographic sequences<br>
         – <a href="https://www.pulsenote.net/" target="_blank">PulseNote</a>: multimodal annotation of biological signals such as ECG and EEG
-      </div>
 
 feature_row4:
   - image_path: assets/images/infrastructure/istockphoto-1730823257-612x612.jpg
@@ -76,11 +80,9 @@ feature_row4:
 feature_row5:
   - image_path: assets/images/infrastructure/istockphoto-2143486801-612x612.jpg
     alt: "3D Bioprinting Suite"
-    title: "<div style='text-align: left;'>3D Bioprinting Suite</div>"
+    title: "3D Bioprinting Suite"
     excerpt: >
-      <div style="text-align: left;">
         Our bioprinting facility enables the fabrication of tissue scaffolds and organ models to support regenerative medicine and therapeutic development. These technologies are used in conjunction with imaging and drug delivery platforms.
-      </div>
 
 feature_row6:
   - image_path: assets/images/infrastructure/istockphoto-1278644484-612x612.jpg
@@ -98,17 +100,29 @@ feature_row7:
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
+<div id="hpc">
+  {% include feature_row id="feature_row2" type="left" %}
+</div>
 
-{% include feature_row id="feature_row3" type="right" %}
+<div id="data-labeling">
+  {% include feature_row id="feature_row3" type="right" %}
+</div>
 
-{% include feature_row id="feature_row4" type="left" %}
+<div id="biobanks">
+  {% include feature_row id="feature_row4" type="left" %}
+</div>
 
-{% include feature_row id="feature_row5" type="right" %}
+<div id="bioprinting">
+  {% include feature_row id="feature_row5" type="right" %}
+</div>
 
-{% include feature_row id="feature_row6" type="left" %}
+<div id="biotherapeutic">
+  {% include feature_row id="feature_row6" type="left" %}
+</div>
 
-{% include feature_row id="feature_row7" type="center" %}
+<div id="imaging">
+  {% include feature_row id="feature_row7" type="center" %}
+</div>
 
 
 

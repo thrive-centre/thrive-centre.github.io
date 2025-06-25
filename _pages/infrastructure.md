@@ -63,13 +63,11 @@ feature_row2:
 feature_row3:
   - image_path: assets/images/infrastructure/istockphoto-1289523973-612x612.jpg
     alt: "Data Labelling Platforms"
-    title: "<div style='text-align: left;'>Data Labelling Platforms</div>"
+    title: "Data Labelling Platforms"
     excerpt: >
-      <div style="text-align: left;">
         A suite of secure, purpose-built platforms for expert annotation of clinical signals and images. These tools support collaborative workflows and integrate with both cloud and NAS environments.<br><br>
         – <a href="https://unityimaging.net/" target="_blank">Unity</a>: browser-based annotation of echocardiographic sequences<br>
         – <a href="https://www.pulsenote.net/" target="_blank">PulseNote</a>: multimodal annotation of biological signals such as ECG and EEG
-      </div>
 
 feature_row4:
   - image_path: assets/images/infrastructure/istockphoto-1730823257-612x612.jpg
@@ -82,11 +80,9 @@ feature_row4:
 feature_row5:
   - image_path: assets/images/infrastructure/istockphoto-2143486801-612x612.jpg
     alt: "3D Bioprinting Suite"
-    title: "<div style='text-align: left;'>3D Bioprinting Suite</div>"
+    title: "3D Bioprinting Suite"
     excerpt: >
-      <div style="text-align: left;">
         Our bioprinting facility enables the fabrication of tissue scaffolds and organ models to support regenerative medicine and therapeutic development. These technologies are used in conjunction with imaging and drug delivery platforms.
-      </div>
 
 feature_row6:
   - image_path: assets/images/infrastructure/istockphoto-1278644484-612x612.jpg

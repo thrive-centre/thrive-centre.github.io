@@ -86,7 +86,7 @@ phd_students:
     alt: "Sara Adibzadeh"
     title: "Sara Adibzadeh"
     excerpt: "PhD Student"
-    link: "https://www.researchgate.net/profile/Sara-Adibzadeh/"
+    link: "/people/sara-adibzadeh"
   - image_path: /assets/images/people/AbasAbdi.jpg
     alt: "Abas Abdi"
     title: "Abas Abdi"

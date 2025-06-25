@@ -56,3 +56,22 @@ Zeina Kassem:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/zeina-kassem-251143167"
+
+
+Sara Adibzadeh:
+  name        : "Sara Adibzadeh"
+  bio         : "PhD in Computer Science"  # Replace with your actual field
+  avatar      : "assets/images/people/Sara_Adibzadeh.jpeg"  # Update path if needed
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sara-adibzadeh-7632776b"
+    - label: "ResearchGate"
+      icon: "fas fa-fw fa-external-link"
+      url: "https://www.researchgate.net/profile/Sara-Adibzadeh"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/sara_adibzadeh"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Saraadibzadeh"

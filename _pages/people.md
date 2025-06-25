@@ -295,7 +295,7 @@ Our team brings together a wide range of expertise from across various schools a
     height: 250px !important;
 }
  .feature__item {
-    width: 18% !important;
+    width: 220px !important;
 }
 .feature__item .archive__item-title {
     font-size: 1rem !important;

@@ -128,7 +128,17 @@ Soroush Elyasi:
       icon: "fab fa-fw fa-link"
       url: "https://soroushelyasi.github.io/me/"
 
-
+Camelia Bogdan:
+  name        : "Camelia Lucia Bogdan"
+  bio         : "PhD in Biomedical Sciences"
+  avatar      : "/assets/images/profile_photos/camelia.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:camelia.bogdan@uwl.ac.uk"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/camelia-lucia-bogdan-55ab20178/"
 
 Yush Shrestha:
   name : "Yush Shrestha"
@@ -143,4 +153,5 @@ Yush Shrestha:
     url: "https://github.com/yushshresthax/" 
   - label: "LinkedIn"
     icon: "fab fa-fw fa-linkedin"
-    url: "https://www.linkedin.com/in/yushshresthax/" 
+    url: "https://www.linkedin.com/in/yushshresthax/"
+

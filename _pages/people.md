@@ -177,7 +177,7 @@ interns:
     alt: "Yush Shrestha"
     title: "Yush Shrestha"
     excerpt: "Intern"
-    link: "https://www.linkedin.com/in/yushshresthax"
+    link: "/people/yush-shrestha"
 
 
 # Alumni Feature Row

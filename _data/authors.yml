@@ -127,3 +127,20 @@ Soroush Elyasi:
     - label: "Home"
       icon: "fab fa-fw fa-link"
       url: "https://soroushelyasi.github.io/me/"
+
+
+
+Yush Shrestha:
+  name : "Yush Shrestha"
+  bio : "MSc Artificial Intelligence"
+  avatar : "assets/images/people/yush.jpg"
+  links: 
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "mailto:yush.shrestha2013@gmail.com" 
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/yushshresthax/" 
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/yushshresthax/" 

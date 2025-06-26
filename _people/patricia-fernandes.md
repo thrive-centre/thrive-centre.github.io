@@ -21,7 +21,7 @@ My long-term research goal is to contribute to the creation of robust, explainab
 - Bachelors of Engineering in Information Technology, SRIEIT, Goa University, India
 
 # Supervisors 
-[Professor Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni), [Dr. Nasim Dadashiserej](https://www.uwl.ac.uk/staff/nasim-dadashi-serej), [Dr. Ali Gheitasy](https://www.uwl.ac.uk/staff/ali-gheitasy)
+[Professor Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni), [Dr. Nasim Dadashiserej](https://www.uwl.ac.uk/staff/nasim-dadashi-serej)
 
 # Research Projects
 - [Biobank](https://www.intsav.com/biobank.html)

@@ -63,12 +63,12 @@ Sara Adibzadeh:
   bio         : "PhD in Computer Science"  
   avatar      : "assets/images/people/Sara_Adibzadeh.jpeg"  
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sara.adibzadeh@uwl.ac.uk"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sara-adibzadeh-7632776b"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "sara.adibzadeh@uwl.ac.uk"
     - label: "ResearchGate"
       icon: "fas fa-fw fa-external-link"
       url: "https://www.researchgate.net/profile/Sara-Adibzadeh"
@@ -78,6 +78,9 @@ Sara Adibzadeh:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Saraadibzadeh"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?hl=en&user=sK7jd9EAAAAJ"
 
 
 Patricia Fernandes:
@@ -101,3 +104,26 @@ Patricia Fernandes:
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=OlO0ZGEAAAAJ&hl=en"
 
+Soroush Elyasi:
+  name        : "Soroush Elyasi"
+  bio         : "PhD in Computer Science"
+  avatar      : "/assets/images/people/Soroush.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:soroush.elyasi@uwl.ac.uk"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/soroushelyasi"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/soroush-elyasi/"
+    - label: "Research Gate"
+      icon: "fas fa-fw fa-external-link"
+      url: "https://www.researchgate.net/profile/Soroush-Elyasi"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=4hhVMgoAAAAJ&hl=en"
+    - label: "Home"
+      icon: "fab fa-fw fa-link"
+      url: "https://soroushelyasi.github.io/me/"

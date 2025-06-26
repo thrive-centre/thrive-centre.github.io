@@ -126,7 +126,7 @@ phd_students:
     alt: "Soroush Elyasi"
     title: "Soroush Elyasi"
     excerpt: "PhD Student"
-    link: "https://ir.linkedin.com/in/soroush-elyasi-0692ba168"
+    link: "/people/soroush-elyasi"
   - image_path: /assets/images/people/SinaKhalili.jpg
     alt: "Sina Khalili"
     title: "Sina Khalili"

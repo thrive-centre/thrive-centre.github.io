@@ -60,8 +60,8 @@ Zeina Kassem:
 
 Sara Adibzadeh:
   name        : "Sara Adibzadeh"
-  bio         : "PhD in Computer Science"  # Replace with your actual field
-  avatar      : "assets/images/people/Sara_Adibzadeh.jpeg"  # Update path if needed
+  bio         : "PhD in Computer Science"  
+  avatar      : "assets/images/people/Sara_Adibzadeh.jpeg"  
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -78,3 +78,26 @@ Sara Adibzadeh:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Saraadibzadeh"
+
+
+Patricia Fernandes:
+  name        : "Patricia Fernandes"
+  bio         : "PhD in Computer Science"
+  avatar      : "assets/images/people/Patty.PNG"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:patricia.fernandes@uwl.ac.uk"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fernandespatri21"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/patricia-fernandes-05770678/"
+    - label: "Research Gate"
+      icon: "fas fa-fw fa-external-link"
+      url: "https://www.researchgate.net/profile/Patricia-Fernandes-44?ev=hdr_xprf"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=OlO0ZGEAAAAJ&hl=en"
+

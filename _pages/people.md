@@ -81,7 +81,7 @@ phd_students:
     alt: "Patricia Fernandes"
     title: "Patricia Fernandes"
     excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/patricia-fernandes-05770678/"
+    link: "people/patricia-fernandes"
   - image_path: /assets/images/people/Sara_Adibzadeh.jpeg
     alt: "Sara Adibzadeh"
     title: "Sara Adibzadeh"

@@ -124,9 +124,7 @@ Soroush Elyasi:
     - label: "Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=4hhVMgoAAAAJ&hl=en"
-    - label: "Home"
-      icon: "fab fa-fw fa-link"
-      url: "https://soroushelyasi.github.io/me/"
+    
 
 
 

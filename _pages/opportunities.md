@@ -69,17 +69,118 @@ print("Hello World")
 </div>
 
 <style>
+/* Enhanced details animation styles */
 details {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 1em;
   margin-bottom: 1em;
   background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+details:hover {
+  border-color: #999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 details summary {
   font-weight: bold;
   cursor: pointer;
   outline: none;
+  padding: 0.5em 0;
+  transition: all 0.2s ease;
+  position: relative;
 }
+
+details summary:hover {
+  color: #0066cc;
+}
+
+/* Arrow animation */
+details summary::marker {
+  content: '';
+}
+
+details summary::before {
+  content: '▶';
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: transform 0.3s ease;
+  color: #666;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+  color: #0066cc;
+}
+
+/* Content animation */
+details > *:not(summary) {
+  animation: slideDown 0.3s ease-out;
+  transform-origin: top;
+}
+
+details:not([open]) > *:not(summary) {
+  animation: slideUp 0.2s ease-in;
+}
+
+/* Keyframe animations */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 1000px;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 1000px;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+  }
+}
+
+/* Smooth height transition alternative (more reliable) */
+details .content-wrapper {
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Active state styling */
+details[open] {
+  border-color: #0066cc;
+  background-color: #f0f7ff;
+}
+
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const detailsList = document.querySelectorAll('details');
+
+  detailsList.forEach((targetDetail) => {
+    targetDetail.addEventListener('toggle', () => {
+      if (targetDetail.open) {
+        detailsList.forEach((detail) => {
+          if (detail !== targetDetail && detail.open) {
+            detail.removeAttribute('open');
+          }
+        });
+      }
+    });
+  });
+});
+</script>

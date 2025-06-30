@@ -31,19 +31,18 @@ Quisque interdum felis a tellus. Aliquam sed diam ac velit aliquam rutrum. Morbi
 
 
 {% capture details-1 %}
-## You can add a header
+We're looking for undergraduate and graduate students interested in:
 
-You can add text within a collapsed section.
+- **Machine Learning Research**: Work on cutting-edge ML algorithms
+- **Natural Language Processing**: Develop language models and chatbots  
+- **Computer Vision**: Image recognition and processing projects
 
-[A local link to home](/)
+**Requirements:**
+- Strong programming skills in Python
+- Knowledge of TensorFlow or PyTorch
+- GPA 3.5 or higher
 
-
-[An external link](https://example.com)
-
-And even codes:
-```python
-print("Hello World")
-```
+[Apply here](/apply) | [Contact Dr. Smith](mailto:smith@university.edu)
 {% endcapture %}
 
 
@@ -61,6 +60,31 @@ And even codes:
 ```python
 print("Hello World")
 ```
+## Full-Stack Development Position
+
+Join our team building the next generation of web applications!
+
+**What you'll do:**
+- Build responsive web interfaces
+- Develop REST APIs
+- Work with modern frameworks like React and Node.js
+
+**Qualifications:**
+- Experience with JavaScript, HTML, CSS
+- Familiarity with Git version control
+- Portfolio of previous projects
+
+```javascript
+// Example of what you might work on
+const api = {
+  endpoint: '/api/v1/opportunities',
+  method: 'GET'
+};
+```
+
+**Apply by:** December 15th, 2025
+
+
 {% endcapture %}
 
 <div id="opportunities">

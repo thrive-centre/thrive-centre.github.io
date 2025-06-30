@@ -91,12 +91,12 @@ phd_students:
     alt: "Abas Abdi"
     title: "Abas Abdi"
     excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/abas-abdi-422aba195/"
+    link: "/people/abas-abdi"
   - image_path: /assets/images/people/Isreal.jpg
     alt: "Isreal Ufumaka"
     title: "Isreal Ufumaka"
     excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/isreal-ufumaka"
+    link: "/people/isreal-ufumaka"
   - image_path: /assets/images/people/Camelia.jpeg
     alt: "Camelia Bogdan"
     title: "Camelia Bogdan"

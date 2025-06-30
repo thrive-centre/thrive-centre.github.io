@@ -202,7 +202,7 @@ kramdown:
 # Collections
 collections:
   docs:
-    output: true
+    output: false
     permalink: /:collection/:path/
   recipes:
     output: false
@@ -214,6 +214,9 @@ collections:
     output: false
     permalink: /:collection/:path/
   people:
+    output: true
+    permalink: /:collection/:path/
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -284,6 +287,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: false
+      comments: false
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: splash
+      author_profile: false
       share: false
       comments: false
 

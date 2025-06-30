@@ -19,9 +19,7 @@ I am a PhD researcher in Computer Science at the University of West London, work
 [Professor Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni), [Dr Hanieh Khalili](https://www.uwl.ac.uk/staff/hanieh-khalili)
 
 # Research Projects
-- [AI-aided design of 3D printed click-hydrogel micro implant for tissue regeneration](https://www.intsav.com/biopriniting.html)
-- [Second Project](/projects/)
-
+- [AI-aided design of 3D printed micro implant for tissue regeneration](https://www.intsav.com/biopriniting.html)
 
 
 # Research Interests
@@ -32,9 +30,5 @@ I am a PhD researcher in Computer Science at the University of West London, work
 - Biomedical Engineering
 - AI in Medical Applications
 
-
-# Teaching
-
-
-# Workshop/training: 
-Biofabrication for Healthcare Research and Innovation, Henry Royce Institute
+# Workshop/training
+- Biofabrication for Healthcare Research and Innovation, Henry Royce Institute

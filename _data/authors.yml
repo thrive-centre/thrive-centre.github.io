@@ -124,6 +124,21 @@ Soroush Elyasi:
     - label: "Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=4hhVMgoAAAAJ&hl=en"
+    - label: "Home"
+      icon: "fab fa-fw fa-link"
+      url: "https://soroushelyasi.github.io/me/"
+
+Camelia Bogdan:
+  name        : "Camelia Lucia Bogdan"
+  bio         : "PhD in Biomedical Sciences"
+  avatar      : "/assets/images/profile_photos/Camelia.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:camelia.bogdan@uwl.ac.uk"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/camelia-lucia-bogdan-55ab20178/"
 
 Yush Shrestha:
   name : "Yush Shrestha"
@@ -138,43 +153,5 @@ Yush Shrestha:
     url: "https://github.com/yushshresthax/" 
   - label: "LinkedIn"
     icon: "fab fa-fw fa-linkedin"
-    url: "https://www.linkedin.com/in/yushshresthax/" 
-
-Abas Abdi:
-  name        : "Abas Abdi"
-  bio         : "PhD in Computer Science"
-  avatar      : "/assets/images/people/AbasAbdi.jpg"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:abdiaba@uwl.ac.uk"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/AbasAbdi"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-    - label: "Research Gate"
-      icon: "fas fa-fw fa-external-link"
-      url: "https://www.researchgate.net/profile/Abas-Abdi-4"
-    - label: "Scholar"
-      icon: "fab fa-fw fa-google"
-      url: "https://scholar.google.com/citations?user=zakkho0AAAAJ&hl=en&authuser=1"
-
-Isreal Ufumaka:
-  name        : "Isreal Ufumaka"
-  bio         : "PhD in Computer Science"
-  avatar      : "/assets/images/people/Isreal.jpg"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:isreal.ufumaka@uwl.ac.uk"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/izzyx6"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/isreal-ufumaka/"
-    - label: "Research Gate"
-      icon: "fas fa-fw fa-external-link"
-      url: "https://www.researchgate.net/profile/Isreal-Ufumaka"
+    url: "https://www.linkedin.com/in/yushshresthax/"
 

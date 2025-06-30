@@ -97,11 +97,11 @@ phd_students:
     title: "Isreal Ufumaka"
     excerpt: "PhD Student"
     link: "/people/isreal-ufumaka"
-  - image_path: /assets/images/people/Camelia.jpeg
+  - image_path: /assets/images/people/Camelia.jpg
     alt: "Camelia Bogdan"
     title: "Camelia Bogdan"
     excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/camelia-lucia-bogdan-55ab20178/"
+    link: "/people/camelia-bogdan"
   - image_path: /assets/images/people/Wiktoria.jpeg
     alt: "Wiktoria Roksana"
     title: "Wiktoria Roksana"

@@ -201,18 +201,6 @@ kramdown:
 
 # Collections
 collections:
-  docs:
-    output: false
-    permalink: /:collection/:path/
-  recipes:
-    output: false
-    permalink: /:collection/:path/
-  pets:
-    output: false
-    permalink: /:collection/:path/
-  portfolio:
-    output: false
-    permalink: /:collection/:path/
   people:
     output: true
     permalink: /:collection/:path/

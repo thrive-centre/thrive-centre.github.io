@@ -101,7 +101,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/thrive_logo.jpg"
-  bio              : "UWL Centre for Translational Healthcare Research, Innovation, Vision, and Excellence."
+  bio              : "UWL Centre for Translational Healthcare Research."
   location         : "London, UK"
   links:
     - label: "Thrive Centre"

@@ -146,7 +146,7 @@ phd_students:
     alt: "Alireza Alibakhshi"
     title: "Alireza Alibakhshi"
     excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/alirezaalibakhshi"
+    link: "people/alireza-alibakhshi"
   - image_path: /assets/images/people/Naz.jpeg
     alt: "Nazanin Faghih Mirzaei"
     title: "Nazanin Faghih Mirzaei"

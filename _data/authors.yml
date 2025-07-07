@@ -195,3 +195,22 @@ Isreal Ufumaka:
     - label: "Scholar"
       icon: "fab fa-fw fa-google"
       url: "#"
+
+Alireza Alibakhshi:
+  name        : "Alireza Alibakhshi"
+  bio         : "PhD in Computer Science"
+  avatar      : "/assets/images/people/Alireza.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:alireza.alibakhshi@uwl.ac.uk"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/alibakhshialireza"
+    - label: "Research Gate"
+      icon: "fas fa-fw fa-external-link"
+      url: "https://www.researchgate.net/profile/Alireza-Alibakhshi-2"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?hl=en&user=Gb92_IQAAAAJ&view_op=list_works&gmla=AH8HC4waM5Xw3vWxBBXbuXLUajwjUuU4NC7nPN6hM-0d0akOdGWERH6FpfRNjdrDVYhCip-LhoclM7FpOHfHa5JK"
+

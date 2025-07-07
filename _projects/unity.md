@@ -15,42 +15,47 @@ intro:
       Unity project second excerpt.
 
 feature_row:
-  - image_path: assets/images/infrastructure/istockphoto-497603996-612x612.jpg
-    alt: "High-Performance Computing"
-    title: "High-Performance Computing"
-    excerpt: "GPU clusters and scalable systems for biomedical data analysis."
-    link: "/infrastructure/#hpc"
+  - image_path: "https://www.intsav.com/assets/img/projects/Biobank/unity_demo.png"
+    alt: "Unity Biobank"
+    title: "Unity Biobank"
+    excerpt: "biobank of expert annotations"
+    link: "https://www.intsav.com/biobank.html"
 
-  - image_path: assets/images/infrastructure/istockphoto-1289523973-612x612.jpg
-    alt: "Data Labelling Platforms"
-    title: "Data Labelling Platforms"
-    excerpt: "Secure tools for expert annotation of clinical data."
-    link: "/infrastructure/#data-labeling"
+  - image_path: "https://www.intsav.com/assets/img/projects/Mitral_Inflow/MIPW.png"
+    alt: "Mitral Inflow"
+    title: "Mitral Inflow"
+    excerpt: "Mitral Inflow Analysis"
+    link: "https://www.intsav.com/doppler.html"
 
-  - image_path: assets/images/infrastructure/istockphoto-1730823257-612x612.jpg
-    alt: "Biobanks"
-    title: "Biobanks"
-    excerpt: "Curated biospecimens and health datasets for research."
-    link: "/infrastructure/#biobanks"
+  - image_path: "https://www.intsav.com/assets/img/projects/lv_segmentation/heart.PNG"
+    alt: "LV Segmentation"
+    title: "LV Segmentation"
+    excerpt: "Left Ventricle Segmentation"
+    link: "https://www.intsav.com/lv_segmentation.html"
 
-  - image_path: assets/images/infrastructure/istockphoto-2143486801-612x612.jpg
-    alt: "3D Bioprinting Suite"
-    title: "3D Bioprinting Suite"
-    excerpt: "Fabrication of tissue scaffolds and organ models."
-    link: "/infrastructure/#bioprinting"
+  - image_path: "https://www.intsav.com/assets/img/projects/Efficient_Annotations/Project_profile.PNG"
+    alt: "Active Learning in Echocardiography"
+    title: "Active Learning in Echocardiography"
+    excerpt: "Efficient Annotations"
+    link: "https://www.intsav.com/efficient_annotations.html"
 
-  - image_path: assets/images/infrastructure/istockphoto-1278644484-612x612.jpg
-    alt: "Biotherapeutic Facilities"
-    title: "Biotherapeutic Facilities"
-    excerpt: "Labs for antibody engineering and protein expression."
-    link: "/infrastructure/#biotherapeutic"
+  - image_path: "https://www.intsav.com/assets/img/projects/loss%20functions/LV_volume.png"
+    alt: "Loss Functions"
+    title: "Loss Functions"
+    excerpt: "Influence of Loss Functions on LV segmentation and EF"
+    link: "https://www.intsav.com/loss.html"
 
-  - image_path: assets/images/infrastructure/istockphoto-1184471397-612x612.jpg
-    alt: "Medical Imaging"
-    title: "Medical Imaging"
-    excerpt: "Advanced ultrasound, cardiac echo, and optical systems."
-    link: "/infrastructure/#imaging"
-    
+  - image_path: "https://www.intsav.com/assets/img/projects/TDI/TDI-Med-57.png"
+    alt: "Tissue Doppler Imaging"
+    title: "Tissue Doppler Imaging"
+    excerpt: "Automated analysis of tissue Doppler images"
+    link: "https://www.intsav.com/tdi.html"
+
+  - image_path: "https://www.intsav.com/assets/img/projects/STE/STE2.PNG"
+    alt: "Speckle Tracking"
+    title: "Speckle Tracking"
+    excerpt: "Optimisation-based Speckle Tracking"
+    link: "https://www.intsav.com/speckle_tracking.html"
 
 ---
 

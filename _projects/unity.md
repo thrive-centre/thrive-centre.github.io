@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "UNITY"
 toc: false
 header:
   overlay_color: "#000"
@@ -7,12 +7,12 @@ header:
   overlay_image: /assets/images/landing_page/istockphoto-2194245609-2048x2048.jpg
   actions:
   caption: ""
-excerpt: "Example text here"
+excerpt: "A collaborative research initiative developing open, AI-powered tools to standardise, accelerate, and democratise echocardiography across clinical and global settings"
 intro: 
   - excerpt: >
-      Unity project first excerpt.
+      UNITY brings together several connected projects that apply AI to improve how heart scans are performed and interpreted.
   - excerpt: >
-      Unity project second excerpt.
+      Key initiatives are outlined below.
 
 feature_row:
   - image_path: "https://www.intsav.com/assets/img/projects/Biobank/unity_demo.png"

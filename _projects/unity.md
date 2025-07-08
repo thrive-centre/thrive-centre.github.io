@@ -16,9 +16,9 @@ intro:
 
 feature_row:
   - image_path: "https://www.intsav.com/assets/img/projects/Biobank/unity_demo.png"
-    alt: "Unity Biobank"
-    title: "Unity Biobank"
-    excerpt: "biobank of expert annotations"
+    alt: "Biobank"
+    title: "Biobank"
+    excerpt: "Biobank of expert annotations"
     link: "https://www.intsav.com/biobank.html"
 
   - image_path: "https://www.intsav.com/assets/img/projects/Mitral_Inflow/MIPW.png"

@@ -24,7 +24,7 @@ centre_leads:
   - image_path: /assets/images/people/Hani copy.png
     alt: "Hanieh Khalili"
     title: "Hanieh Khalili"
-    excerpt: "**Deputy Director**  \nAssociate Professor of Pharmaceutics"
+    excerpt: "**Deputy Director**  \nProfessor of Pharmaceutics"
     link: "https://www.uwl.ac.uk/staff/hanieh-khalili"
 
 # Core/Associate Members Feature Row

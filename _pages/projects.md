@@ -8,7 +8,7 @@ feature_row:
   - image_path: /assets/images/projects/istockphoto-2194245609-612x612.jpg
     alt: "UNITY"
     title: "UNITY"
-    link: "https://www.intsav.com/biobank.html"
+    link: "/projects/unity/"
     areas: "Cardiology,Medical Imaging,AI"
     faculty: "Massoud Zolgharni,Nasim Dadashi,Ali Gheitasy,Eman Alajrami,Jevgeni Jevsikov"
     students: "Patricia Fernandes,Isreal Ufumaka,Preshen Naidoo,Sara Adibzadeh,Abas Abdi,Soroush Elyasi,Alireza Alibakhshi"

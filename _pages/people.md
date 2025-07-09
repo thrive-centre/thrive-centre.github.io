@@ -72,11 +72,6 @@ phd_students:
     title: "Arian Farokh"
     excerpt: "PhD Student"
     link: "/people/arian-farokh"
-  - image_path: /assets/images/people/Preshen.jpg
-    alt: "Preshen Naidoo"
-    title: "Preshen Naidoo"
-    excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/preshen-n-190350a5/"
   - image_path: /assets/images/people/Patty.PNG
     alt: "Patricia Fernandes"
     title: "Patricia Fernandes"
@@ -102,6 +97,31 @@ phd_students:
     title: "Camelia Bogdan"
     excerpt: "PhD Student"
     link: "/people/camelia-bogdan"
+  - image_path: /assets/images/people/Zeina.jpeg
+    alt: "Zeina Kassem"
+    title: "Zeina Kassem"
+    excerpt: "PhD Student"
+    link: "/people/zeina-kassem"
+  - image_path: /assets/images/people/Soroush.jpg
+    alt: "Soroush Elyasi"
+    title: "Soroush Elyasi"
+    excerpt: "PhD Student"
+    link: "/people/soroush-elyasi"
+  - image_path: /assets/images/people/mohammad.jpg
+    alt: "Mohammad Zeinali"
+    title: "Mohammad Zeinali"
+    excerpt: "PhD Student"
+    link: "/people/mohammad-zeinali"
+  - image_path: /assets/images/people/Alireza.jpg
+    alt: "Alireza Alibakhshi"
+    title: "Alireza Alibakhshi"
+    excerpt: "PhD Student"
+    link: "people/alireza-alibakhshi"
+  - image_path: /assets/images/people/Preshen.jpg
+    alt: "Preshen Naidoo"
+    title: "Preshen Naidoo"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/preshen-n-190350a5/"
   - image_path: /assets/images/people/Wiktoria.jpeg
     alt: "Wiktoria Roksana"
     title: "Wiktoria Roksana"
@@ -117,16 +137,6 @@ phd_students:
     title: "Sama Pirkalkhoran"
     excerpt: "PhD Student"
     link: "https://www.linkedin.com/in/sama-pirkalkhoran-b24a8754/"
-  - image_path: /assets/images/people/Zeina.jpeg
-    alt: "Zeina Kassem"
-    title: "Zeina Kassem"
-    excerpt: "PhD Student"
-    link: "/people/zeina-kassem"
-  - image_path: /assets/images/people/Soroush.jpg
-    alt: "Soroush Elyasi"
-    title: "Soroush Elyasi"
-    excerpt: "PhD Student"
-    link: "/people/soroush-elyasi"
   - image_path: /assets/images/people/SinaKhalili.jpg
     alt: "Sina Khalili"
     title: "Sina Khalili"
@@ -137,16 +147,6 @@ phd_students:
     title: "Lasun Sosanya"
     excerpt: "PhD Student"
     link: "https://www.linkedin.com/in/lasun-s-ab670335"
-  - image_path: /assets/images/people/mohammad.jpg
-    alt: "Mohammad Zeinali"
-    title: "Mohammad Zeinali"
-    excerpt: "PhD Student"
-    link: "/people/mohammad-zeinali"
-  - image_path: /assets/images/people/Alireza.jpg
-    alt: "Alireza Alibakhshi"
-    title: "Alireza Alibakhshi"
-    excerpt: "PhD Student"
-    link: "people/alireza-alibakhshi"
   - image_path: /assets/images/people/Naz.jpeg
     alt: "Nazanin Faghih Mirzaei"
     title: "Nazanin Faghih Mirzaei"

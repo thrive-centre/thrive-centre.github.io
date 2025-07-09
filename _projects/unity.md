@@ -56,6 +56,16 @@ feature_row:
     title: "Speckle Tracking"
     excerpt: "Optimisation-based Speckle Tracking"
     link: "https://www.intsav.com/speckle_tracking.html"
+  - image_path: "https://www.intsav.com/assets/img/projects/phase_detection/heart-beat.png"
+    alt: "Phase Detection"
+    title: "Phase Detection"
+    excerpt: "Multibeat echocardiographic phase detection"
+    link: "https://www.intsav.com/phase_detection.html"
+  - image_path: "https://www.intsav.com/assets/img/projects/view_classification/classification.png"
+    alt: "View Classification"
+    title: "View Classification"
+    excerpt: "Neural Architecture Search of Classifiers"
+    link: "https://www.intsav.com/view_classification.html"
 
 ---
 

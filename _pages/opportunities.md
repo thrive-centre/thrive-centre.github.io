@@ -7,7 +7,6 @@ toc: false
 last_modified_at: 2026-06-30T11:59:26-04:00
 ---
 
-[list of opportunities](#opportunities)
 
 THRIVE is committed to training the next generation of leaders in translational healthcare research.
 Beyond its interdisciplinary research programmes, THRIVE offers comprehensive PhD and MSc opportunities for students from diverse backgrounds, including biomedical sciences, engineering, computing, and clinical disciplines.
@@ -17,7 +16,49 @@ Our training pathways prepare researchers to lead in areas such as artificial in
 Through hands-on research, expert supervision, and cross-sector collaboration, THRIVE equips students with the skills to translate discovery into meaningful healthcare impact—whether in academia, industry, or clinical practice.
 
 
+
+<a href="https://www.intsav.com/vacancies.html" target="_blank">List of available PhD projects</a>  
+<a href="https://www.intsav.com/internship.html" target="_blank">List of available Internship projects</a>  
+<a href="https://www.intsav.com/MSc.html" target="_blank">List of available MSc projects</a>  
+<a href="https://www.intsav.com/UG.html" target="_blank">List of available Undergraduate projects</a>
+
+
+
+
 {% capture details-1 %}
+You should have an honours degree (2:2 or above) from a UK university or equivalent in computing or other STEM-based disciplines, with a significant level of computing and programming. 
+
+We will also consider equivalent professional qualifications or a relevant HND provided you can demonstrate relevant work experience. In this case you will have to complete an interview with your application and some optional modules may not be available without a first degree in computing. All applications are considered individually. 
+
+[Apply here](https://www.uwl.ac.uk/course/postgraduate/artificial-intelligence)
+{% endcapture %}
+
+
+{% capture details-2 %}
+The minimum entry requirements for a research degree are:
+
+- **Undergraduate**: a good first degree (First Class or Upper Second Class), or equivalent qualification in a relevant field
+- **Postgraduate**: a Masters Degree (MA, MSc, MBA or MRes) with Merit, or equivalent postgraduate or research experience.  
+
+
+[Apply here](https://www.uwl.ac.uk/course/research/translational-medicine)
+{% endcapture %}
+
+{% capture details-3 %}
+The minimum entry requirements for a research degree are:
+
+- **Undergraduate**: a good first degree (First Class or Upper Second Class), or equivalent qualification in a relevant field
+- **Postgraduate**: a Masters Degree (MA, MSc, MBA or MRes) with Merit, or equivalent postgraduate or research experience. 
+
+[Apply here](https://www.uwl.ac.uk/course/research/computer-science)
+{% endcapture %}
+
+
+
+
+
+
+{% capture details-10 %}
 We're looking for undergraduate and graduate students interested in:
 
 - **Machine Learning Research**: Work on cutting-edge ML algorithms
@@ -33,7 +74,7 @@ We're looking for undergraduate and graduate students interested in:
 {% endcapture %}
 
 
-{% capture details-2 %}
+{% capture details-11 %}
 ## You can add a header
 
 You can add text within a collapsed section.
@@ -76,8 +117,8 @@ const api = {
 
 <div id="opportunities">
 <details> <summary>MSc Artificial Intelligence</summary> {{ details-1 | markdownify }} </details>
-<details> <summary>PhD Translational Medicine</summary> {{ details-1 | markdownify }} </details>
-<details> <summary>PhD Computer Science</summary> {{ details-2 | markdownify }} </details>
+<details> <summary>PhD Translational Medicine</summary> {{ details-2 | markdownify }} </details>
+<details> <summary>PhD Computer Science</summary> {{ details-3 | markdownify }} </details>
 </div>
 
 <style>

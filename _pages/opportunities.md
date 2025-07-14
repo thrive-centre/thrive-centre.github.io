@@ -10,9 +10,10 @@ last_modified_at: 2026-06-30T11:59:26-04:00
 [list of opportunities](#opportunities)
 
 THRIVE is committed to training the next generation of leaders in translational healthcare research.
-Beyond its interdisciplinary research programmes, THRIVE offers comprehensive PhD and MSc opportunities for students from diverse backgrounds—including biomedical sciences, engineering, computing, and clinical disciplines.
+Beyond its interdisciplinary research programmes, THRIVE offers comprehensive PhD and MSc opportunities for students from diverse backgrounds, including biomedical sciences, engineering, computing, and clinical disciplines.
 
 Our training pathways prepare researchers to lead in areas such as artificial intelligence, biotherapeutics, medical imaging, and health systems innovation.
+
 Through hands-on research, expert supervision, and cross-sector collaboration, THRIVE equips students with the skills to translate discovery into meaningful healthcare impact—whether in academia, industry, or clinical practice.
 
 
@@ -74,8 +75,9 @@ const api = {
 {% endcapture %}
 
 <div id="opportunities">
-<details> <summary>Title of the first opportunity</summary> {{ details-1 | markdownify }} </details>
-<details> <summary>Title of the second opportunity</summary> {{ details-2 | markdownify }} </details>
+<details> <summary>MSc Artificial Intelligence</summary> {{ details-1 | markdownify }} </details>
+<details> <summary>PhD Translational Medicine</summary> {{ details-1 | markdownify }} </details>
+<details> <summary>PhD Computer Science</summary> {{ details-2 | markdownify }} </details>
 </div>
 
 <style>

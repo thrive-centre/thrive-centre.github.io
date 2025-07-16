@@ -15,12 +15,6 @@ intro:
       Key initiatives are outlined below.
 
 feature_row:
-  - image_path: "https://www.intsav.com/assets/img/projects/Biobank/unity_demo.png"
-    alt: "Biobank"
-    title: "Biobank"
-    excerpt: "Biobank of expert annotations"
-    link: "https://www.intsav.com/biobank.html"
-
   - image_path: "https://www.intsav.com/assets/img/projects/Mitral_Inflow/MIPW.png"
     alt: "Mitral Inflow"
     title: "Mitral Inflow"

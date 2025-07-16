@@ -32,7 +32,7 @@ feature_row:
   - image_path: /assets/images/projects/istockphoto-2147671579-612x612.jpg
     alt: "EchoForge"
     title: "EchoForge"
-    link: "https://www.intsav.com/biobank.html"
+    link: "/projects/echoforge/"
     areas: "Cardiology,Medical Imaging,AI"
     faculty: "Massoud Zolgharni,Nasim Dadashi,Mayur Agrawal"
     students: "Isreal Ufumaka"
@@ -64,7 +64,7 @@ feature_row:
   - image_path: /assets/images/projects/strabismus.jpg
     alt: "Surgical Planning for Strabismus Surgery"
     title: "Surgical Planning for Strabismus Surgery"
-    link: "https://www.intsav.com/strabismus.html"
+    link: "/projects/strabismus/"
     areas: "Ophthalmology,AI"
     faculty: "Massoud Zolgharni"
     students: "Sina Khalili"
@@ -106,6 +106,7 @@ feature_row:
   - image_path: /assets/images/projects/Nerve_Tissue_Implant.png
     alt: "3D  Nerve Tissue Implant"
     title: "3D  Nerve Tissue Implant"
+    link: "/projects/nerve/"
     areas: "3D Bioprinting,Tissue Regeneration"
     faculty: "Hanieh Khalili"
     students: "Camelia Bogdan"

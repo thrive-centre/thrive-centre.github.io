@@ -121,6 +121,7 @@ feature_row:
   - image_path: /assets/images/projects/3D Ocular micro implact .png
     alt: "3D Ocular micro implact"
     title: "3D Ocular micro implact"
+    link: "/projects/ocular-implant/"
     areas: "3D Bioprinting, AI"
     faculty: "Hanieh Khalili,Massoud Zolgharni,Eman Alajrami"
     students: "Arian Farokh"
@@ -128,6 +129,7 @@ feature_row:
   - image_path: /assets/images/projects/Bispecific Single Chain Antibody mimetics.png
     alt: "Bispecific Single Chain Antibody Mimetics"
     title: "Bispecific Single Chain Antibody Mimetics"
+    link: "/projects/scFvs/"
     areas: "Biotherapeutic Drug Development,Antibody Fragment synthesis"
     faculty: "Hanieh Khalili"
     students: "Sama Pirkalkhoran"
@@ -135,6 +137,7 @@ feature_row:
   - image_path: /assets/images/projects/Antibody Mimetics.png
     alt: "Antibody & Bispecific Antibody Mimetics"
     title: "Antibody & Bispecific Antibody Mimetics"
+    link: "/projects/ocular-antibody/"
     areas: "Biotherapeutic Drug Development,Antibody Fragment synthesis"
     faculty: "Hanieh Khalili"
     students: "Wiktoria Roksana"
@@ -142,6 +145,7 @@ feature_row:
   - image_path: /assets/images/projects/Inhaled bispecific antibody.png
     alt: "Inhaled Bispecific Antibody"
     title: "Inhaled Bispecific Antibody"
+    link: "/projects/inhaled/"
     areas: "Biotherapeutic Drug Development"
     faculty: "Hanieh Khalili"
     students: "Zeina Kassem"

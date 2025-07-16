@@ -56,7 +56,7 @@ feature_row:
   - image_path: /assets/images/projects/spinal.jpg
     alt: "Predictive Modelling for Spinal Fracture"
     title: "Predictive Modelling for Spinal Fracture"
-    link: "https://www.intsav.com/spinal.html"
+    link: "/projects/spinal/"
     areas: "Orthopedics,AI,Medical Imaging"
     faculty: "Massoud Zolgharni,Jin Luo"
     students: "Lasun Sosanya"
@@ -72,7 +72,7 @@ feature_row:
   - image_path: /assets/images/projects/istockphoto-1086330560-612x612.jpg
     alt: "Multiple Sclerosis Detection"
     title: "Multiple Sclerosis Detection"
-    link: "https://www.intsav.com/biobank.html"
+    link: "/projects/sclerosis/"
     areas: "Neurology,Medical Imaging,AI"
     faculty: "Nasim Dadashi"
     students: "Nazanin Faghih Mirzaei"
@@ -111,18 +111,11 @@ feature_row:
     faculty: "Hanieh Khalili"
     students: "Camelia Bogdan"
 
-  - image_path: /assets/images/projects/Robotic Assist 3D Brain model.png
-    alt: "Robotic Assist 3D Brain model"
-    title: "Robotic Assist 3D Brain model"
-    areas: "3D Bioprinting,Neurology"
-    faculty: "Hanieh Khalili"
-    students: "Arian Farokh"
-
   - image_path: /assets/images/projects/3D Ocular micro implact .png
     alt: "3D Ocular micro implact"
     title: "3D Ocular micro implact"
     link: "/projects/ocular-implant/"
-    areas: "3D Bioprinting, AI"
+    areas: "Ophthalmology,3D Bioprinting, AI"
     faculty: "Hanieh Khalili,Massoud Zolgharni,Eman Alajrami"
     students: "Arian Farokh"
 
@@ -156,6 +149,13 @@ feature_row:
     areas: "Ophthalmology,Biotherapeutic Drug Development"
     faculty: "Hanieh Khalili"
     students: "Hamid Heidari"
+
+  - image_path: /assets/images/projects/Robotic Assist 3D Brain model.png
+    alt: "Robotic Assist 3D Brain model"
+    title: "Robotic Assist 3D Brain model"
+    areas: "3D Bioprinting,Neurology"
+    faculty: "Hanieh Khalili"
+    students: "Arian Farokh"
 ---
 
 <style>

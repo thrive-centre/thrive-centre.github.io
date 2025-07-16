@@ -58,7 +58,7 @@ core_members:
     alt: "Eugenio Donati"
     title: "Eugenio Donati"
     excerpt: "**Collaborating Academic**  \nLecturer in Audio Engineering"
-  - image_path: /assets/images/people/Fang.PNG
+  - image_path: /assets/images/people/Fang.png
     alt: "Fang Xiao"
     title: "Fang Xiao"
     excerpt: "**Collaborating Academic**  \nSenior Lecturer of Clinical Science"

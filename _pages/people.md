@@ -58,7 +58,11 @@ core_members:
     alt: "Eugenio Donati"
     title: "Eugenio Donati"
     excerpt: "**Collaborating Academic**  \nLecturer in Audio Engineering"
-    link: "https://www.uwl.ac.uk/staff/eugenio-donati"
+  - image_path: /assets/images/people/Fang.jpg
+    alt: "Fang Xiao"
+    title: "Fang Xiao"
+    excerpt: "**Collaborating Academic**  \nSenior Lecturer of Clinical Science"
+    link: "https://www.uwl.ac.uk/staff/fang-xiao"
   - image_path: /assets/images/people/Mayur(2).jpg
     alt: "Mayur Agrawal"
     title: "Mayur Agrawal"

@@ -43,16 +43,16 @@ core_members:
     alt: "Eman Alajrami"
     title: "Eman Alajrami"
     excerpt: "**Core Academic**  \nLecturer in Computer Science"
-    link: "https://www.uwl.ac.uk/staff/Eman-Alajrami"
+    link: "https://emanalajrami.github.io/Emanajrami/index.html"
   - image_path: /assets/images/people/sama.jpg
     alt: "Sama Aleshaiker"
     title: "Sama Aleshaiker"
-    excerpt: "**Collaborating Academic**  \nLecturer in Computer Science"
+    excerpt: "**Collaborating Academic**  \nSenior Lecturer in Computer Science"
     link: "https://www.uwl.ac.uk/staff/sama-aleshaiker"
   - image_path: /assets/images/people/AliG.jpg
     alt: "Ali Gheitasy"
     title: "Ali Gheitasy"
-    excerpt: "**Collaborating Academic**  \nLecturer in Computing"
+    excerpt: "**Collaborating Academic**  \nSenior Lecturer in Information Technology"
     link: "https://www.uwl.ac.uk/staff/ali-gheitasy"
   - image_path: /assets/images/people/Eugenio.jpeg
     alt: "Eugenio Donati"

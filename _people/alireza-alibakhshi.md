@@ -19,8 +19,10 @@ I maintain a GitHub lab of experimental code, and I’m always up for a collabor
 - Computer Science, University of West London, London, United Kingdom, PhD (Ongoing)
 - Industrial Engineering (Data and Systems Analysis), Sharif University of Technology, M.Sc.
 - Industrial Engineering, Shahid Beheshti University, B.Sc. 
+
 # Supervisors 
-[Dr. Nasim Dadashi Serej](https://www.uwl.ac.uk/staff/nasim-dadashi-serej), [Professor Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni)
+[Dr. Nasim Dadashi Serej](https://www.uwl.ac.uk/staff/nasim-dadashi-serej)  
+[Prof. Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni)
 
 # Research Projects
 - [TBI](https://www.intsav.com/tbi.html)

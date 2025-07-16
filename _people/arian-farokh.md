@@ -15,8 +15,9 @@ I am a PhD researcher in Computer Science at the University of West London, work
 - Chemical Engineering, Process Design, University of Tehran, Tehran, Iran, MSc (2023)
 - Chemical Engineering, Iran University of Science and Technology, Tehran, Iran, BSc  (2020)
 
-# Supervisors 
-[Professor Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni), [Dr Hanieh Khalili](https://www.uwl.ac.uk/staff/hanieh-khalili)
+# Supervisors  
+[Prof. Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni)<br>
+[Prof. Hanieh Khalili](https://www.uwl.ac.uk/staff/hanieh-khalili)
 
 # Research Projects
 - [AI-aided design of 3D printed micro implant for tissue regeneration](https://www.intsav.com/biopriniting.html)

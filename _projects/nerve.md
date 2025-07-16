@@ -4,7 +4,7 @@ toc: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
-  overlay_image: /assets/images/projects/nerve-implant.jpg
+  overlay_image: /assets/images/projects/Nerve_Tissue_Implant.png
   caption: ""
 excerpt: "A cross-disciplinary effort to engineer 3D printed collagen-based implants for repairing peripheral nerve injuries."
 intro: 

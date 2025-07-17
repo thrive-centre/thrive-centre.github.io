@@ -157,7 +157,7 @@ feature_row:
     faculty: "Hanieh Khalili"
     students: "Arian Farokh"
 
-  - image_path: /assets/images/projects/Robotic Assist 3D Brain model.png
+  - image_path: /assets/images/projects/Regulatory-Immunity.png
     alt: "Regulatory Immunity in Disease"
     title: "Regulatory Immunity in Disease"
     areas: "Immunology"

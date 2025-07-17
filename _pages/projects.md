@@ -156,6 +156,15 @@ feature_row:
     areas: "3D Bioprinting,Neurology"
     faculty: "Hanieh Khalili"
     students: "Arian Farokh"
+
+  - image_path: /assets/images/projects/Robotic Assist 3D Brain model.png
+    alt: "Regulatory Immunity in Disease"
+    title: "Regulatory Immunity in Disease"
+    areas: "Immunology"
+    faculty: "Fang Xiao"
+    students: ""
+
+
 ---
 
 <style>
@@ -214,6 +223,7 @@ feature_row:
       <option value="Neurology">Neurology</option>
       <option value="Ophthalmology">Ophthalmology</option>
       <option value="Orthopedics">Orthopedics</option>
+      <option value="Immunology">Immunology</option>
       <option value="Otolaryngology">Otolaryngology</option>
       <option value="Emergency Medicine">Emergency Medicine</option>
       <option value="AI">AI</option>
@@ -237,6 +247,7 @@ feature_row:
       <option value="Jin Luo">Jin Luo</option>
       <option value="Sama Aleshaiker">Sama Aleshaiker</option>
       <option value="Ali Gheitasy">Ali Gheitasy</option>
+      <option value="Fang Xiao">Fang Xiao</option>
       <option value="Eugenio Donati">Eugenio Donati</option>
       <option value="Mayur Agrawal">Mayur Agrawal</option>
       <option value="Jevgeni Jevsikov">Jevgeni Jevsikov</option>

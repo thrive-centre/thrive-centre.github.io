@@ -14,7 +14,7 @@ intro:
       It serves as a modular, reproducible, and developer-friendly toolkit for clinical researchers, educators, and engineers working at the intersection of AI and cardiac imaging.
 ---
 
-## 🧠 What is EchoForge?
+## What is EchoForge?
 
 **EchoForge** is a modular library of pre-trained deep learning models for echocardiographic image analysis. Developed by the Intelligent Sensing and Vision Lab at the University of West London, it provides researchers, clinicians, and developers with plug-and-play access to reusable AI components designed to support and accelerate cardiac ultrasound workflows.
 
@@ -22,21 +22,21 @@ EchoForge helps reduce duplication of effort, supports reproducibility in resear
 
 ---
 
-## 🚀 Use Cases
+## Use Cases
 
 EchoForge models have been trained and tested for a range of applications across clinical and educational use:
 
-- 🔍 **View classification**: Automatically classify echo views such as PLAX, A4C, PSAX
-- 🫀 **Segmentation**: Identify and delineate cardiac structures (e.g., LV, myocardium)
-- 📍 **Landmark detection**: Detect key anatomical points, e.g., endocardial borders in PLAX
-- 📈 **Image quality assessment**: Score image quality for training, triage, or QA
-- 📊 **Skill tracking and trainee feedback** (experimental): Use quality scores over time to inform sonographer training
+- **View classification**: Automatically classify echo views such as PLAX, A4C, PSAX
+- **Segmentation**: Identify and delineate cardiac structures (e.g., LV, myocardium)
+- **Landmark detection**: Detect key anatomical points, e.g., endocardial borders in PLAX
+- **Image quality assessment**: Score image quality for training, triage, or QA
+- **Skill tracking and trainee feedback** (experimental): Use quality scores over time to inform sonographer training
 
 These models are designed to be lightweight, modular, and easily adaptable to different pipelines or clinical environments.
 
 ---
 
-## 🔧 Architecture and Design Philosophy
+## Architecture and Design Philosophy
 
 EchoForge is designed for:
 

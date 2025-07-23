@@ -16,9 +16,11 @@ intro:
 
 ## Overview
 
-Peripheral nerve injuries (PNI) can lead to long-term disability and currently rely on autografts—where healthy nerve tissue is harvested from elsewhere in the patient’s body. While clinically accepted, this method is invasive and often limited in efficacy. There is a pressing need for engineered alternatives that can enhance regeneration while reducing patient burden.
+This is a cross-disciplinary and collaborative project between the THRIVE centre at the University of West London and the School of Pharmacy at University College London (UCL), and the UCL Centre for Nerve Engineering. The project aims to investigate the fabrication of 3D printed collagen-based scaffolds for the treatment of peripheral nerve injury (PNI). 
 
-This project focuses on the design and fabrication of **3D printed collagen-based scaffolds** for the treatment of PNI. Specifically, it seeks to improve on the promising concept of **Engineered Neural Tissue (EngNT)**—a living construct developed at UCL that embeds aligned neural cells within a hydrogel matrix to guide nerve regrowth.
+Current treatments for PNI often involve harvesting nerve tissue from another part of the patient's body and grafting it to the injured site. However, there is a critical need for less invasive and more effective solutions. Tissue engineering offers a promising approach, with the ultimate goal of replacing damaged neural cells. Pioneering work at the UCL Centre for Nerve Engineering has resulted in the development of Engineered Neural Tissue (EngNT), incorporating living neural cells within a collagen hydrogel matrix. This approach holds significant promise for nerve regeneration. However, a key challenge remains: fabricating EngNT with precise cell patterning within a three-dimensional structure is crucial for effective regeneration. This is precisely the aim of this project. 
+
+We hypothesise that these implants will act as targeted tissue nodes, effectively integrating therapeutic cells and/or drugs into damaged tissues and enhancing treatment efficacy for nerve impairments. To achieve this, the project will leverage: Combined pharmaceutical and chemical expertise including chemical synthesis, 3D printing and biomaterial development. Biological testing may involve in vitro assays including live cell imaging and confocal microscopy, with the opportunity for using preclinical models to test translationally relevant designs.
 
 ## Objectives
 

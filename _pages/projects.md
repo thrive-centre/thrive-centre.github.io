@@ -119,17 +119,17 @@ feature_row:
     faculty: "Hanieh Khalili,Massoud Zolgharni,Eman Alajrami"
     students: "Arian Farokh"
 
-  - image_path: /assets/images/projects/Bispecific Single Chain Antibody mimetics.png
-    alt: "Bispecific Single Chain Antibody Mimetics"
-    title: "Bispecific Single Chain Antibody Mimetics"
+  - image_path: /assets/images/projects/scfvs.jpg
+    alt: "Recombinant-Chemical Platform for Bispecific scFvs"
+    title: "Recombinant-Chemical Platform for Bispecific scFvs"
     link: "/projects/scFvs/"
     areas: "Biotherapeutic Drug Development,Antibody Fragment synthesis"
     faculty: "Hanieh Khalili"
     students: "Sama Pirkalkhoran"
 
-  - image_path: /assets/images/projects/Antibody Mimetics.png
-    alt: "Antibody & Bispecific Antibody Mimetics"
-    title: "Antibody & Bispecific Antibody Mimetics"
+  - image_path: /assets/images/projects/ocular-inflammation.jpg
+    alt: "Antibody Mimetics for Ocular Inflammation"
+    title: "Antibody Mimetics for Ocular Inflammation"
     link: "/projects/ocular-antibody/"
     areas: "Biotherapeutic Drug Development,Antibody Fragment synthesis"
     faculty: "Hanieh Khalili"
@@ -146,6 +146,7 @@ feature_row:
   - image_path: /assets/images/projects/Ocular Drug Delivery.png
     alt: "Ocular Drug Delivery"
     title: "Ocular Drug Delivery"
+    link: "/projects/ocular-drug-delivery/"
     areas: "Ophthalmology,Biotherapeutic Drug Development"
     faculty: "Hanieh Khalili"
     students: "Hamid Heidari"
@@ -153,6 +154,7 @@ feature_row:
   - image_path: /assets/images/projects/Robotic Assist 3D Brain model.png
     alt: "Robotic Assist 3D Brain model"
     title: "Robotic Assist 3D Brain model"
+    link: "/projects/robotic-assist-3d-brain-model/"
     areas: "3D Bioprinting,Neurology"
     faculty: "Hanieh Khalili"
     students: "Arian Farokh"

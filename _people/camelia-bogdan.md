@@ -18,9 +18,12 @@ My work is driven by a passion for interdisciplinary research and the potential 
 - BSc in Biomedical Science, University of West London, London, United Kingdom (2024)
 
 # Supervisors
-[Dr Hanieh Khalili](https://www.uwl.ac.uk/staff/hanieh-khalili), [Professor James Phillips](https://profiles.ucl.ac.uk/11333-james-phillips)
+[Professor Hanieh Khalili](https://www.uwl.ac.uk/staff/hanieh-khalili), [Professor James Phillips](https://profiles.ucl.ac.uk/11333-james-phillips)
 
-# Research Projects
+# Research Projects 
+
+- [Nerve Regeneration](/projects/nerve/)
+
 My PhD research focuses on developing a 3D bio-printed implant that closely mimics the structure and environment of nerve tissue, with the goal of facilitating regeneration across nerve gap injuries, conditions that are often difficult to treat with current surgical techniques alone. By combining biomaterials and bio-fabrication strategies, the project aims to create a scaffold that not only physically bridges the nerve gap but also provides the necessary biological cues to support cell growth, alignment, and nerve signal transmission.
 
 This work addresses a significant clinical need, particularly for patients suffering from traumatic nerve injuries, where the loss of sensory and motor function can be life-altering. Traditional nerve grafts have limitations such as donor site morbidity and limited availability. A bio-printed, patient specific implant could offer a more effective and scalable alternative.

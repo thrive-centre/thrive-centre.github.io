@@ -4,7 +4,7 @@ toc: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
-  overlay_image: /assets/images/projects/Inhaled bispecific antibody.png
+  overlay_image: /assets/images/projects/asthma.jpg
   caption: ""
 excerpt: "Developing inhalable biotherapeutics to target severe non-T2 asthma and chronic inflammatory airway diseases."
 intro: 
@@ -16,9 +16,11 @@ intro:
 
 ## Overview
 
-Asthma affects over 300 million people worldwide, with a significant proportion suffering from **treatment-resistant severe asthma**. While type 2 (T2) inflammation-driven asthma often responds to corticosteroids and monoclonal antibodies targeting IL-5, IL-4R, and IgE, patients with **non-T2 or T2-low asthma** show poor response to existing biologics.
+Type 2 inflammation (characterised by eosinophilic) plays an important role in asthma and chronic rhinosinusitis, two chronic airway inflammation diseases. T2 asthma usually responds to classical bronchodilation therapy and corticosteroid treatment and can be controlled with newly developed T2-targeted biologic therapies such as anti-IgE (omalizumab), anti-IL5 (mepolizumab, benralizumab and reslizumab) and IL-13, IL-4R (dupilumab). However, in some patients with severe asthma (especially late-onset T2 asthma), airway eosinophilic inflammation persists despite corticosteroid treatment. This group is defined as having non-T2 or T2-low asthma. There is an urgent need to develop a new biotherapeutic molecule to address non-T2 asthma, which is the main aim of this project. 
 
-This project addresses the **urgent unmet need** to develop biologic therapies for non-T2 asthma, particularly in **late-onset, steroid-resistant patients**.
+The other aim of the project is to develop an inhaled form of biotherapeutics, either in the form of nebulised or dry powder for inhalation. The route of administration for most of the biologics approved for treatment of T2-asthma is through parenteral injection. Pulmonary delivery is an attractive, non-invasive alternative route of administration, which allows a local delivery of biologics to the target inflammation site. Despite the benefits of pulmonary delivery, the development of inhalable biological drugs is a challenging task. Recently nebulised interferon beta-1a has been tested for COVID-19 patients, showing a positive response. 
+
+This is a collaborative project between the THRIVE at UWL and the School of Pharmacy (Dr Lam) at UCL to investigate the feasibility of developing inhalable forms of biotherapeutics for sever chronic inflammatory diseases. 
 
 ## Objectives
 

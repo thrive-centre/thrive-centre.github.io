@@ -18,12 +18,14 @@ BSC Pharmacy, MSC
 
 # Supervisors
 
-[Dr Hanieh Khalili](https://www.uwl.ac.uk/staff/hanieh-khalili)
+[Professor Hanieh Khalili](https://www.uwl.ac.uk/staff/hanieh-khalili)
 
 [Dr. Jenny Lam](https://profiles.ucl.ac.uk/88272-jenny-lam)
 
 
 # Research Projects
+
+- [Inhaled Bispecific Antibody for Severe Asthma](/projects/inhaled/)
 
 The project focuses on the development of Inhalable Bispecific Antibody Conjugates for Targeted Treatment of Asthma.
 

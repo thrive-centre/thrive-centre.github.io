@@ -499,10 +499,11 @@ button:hover {
 <p>We aim to make the dataset available for research purposes soon.</p>
 <p><strong>If you wish to request access, please complete the form below:</strong></p>
 
-<form action="https://YOUR_BACKEND_ENDPOINT_OR_FORM_SERVICE_URL" method="POST">
+<form action="https://formspree.io/f/mpwlgleg" method="POST">
   <input type="text" name="name" placeholder="Your Name" required><br><br>
   <input type="email" name="email" placeholder="Your Email" required><br><br>
   <input type="text" name="institution" placeholder="Institution/Workplace" required><br><br>
+  <input type="text" name="dataset" value="phase_detection" readonly>
   <textarea name="message" rows="5" placeholder="Please let us know why you would like access to this dataset and what you intend to use it for" required></textarea><br><br>
   <button type="submit">Submit</button>
 </form>

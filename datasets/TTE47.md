@@ -1,28 +1,66 @@
+<!-- PAGE STYLES + WRAPPER (add at very top, before # TTE47 …) -->
+<style>
+  :root{ --primary:#2563eb; --primary-700:#1d4ed8; --border:#e5e7eb; }
+  .page-wrap{ max-width:1500px; margin:0 auto; padding:28px; }
+  .navbar{ position:sticky; top:0; z-index:10; display:flex; flex-wrap:wrap; gap:10px; justify-content:center;
+           background:#fff; padding:12px 8px; margin:10px 0 18px; border-bottom:1px solid var(--border); }
+  .nav-btn{ border:0; border-radius:999px; padding:8px 14px; cursor:pointer; font-weight:600;
+            background:var(--primary); color:#fff; }
+  .nav-btn:hover{ background:var(--primary-700); }
+  .nav-btn.secondary{ background:#e0e7ff; color:#1e40af; }
+  .nav-btn.active{ box-shadow:0 0 0 2px var(--primary-700) inset; }
+  .cat-section{ margin:28px 0; scroll-margin-top:80px; }
+  .thumb{ width:180px; height:auto; border-radius:6px; }
+  table{ width:100%; border-collapse:collapse; }
+  thead th{ background:#f3f4f6; text-align:left; }
+  th,td{ padding:10px; border-bottom:1px solid var(--border); vertical-align:top; }
+</style>
+<div class="page-wrap" markdown="1">
+
+
 # TTE47 — Dataset Card & Reference Gallery
 
-> **TTE47** is a dataset derived from a random sample of real-world echocardiographic studies collected at **Imperial College Healthcare NHS Trust**, comprising a total of **91,139 images**. Ethical approval for the study was granted by the Health Research Authority (Integrated Research Application System **IRAS** identifier: **243023**). Only studies with complete demographic information and without intravenous contrast were included.
+> **TTE47** is a dataset derived from a random sample of real-world echocardiographic studies collected at Imperial College Healthcare NHS Trust, comprising a total of **91,139 images**. Ethical approval for the study was granted by the Health Research Authority (Integrated Research Application System IRAS identifier: 243023). Only studies with complete demographic information and without intravenous contrast were included.
 
-Each image was manually annotated by a cardiologist (“**Expert 1**”) via a web-based platform (<https://unityimaging.net/>) and assigned to one of **47 predefined categories**. The dataset was divided into **training (76,589)**, **validation (9,103)**, and **test (5,447)** sets, with **no patient or study overlap** between splits. The echocardiograms were obtained from **19,169 unique studies**.
+Each image was manually annotated by a cardiologist (“Expert 1”) via a web-based platform (<https://unityimaging.net/>) and assigned to one of **47 predefined categories**. The dataset was divided into **training (76,589)**, **validation (9,103)**, and **test (5,447)** sets, with no patient or study overlap between splits. The echocardiograms were obtained from 19,169 unique studies.
 
-Two additional clinical experts independently annotated the test set. These experts were **blinded** to the original labels and to each other’s annotations. Unlike Expert 1, who was required to assign **exactly one label** to each image, Experts 2 and 3 were allowed to select **“not sure”** when appropriate. The test set was intentionally sized to ensure reliable evaluation while remaining feasible for detailed multi-expert annotation across all 47 views.
+Two additional clinical experts independently annotated the test set. These experts were blinded to the original labels and to each other’s annotations. Unlike Expert 1, who was required to assign exactly one label to each image, Experts 2 and 3 were allowed to select “not sure” when appropriate. The test set was intentionally sized to ensure reliable evaluation while remaining feasible for detailed multi-expert annotation across all 47 views.
 
-The **test subset**, containing **5,447 images** with annotations from all three experts, is released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** license. Release of the dataset was approved by the **South Central – Oxford C Research Ethics Committee** (IRAS ID: **279328**, REC reference: **20/SC/0386**). Due to data governance restrictions, the **training set cannot be made public**, but **pre-trained and fine-tuned model weights** are provided.
+The **test subset**, containing **5,447 images** with annotations from all three experts, is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license. Release of the dataset was approved by the South Central – Oxford C Research Ethics Committee (IRAS ID: 279328, REC reference: 20/SC/0386). Due to data governance restrictions, the training set cannot be made public, but pre-trained and fine-tuned model weights are provided.
 
 ---
 
-## Contents
+<style>
+.contents-box {
+  background: #f1f5f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+}
+.contents-box h2 {
+  margin-top: 0;
+}
+.contents-box a {
+  display: block;
+  padding: 6px 0;
+  text-decoration: none;
+  color: #0078D7;
+  font-weight: 600;
+}
+.contents-box a:hover {
+  text-decoration: underline;
+}
+</style>
 
-- [Demographics](#demographics)
-- [Data splits by view (counts)](#data-splits-by-view-counts)
-- [Reference Gallery (47 Classes)](#reference-gallery-47-classes)
-  - [Apical](#apical)
-  - [PLAX](#plax)
-  - [PSAX](#psax)
-  - [M-mode](#m-mode)
-  - [Subcostal &amp; Suprasternal](#subcostal--suprasternal)
-  - [Doppler](#doppler)
-- [License &amp; Ethics](#license--ethics)
-- [Contact / Access](#contact--access)
+<div class="contents-box">
+  <h2>Contents</h2>
+  <a href="#demographics">Demographics</a>
+  <a href="#data-splits-by-view-counts">Data splits by view (counts)</a>
+  <a href="#reference-gallery-47-classes">Reference Gallery (47 Classes)</a>
+  <a href="#license--ethics">License & Ethics</a>
+  <a href="#contact--access">Contact / Access</a>
+</div>
 
 ---
 
@@ -34,32 +72,29 @@ The **test subset**, containing **5,447 images** with annotations from all three
 <table>
   <thead>
     <tr>
+      <th>Characteristic</th>
       <th>Category</th>
-      <th>Group</th>
-      <th>N</th>
-      <th>%</th>
+      <th>Proportion (%)</th>
     </tr>
   </thead>
   <tbody>
     <!-- Age groups -->
-    <tr><td rowspan="6"><strong>Age</strong></td><td>18–29</td><td>—</td><td>—</td></tr>
-    <tr><td>30–39</td><td>—</td><td>—</td></tr>
-    <tr><td>40–49</td><td>—</td><td>—</td></tr>
-    <tr><td>50–59</td><td>—</td><td>—</td></tr>
-    <tr><td>60–69</td><td>—</td><td>—</td></tr>
-    <tr><td>70+</td><td>—</td><td>—</td></tr>
-    <!-- BMI -->
-    <tr><td rowspan="5"><strong>BMI</strong></td><td>&lt;18.5 (Underweight)</td><td>—</td><td>—</td></tr>
-    <tr><td>18.5–24.9 (Normal)</td><td>—</td><td>—</td></tr>
-    <tr><td>25.0–29.9 (Overweight)</td><td>—</td><td>—</td></tr>
-    <tr><td>30.0–34.9 (Obesity I)</td><td>—</td><td>—</td></tr>
-    <tr><td>&ge;35.0 (Obesity II+)</td><td>—</td><td>—</td></tr>
+    <tr><td rowspan="4"><strong>Age (years)</strong></td><td>18–30</td><td>2.3</td></tr>
+    <tr><td>31–50</td><td>12.7</td></tr>
+    <tr><td>51–70</td><td>27.9</td></tr>
+    <tr><td>71+</td><td>57.2</td></tr>
     <!-- Sex -->
-    <tr><td rowspan="3"><strong>Sex</strong></td><td>Female</td><td>—</td><td>—</td></tr>
-    <tr><td>Male</td><td>—</td><td>—</td></tr>
-    <tr><td>Other/Unreported</td><td>—</td><td>—</td></tr>
+    <tr><td rowspan="3"><strong>Sex</strong></td><td>Female</td><td>50.5</td></tr>
+    <tr><td>Male</td><td>48.6</td></tr>
+    <tr><td>Other</td><td>0.8</td></tr>
+    <!-- BMI -->
+    <tr><td rowspan="4"><strong>BMI (kg/m²)</strong></td><td>18–24.9 (Normal)</td><td>36.0</td></tr>
+    <tr><td>25–29.9 (Overweight)</td><td>34.9</td></tr>
+    <tr><td>30–34.9 (Obesity I)</td><td>18.0</td></tr>
+    <tr><td>35+ (Obesity II+)</td><td>11.1</td></tr>
   </tbody>
 </table>
+
 
 ---
 
@@ -139,7 +174,17 @@ The **test subset**, containing **5,447 images** with annotations from all three
 
 ---
 
-## Reference Gallery (47 Classes)
+<!-- CATEGORY NAVBAR (place right above the Reference Gallery section) -->
+<div class="navbar">
+  <button class="nav-btn" data-cat="apical"  onclick="showCat('apical')">Apical</button>
+  <button class="nav-btn" data-cat="plax"    onclick="showCat('plax')">PLAX</button>
+  <button class="nav-btn" data-cat="psax"    onclick="showCat('psax')">PSAX</button>
+  <button class="nav-btn" data-cat="mmode"   onclick="showCat('mmode')">M-mode</button>
+  <button class="nav-btn" data-cat="subsup"  onclick="showCat('subsup')">Subcostal & Suprasternal</button>
+  <button class="nav-btn" data-cat="doppler" onclick="showCat('doppler')">Doppler</button>
+</div>
+
+## Echocardiographic View Definitions (47 Classes)
 
 Below are **6 major categories**. Click a category to reveal its table of **TTE47** views.  
 
@@ -159,20 +204,9 @@ button:hover {
 }
 </style>
 
-<!-- Quick-jump "buttons" -->
-<p align="center">
-  <a href="#apical"><button>Apical</button></a>
-  <a href="#plax"><button>PLAX</button></a>
-  <a href="#psax"><button>PSAX</button></a>
-  <a href="#m-mode"><button>M-mode</button></a>
-  <a href="#subcostal--suprasternal"><button>Subcostal &amp; Suprasternal</button></a>
-  <a href="#doppler"><button>Doppler</button></a>
-</p>
-
-
-### <a id="apical"></a>Apical (16 views)
-
-  <table>
+<section class="cat-section" id="apical" data-cat="apical">
+  <h3>Apical (16 views)</h3>
+    <table>
     <thead>
       <tr><th>Image</th><th>View Name</th><th>Description</th></tr>
     </thead>
@@ -259,10 +293,12 @@ button:hover {
       </tr>
     </tbody>
   </table>
+  </section>
 
 <!-- </details> -->
 
-### <a id="plax"></a>PLAX (8 views)
+<section class="cat-section" id="plax" data-cat="plax">
+  <h3>PLAX (8 views)</h3>
 
   <table>
     <thead>
@@ -311,10 +347,11 @@ button:hover {
       </tr>
     </tbody>
   </table>
+</section>
 
 
-
-### <a id="psax"></a>PSAX (7 views)
+<section class="cat-section" id="psax" data-cat="psax">
+  <h3>PSAX (7 views)</h3>
 
 
   <table>
@@ -359,10 +396,11 @@ button:hover {
       </tr>
     </tbody>
   </table>
+  </section>
 
 
-
-### <a id="m-mode"></a>M-mode (5 views)
+<section class="cat-section" id="mmode" data-cat="mmode">
+  <h3>M-mode (5 views)</h3>
 
 
   <table>
@@ -397,10 +435,12 @@ button:hover {
       </tr>
     </tbody>
   </table>
+  </section>
 
 
 
-### <a id="subcostal--suprasternal"></a>Subcostal & Suprasternal (3 views)
+<section class="cat-section" id="subcostal" data-cat="subsup">
+  <h3>Subcostal &amp; Suprasternal (3 views)</h3>
 
   <table>
     <thead>
@@ -424,10 +464,11 @@ button:hover {
       </tr>
     </tbody>
   </table>
+</section>
 
 
-
-### <a id="doppler"></a>Doppler (8 views)
+<section class="cat-section" id="doppler" data-cat="doppler">
+  <h3>Doppler (8 views)</h3>
 
   <table>
     <thead>
@@ -476,10 +517,50 @@ button:hover {
       </tr>
     </tbody>
   </table>
-
-
+</section>
 
 ---
+<script>
+  function showCat(cat, scroll=true, updateHash=true){
+    document.querySelectorAll('.cat-section').forEach(sec=>{
+      sec.style.display = (sec.dataset.cat===cat) ? '' : 'none';
+    });
+
+    document.querySelectorAll('.nav-btn').forEach(btn=>{
+      btn.classList.toggle('active', btn.dataset.cat===cat);
+    });
+
+    // update hash only if user action triggered
+    if(updateHash){
+      history.replaceState(null,'','#'+cat);
+    }
+
+    // smooth scroll (only if user clicked)
+    if(scroll){
+      const id = (cat==='mmode') ? 'mmode' : (cat==='subsup' ? 'subcostal' : cat);
+      const target = document.getElementById(id);
+      if(target) target.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', ()=>{
+    const initial = location.hash ? location.hash.replace('#','') : 'apical';
+    const valid = ['apical','plax','psax','mmode','subsup','doppler'];
+
+    // 🚀 load default Apical but DO NOT update hash or scroll
+    showCat(valid.includes(initial) ? initial : 'apical', false, false);
+
+    // Force page to start at the very top
+    window.scrollTo(0,0);
+  });
+
+  window.addEventListener('hashchange', ()=>{
+    const cat = location.hash ? location.hash.replace('#','') : 'apical';
+    const valid = ['apical','plax','psax','mmode','subsup','doppler'];
+    showCat(valid.includes(cat) ? cat : 'apical', true, false);
+  });
+</script>
+
 
 ## License & Ethics
 
@@ -503,8 +584,9 @@ button:hover {
   <input type="text" name="name" placeholder="Your Name" required><br><br>
   <input type="email" name="email" placeholder="Your Email" required><br><br>
   <input type="text" name="institution" placeholder="Institution/Workplace" required><br><br>
-  <input type="text" name="dataset" value="phase_detection" readonly>
+  <input type="text" name="dataset" value="TTE47" readonly>
   <textarea name="message" rows="5" placeholder="Please let us know why you would like access to this dataset and what you intend to use it for" required></textarea><br><br>
   <button type="submit">Submit</button>
 </form>
 
+</div>

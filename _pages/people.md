@@ -68,7 +68,7 @@ core_members:
     alt: "Mayur Agrawal"
     title: "Mayur Agrawal"
     excerpt: "**Research Associate**"
-    link: "https://www.linkedin.com/in/mayur-agrawal21"
+    link: "/people/mayur-agrawal"
 
 # PhD Students Feature Row
 phd_students:

@@ -214,3 +214,17 @@ Alireza Alibakhshi:
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?hl=en&user=Gb92_IQAAAAJ&view_op=list_works&gmla=AH8HC4waM5Xw3vWxBBXbuXLUajwjUuU4NC7nPN6hM-0d0akOdGWERH6FpfRNjdrDVYhCip-LhoclM7FpOHfHa5JK"
 
+Mayur Agrawal:
+  name        : "Mayur Agrawal"
+  bio         : "Research Associate in Computer Science"
+  avatar      : "/assets/images/people/Mayur(2).jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mayur.agrawal@uwl.ac.uk"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mayuragrawal21"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mayur-agrawal21/"

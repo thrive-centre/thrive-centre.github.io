@@ -142,21 +142,6 @@ phd_students:
     title: "Sama Pirkalkhoran"
     excerpt: "PhD Student"
     link: "https://www.linkedin.com/in/sama-pirkalkhoran-b24a8754/"
-  - image_path: /assets/images/people/SinaKhalili.jpg
-    alt: "Sina Khalili"
-    title: "Sina Khalili"
-    excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/sina-khalili-md"
-  - image_path: /assets/images/people/Lasun.jpeg
-    alt: "Lasun Sosanya"
-    title: "Lasun Sosanya"
-    excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/lasun-s-ab670335"
-  - image_path: /assets/images/people/Naz.jpeg
-    alt: "Nazanin Faghih Mirzaei"
-    title: "Nazanin Faghih Mirzaei"
-    excerpt: "PhD Student"
-    link: "https://github.com/NazaninFaghih"
 
 # Visiting Academics Feature Row
 visiting_academics:

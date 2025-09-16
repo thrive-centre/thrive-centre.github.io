@@ -17,6 +17,13 @@
 </style>
 <div class="page-wrap" markdown="1">
 
+<div style="text-align:right; margin:10px 0;">
+  <img src="/assets/images/logo/imperial_BHF.png" 
+       alt="Project Logos" 
+       style="max-width:250px; height:auto; float:right; margin-left:20px;">
+</div>
+
+
 
 # TTE47 — Dataset Card & Reference Gallery
 
@@ -212,82 +219,82 @@ button:hover {
     </thead>
     <tbody>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/01_a2ch-full.png" target="_blank"><img src="/assets/images/classification-b-dataset/01_a2ch-full.png" alt="a2ch-full" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/01_a2ch-full.png" target="_blank"><img src="/assets/images/datasets/TTE47/01_a2ch-full.png" alt="a2ch-full" width="180"></a></td>
         <td><code>a2ch-full</code></td>
         <td>Apical 2-chamber, covering the depth of the whole of the LV and LA</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/02_a2ch-la.png" target="_blank"><img src="/assets/images/classification-b-dataset/02_a2ch-la.png" alt="a2ch-la" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/02_a2ch-la.png" target="_blank"><img src="/assets/images/datasets/TTE47/02_a2ch-la.png" alt="a2ch-la" width="180"></a></td>
         <td><code>a2ch-la</code></td>
         <td>A2CH with Doppler near MV/LA <strong>or</strong> 2D not covering full LV depth</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/03_a2ch-lv.png" target="_blank"><img src="/assets/images/classification-b-dataset/03_a2ch-lv.png" alt="a2ch-lv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/03_a2ch-lv.png" target="_blank"><img src="/assets/images/datasets/TTE47/03_a2ch-lv.png" alt="a2ch-lv" width="180"></a></td>
         <td><code>a2ch-lv</code></td>
         <td>A2CH covering the whole depth of the LV, but not the whole depth of the LA</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/04_a3ch-full.png" target="_blank"><img src="/assets/images/classification-b-dataset/04_a3ch-full.png" alt="a3ch-full" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/04_a3ch-full.png" target="_blank"><img src="/assets/images/datasets/TTE47/04_a3ch-full.png" alt="a3ch-full" width="180"></a></td>
         <td><code>a3ch-full</code></td>
         <td>Apical 3-chamber, covering the whole depth of the LV and the LA</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/05_a3ch-la.png" target="_blank"><img src="/assets/images/classification-b-dataset/05_a3ch-la.png" alt="a3ch-la" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/05_a3ch-la.png" target="_blank"><img src="/assets/images/datasets/TTE47/05_a3ch-la.png" alt="a3ch-la" width="180"></a></td>
         <td><code>a3ch-la</code></td>
         <td>A3CH with Doppler near MV/LA <strong>or</strong> 2D not covering full LV</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/06_a3ch-lv.png" target="_blank"><img src="/assets/images/classification-b-dataset/06_a3ch-lv.png" alt="a3ch-lv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/06_a3ch-lv.png" target="_blank"><img src="/assets/images/datasets/TTE47/06_a3ch-lv.png" alt="a3ch-lv" width="180"></a></td>
         <td><code>a3ch-lv</code></td>
         <td>A3CH covering the whole depth of the LV, but not the whole depth of the LA</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/07_a3ch-outflow.png" target="_blank"><img src="/assets/images/classification-b-dataset/07_a3ch-outflow.png" alt="a3ch-outflow" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/07_a3ch-outflow.png" target="_blank"><img src="/assets/images/datasets/TTE47/07_a3ch-outflow.png" alt="a3ch-outflow" width="180"></a></td>
         <td><code>a3ch-outflow</code></td>
         <td>A3CH emphasizing LVOT (colour focused on LVOT or limited b&w of LVOT area)</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/08_a4ch-full.png" target="_blank"><img src="/assets/images/classification-b-dataset/08_a4ch-full.png" alt="a4ch-full" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/08_a4ch-full.png" target="_blank"><img src="/assets/images/datasets/TTE47/08_a4ch-full.png" alt="a4ch-full" width="180"></a></td>
         <td><code>a4ch-full</code></td>
         <td>Apical 4-chamber showing the full depth of all four chambers (no LV/RV focus)</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/09_a4ch-ias.png" target="_blank"><img src="/assets/images/classification-b-dataset/09_a4ch-ias.png" alt="a4ch-ias" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/09_a4ch-ias.png" target="_blank"><img src="/assets/images/datasets/TTE47/09_a4ch-ias.png" alt="a4ch-ias" width="180"></a></td>
         <td><code>a4ch-ias</code></td>
         <td>Apical 4-chamber, focused on the inter-atrial septum</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/10_a4ch-la.png" target="_blank"><img src="/assets/images/classification-b-dataset/10_a4ch-la.png" alt="a4ch-la" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/10_a4ch-la.png" target="_blank"><img src="/assets/images/datasets/TTE47/10_a4ch-la.png" alt="a4ch-la" width="180"></a></td>
         <td><code>a4ch-la</code></td>
         <td>A4CH with Doppler near MV/LA <strong>or</strong> 2D covering full LA, not full LV</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/11_a4ch-lv.png" target="_blank"><img src="/assets/images/classification-b-dataset/11_a4ch-lv.png" alt="a4ch-lv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/11_a4ch-lv.png" target="_blank"><img src="/assets/images/datasets/TTE47/11_a4ch-lv.png" alt="a4ch-lv" width="180"></a></td>
         <td><code>a4ch-lv</code></td>
         <td>A4CH covering the whole depth of the LV, not the whole depth of the LA</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/12_a4ch-ra.png" target="_blank"><img src="/assets/images/classification-b-dataset/12_a4ch-ra.png" alt="a4ch-ra" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/12_a4ch-ra.png" target="_blank"><img src="/assets/images/datasets/TTE47/12_a4ch-ra.png" alt="a4ch-ra" width="180"></a></td>
         <td><code>a4ch-ra</code></td>
         <td>Apical 4-chamber focused on the right atrium, or colour Doppler on TV/RA</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/13_a4ch-rv.png" target="_blank"><img src="/assets/images/classification-b-dataset/13_a4ch-rv.png" alt="a4ch-rv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/13_a4ch-rv.png" target="_blank"><img src="/assets/images/datasets/TTE47/13_a4ch-rv.png" alt="a4ch-rv" width="180"></a></td>
         <td><code>a4ch-rv</code></td>
         <td>Apical 4-chamber focused on the right ventricle</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/14_a5ch-full.png" target="_blank"><img src="/assets/images/classification-b-dataset/14_a5ch-full.png" alt="a5ch-full" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/14_a5ch-full.png" target="_blank"><img src="/assets/images/datasets/TTE47/14_a5ch-full.png" alt="a5ch-full" width="180"></a></td>
         <td><code>a5ch-full</code></td>
         <td>Apical 5-chamber from apex to back of the atria, <strong>no</strong> LVOT colour</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/15_a5ch-outflow.png" target="_blank"><img src="/assets/images/classification-b-dataset/15_a5ch-outflow.png" alt="a5ch-outflow" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/15_a5ch-outflow.png" target="_blank"><img src="/assets/images/datasets/TTE47/15_a5ch-outflow.png" alt="a5ch-outflow" width="180"></a></td>
         <td><code>a5ch-outflow</code></td>
         <td>A5CH including LVOT; may lack full depth <strong>or</strong> has LVOT colour</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/16_apex.png" target="_blank"><img src="/assets/images/classification-b-dataset/16_apex.png" alt="apex" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/16_apex.png" target="_blank"><img src="/assets/images/datasets/TTE47/16_apex.png" alt="apex" width="180"></a></td>
         <td><code>apex</code></td>
         <td>Any apical window whose depth is insufficient to reach the mitral ring</td>
       </tr>
@@ -306,42 +313,42 @@ button:hover {
     </thead>
     <tbody>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/25_plax-full-la.png" target="_blank"><img src="/assets/images/classification-b-dataset/25_plax-full-la.png" alt="plax-full-la" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/25_plax-full-la.png" target="_blank"><img src="/assets/images/datasets/TTE47/25_plax-full-la.png" alt="plax-full-la" width="180"></a></td>
         <td><code>plax-full-la</code></td>
         <td>Parasternal long-axis, sector covers whole LA; intended for LA measurements</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/26_plax-full-lv.png" target="_blank"><img src="/assets/images/classification-b-dataset/26_plax-full-lv.png" alt="plax-full-lv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/26_plax-full-lv.png" target="_blank"><img src="/assets/images/datasets/TTE47/26_plax-full-lv.png" alt="plax-full-lv" width="180"></a></td>
         <td><code>plax-full-lv</code></td>
         <td>PLAX with imaging sector covering LV but not the whole LA</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/27_plax-full-mv.png" target="_blank"><img src="/assets/images/classification-b-dataset/27_plax-full-mv.png" alt="plax-full-mv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/27_plax-full-mv.png" target="_blank"><img src="/assets/images/datasets/TTE47/27_plax-full-mv.png" alt="plax-full-mv" width="180"></a></td>
         <td><code>plax-full-mv</code></td>
         <td>PLAX centered on MV (heavy zoom losing LA/LV parts or MV colour)</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/28_plax-full-out.png" target="_blank"><img src="/assets/images/classification-b-dataset/28_plax-full-out.png" alt="plax-full-out" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/28_plax-full-out.png" target="_blank"><img src="/assets/images/datasets/TTE47/28_plax-full-out.png" alt="plax-full-out" width="180"></a></td>
         <td><code>plax-full-out</code></td>
         <td>Zoomed-out PLAX</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/29_plax-full-rv-ao.png" target="_blank"><img src="/assets/images/classification-b-dataset/29_plax-full-rv-ao.png" alt="plax-full-rv-ao" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/29_plax-full-rv-ao.png" target="_blank"><img src="/assets/images/datasets/TTE47/29_plax-full-rv-ao.png" alt="plax-full-rv-ao" width="180"></a></td>
         <td><code>plax-full-rv-ao</code></td>
         <td>Focus on RV &amp; aorta or colour Doppler over RV/AV/Aorta</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/30_plax-tv.png" target="_blank"><img src="/assets/images/classification-b-dataset/30_plax-tv.png" alt="plax-tv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/30_plax-tv.png" target="_blank"><img src="/assets/images/datasets/TTE47/30_plax-tv.png" alt="plax-tv" width="180"></a></td>
         <td><code>plax-tv</code></td>
         <td>Parasternal inflow view including tricuspid valve</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/31_plax-valves-av.png" target="_blank"><img src="/assets/images/classification-b-dataset/31_plax-valves-av.png" alt="plax-valves-av" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/31_plax-valves-av.png" target="_blank"><img src="/assets/images/datasets/TTE47/31_plax-valves-av.png" alt="plax-valves-av" width="180"></a></td>
         <td><code>plax-valves-av</code></td>
         <td>PLAX focused on the aortic valve</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/32_plax-valves-mv.png" target="_blank"><img src="/assets/images/classification-b-dataset/32_plax-valves-mv.png" alt="plax-valves-mv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/32_plax-valves-mv.png" target="_blank"><img src="/assets/images/datasets/TTE47/32_plax-valves-mv.png" alt="plax-valves-mv" width="180"></a></td>
         <td><code>plax-valves-mv</code></td>
         <td>PLAX focused on the mitral valve</td>
       </tr>
@@ -360,37 +367,37 @@ button:hover {
     </thead>
     <tbody>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/33_psax-all.png" target="_blank"><img src="/assets/images/classification-b-dataset/33_psax-all.png" alt="psax-all" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/33_psax-all.png" target="_blank"><img src="/assets/images/datasets/TTE47/33_psax-all.png" alt="psax-all" width="180"></a></td>
         <td><code>psax-all</code></td>
         <td>Valve level, field of view covers TV/AV/PV positions</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/34_psax-tv.png" target="_blank"><img src="/assets/images/classification-b-dataset/34_psax-tv.png" alt="psax-tv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/34_psax-tv.png" target="_blank"><img src="/assets/images/datasets/TTE47/34_psax-tv.png" alt="psax-tv" width="180"></a></td>
         <td><code>psax-tv</code></td>
         <td>Focused on tricuspid valve</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/35_psax-av.png" target="_blank"><img src="/assets/images/classification-b-dataset/35_psax-av.png" alt="psax-av" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/35_psax-av.png" target="_blank"><img src="/assets/images/datasets/TTE47/35_psax-av.png" alt="psax-av" width="180"></a></td>
         <td><code>psax-av</code></td>
         <td>Focused on aortic valve</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/36_psax-pv.png" target="_blank"><img src="/assets/images/classification-b-dataset/36_psax-pv.png" alt="psax-pv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/36_psax-pv.png" target="_blank"><img src="/assets/images/datasets/TTE47/36_psax-pv.png" alt="psax-pv" width="180"></a></td>
         <td><code>psax-pv</code></td>
         <td>Focused on pulmonary valve</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/37_psax-lv-base.png" target="_blank"><img src="/assets/images/classification-b-dataset/37_psax-lv-base.png" alt="psax-lv-base" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/37_psax-lv-base.png" target="_blank"><img src="/assets/images/datasets/TTE47/37_psax-lv-base.png" alt="psax-lv-base" width="180"></a></td>
         <td><code>psax-lv-base</code></td>
         <td>Left ventricle base level</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/38_psax-lv-mid.png" target="_blank"><img src="/assets/images/classification-b-dataset/38_psax-lv-mid.png" alt="psax-lv-mid" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/38_psax-lv-mid.png" target="_blank"><img src="/assets/images/datasets/TTE47/38_psax-lv-mid.png" alt="psax-lv-mid" width="180"></a></td>
         <td><code>psax-lv-mid</code></td>
         <td>Left ventricle mid level</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/39_psax-lv-apex.png" target="_blank"><img src="/assets/images/classification-b-dataset/39_psax-lv-apex.png" alt="psax-lv-apex" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/39_psax-lv-apex.png" target="_blank"><img src="/assets/images/datasets/TTE47/39_psax-lv-apex.png" alt="psax-lv-apex" width="180"></a></td>
         <td><code>psax-lv-apex</code></td>
         <td>Left ventricle apex level</td>
       </tr>
@@ -409,27 +416,27 @@ button:hover {
     </thead>
     <tbody>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/40_mmode-a4ch-rv.png" target="_blank"><img src="/assets/images/classification-b-dataset/40_mmode-a4ch-rv.png" alt="mmode-a4ch-rv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/40_mmode-a4ch-rv.png" target="_blank"><img src="/assets/images/datasets/TTE47/40_mmode-a4ch-rv.png" alt="mmode-a4ch-rv" width="180"></a></td>
         <td><code>mmode-a4ch-rv</code></td>
         <td>M-mode for measuring TAPSE</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/41_mmode-ivc.png" target="_blank"><img src="/assets/images/classification-b-dataset/41_mmode-ivc.png" alt="mmode-ivc" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/41_mmode-ivc.png" target="_blank"><img src="/assets/images/datasets/TTE47/41_mmode-ivc.png" alt="mmode-ivc" width="180"></a></td>
         <td><code>mmode-ivc</code></td>
         <td>M-mode of the inferior vena cava</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/42_mmode-plax-av.png" target="_blank"><img src="/assets/images/classification-b-dataset/42_mmode-plax-av.png" alt="mmode-plax-av" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/42_mmode-plax-av.png" target="_blank"><img src="/assets/images/datasets/TTE47/42_mmode-plax-av.png" alt="mmode-plax-av" width="180"></a></td>
         <td><code>mmode-plax-av</code></td>
         <td>M-mode of the aortic valve in PLAX</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/43_mmode-plax-lv.png" target="_blank"><img src="/assets/images/classification-b-dataset/43_mmode-plax-lv.png" alt="mmode-plax-lv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/43_mmode-plax-lv.png" target="_blank"><img src="/assets/images/datasets/TTE47/43_mmode-plax-lv.png" alt="mmode-plax-lv" width="180"></a></td>
         <td><code>mmode-plax-lv</code></td>
         <td>M-mode in PLAX focused on LV walls</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/44_mmode-plax-mitral.png" target="_blank"><img src="/assets/images/classification-b-dataset/44_mmode-plax-mitral.png" alt="mmode-plax-mitral" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/44_mmode-plax-mitral.png" target="_blank"><img src="/assets/images/datasets/TTE47/44_mmode-plax-mitral.png" alt="mmode-plax-mitral" width="180"></a></td>
         <td><code>mmode-plax-mitral</code></td>
         <td>M-mode in PLAX focused on the mitral valve</td>
       </tr>
@@ -448,17 +455,17 @@ button:hover {
     </thead>
     <tbody>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/45_subcostal-heart.png" target="_blank"><img src="/assets/images/classification-b-dataset/45_subcostal-heart.png" alt="subcostal-heart" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/45_subcostal-heart.png" target="_blank"><img src="/assets/images/datasets/TTE47/45_subcostal-heart.png" alt="subcostal-heart" width="180"></a></td>
         <td><code>subcostal-heart</code></td>
         <td>Subcostal window, focused on the heart</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/46_subcostal-ivc.png" target="_blank"><img src="/assets/images/classification-b-dataset/46_subcostal-ivc.png" alt="subcostal-ivc" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/46_subcostal-ivc.png" target="_blank"><img src="/assets/images/datasets/TTE47/46_subcostal-ivc.png" alt="subcostal-ivc" width="180"></a></td>
         <td><code>subcostal-ivc</code></td>
         <td>Subcostal window, focused on the inferior vena cava</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/47_suprasternal.png" target="_blank"><img src="/assets/images/classification-b-dataset/47_suprasternal.png" alt="suprasternal" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/47_suprasternal.png" target="_blank"><img src="/assets/images/datasets/TTE47/47_suprasternal.png" alt="suprasternal" width="180"></a></td>
         <td><code>suprasternal</code></td>
         <td>Suprasternal view</td>
       </tr>
@@ -476,42 +483,42 @@ button:hover {
     </thead>
     <tbody>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/17_doppler-ao.png" target="_blank"><img src="/assets/images/classification-b-dataset/17_doppler-ao.png" alt="doppler-ao" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/17_doppler-ao.png" target="_blank"><img src="/assets/images/datasets/TTE47/17_doppler-ao.png" alt="doppler-ao" width="180"></a></td>
         <td><code>doppler-ao</code></td>
         <td>Spectral Doppler of the descending aorta</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/18_doppler-av.png" target="_blank"><img src="/assets/images/classification-b-dataset/18_doppler-av.png" alt="doppler-av" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/18_doppler-av.png" target="_blank"><img src="/assets/images/datasets/TTE47/18_doppler-av.png" alt="doppler-av" width="180"></a></td>
         <td><code>doppler-av</code></td>
         <td>Spectral Doppler of the aortic valve</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/19_doppler-mv.png" target="_blank"><img src="/assets/images/classification-b-dataset/19_doppler-mv.png" alt="doppler-mv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/19_doppler-mv.png" target="_blank"><img src="/assets/images/datasets/TTE47/19_doppler-mv.png" alt="doppler-mv" width="180"></a></td>
         <td><code>doppler-mv</code></td>
         <td>Spectral Doppler of the mitral valve</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/20_doppler-pv.png" target="_blank"><img src="/assets/images/classification-b-dataset/20_doppler-pv.png" alt="doppler-pv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/20_doppler-pv.png" target="_blank"><img src="/assets/images/datasets/TTE47/20_doppler-pv.png" alt="doppler-pv" width="180"></a></td>
         <td><code>doppler-pv</code></td>
         <td>Spectral Doppler of the pulmonary valve</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/21_doppler-tissue-lateral.png" target="_blank"><img src="/assets/images/classification-b-dataset/21_doppler-tissue-lateral.png" alt="doppler-tissue-lateral" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/21_doppler-tissue-lateral.png" target="_blank"><img src="/assets/images/datasets/TTE47/21_doppler-tissue-lateral.png" alt="doppler-tissue-lateral" width="180"></a></td>
         <td><code>doppler-tissue-lateral</code></td>
         <td>Tissue Doppler of the LV lateral wall</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/22_doppler-tissue-rv.png" target="_blank"><img src="/assets/images/classification-b-dataset/22_doppler-tissue-rv.png" alt="doppler-tissue-rv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/22_doppler-tissue-rv.png" target="_blank"><img src="/assets/images/datasets/TTE47/22_doppler-tissue-rv.png" alt="doppler-tissue-rv" width="180"></a></td>
         <td><code>doppler-tissue-rv</code></td>
         <td>Tissue Doppler of the RV free wall</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/23_doppler-tissue-septal.png" target="_blank"><img src="/assets/images/classification-b-dataset/23_doppler-tissue-septal.png" alt="doppler-tissue-septal" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/23_doppler-tissue-septal.png" target="_blank"><img src="/assets/images/datasets/TTE47/23_doppler-tissue-septal.png" alt="doppler-tissue-septal" width="180"></a></td>
         <td><code>doppler-tissue-septal</code></td>
         <td>Tissue Doppler of the LV septal wall</td>
       </tr>
       <tr>
-        <td><a href="/assets/images/classification-b-dataset/24_doppler-tv.png" target="_blank"><img src="/assets/images/classification-b-dataset/24_doppler-tv.png" alt="doppler-tv" width="180"></a></td>
+        <td><a href="/assets/images/datasets/TTE47/24_doppler-tv.png" target="_blank"><img src="/assets/images/datasets/TTE47/24_doppler-tv.png" alt="doppler-tv" width="180"></a></td>
         <td><code>doppler-tv</code></td>
         <td>Spectral Doppler of the tricuspid valve</td>
       </tr>

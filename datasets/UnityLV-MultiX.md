@@ -17,7 +17,6 @@ permalink: /datasets/UnityLV-MultiX/
 
 <div class="page-wrap" markdown="1">
 
-<br style="clear:both;"> -->
 <div style="text-align:right; margin:10px 0;">
   <img src="/assets/images/logo/imperial_BHF.png" 
        alt="Project Logos" 

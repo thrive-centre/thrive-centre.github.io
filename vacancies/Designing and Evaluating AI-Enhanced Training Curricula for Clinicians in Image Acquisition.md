@@ -2,7 +2,7 @@
 layout: posts
 toc: true
 toc_sticky: true
-author_profile: false
+author_profile: true
 date: 2025-09-17
 title: "Designing and Evaluating AI-Enhanced Training Curricula for Clinicians in Image Acquisition"
 permalink: /vacancies/Designing and Evaluating AI-Enhanced Training Curricula for Clinicians in Image Acquisition/

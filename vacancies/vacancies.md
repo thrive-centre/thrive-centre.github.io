@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Vacancies
+author_profile: ture
 permalink: /vacancies/vacancies/
 ---
 
@@ -38,15 +39,15 @@ For each vacancy, please contact the relevant project supervisor(s) for informal
 
 We are currently recruiting for the following specific projects:  
 
-- [Investigation of Ocular Implications in Alport Syndrome (kidney disorder) through Deep Learning](https://intsav.github.io/Alport.html)  
-- [AI-Enhanced home-based Optical Coherence Tomography for Eye Care](https://intsav.github.io/Home_OCT.html)  
-- [AI for Risk Assessment in Emergency Department Presentations](https://intsav.github.io/Risk_Assessment_ED.html)  
-- [AI-Guided Biofabrication for Brain Tissue Regeneration](https://intsav.github.io/biopriniting.html)  
-- [UI Development for AI-Guided Echocardiography](https://intsav.github.io/EchoUI.html)  
-- [AI-Driven Assessment of Echocardiographic Image Quality](https://intsav.github.io/ImageQuality.html)  
-- [Immersive Medical Training](https://intsav.github.io/ImmersiveTraining.html)  
-- [Integrative AI for Echocardiographic Diagnosis: Enhancing Interpretation through Text-Image Fusion](https://intsav.github.io/echo_text_image_fusion.html)  
-- [Analyzing morphological alternations of vessels in Multiple Sclerosis using SLO images of the eyes](https://intsav.github.io/sclerosis.html)  
+- [Investigation of Ocular Implications in Alport Syndrome (kidney disorder) through Deep Learning](/vacancies/alport-syndrome/)  
+- [AI-Enhanced home-based Optical Coherence Tomography for Eye Care](/vacancies/home-oct/)  
+- [AI for Risk Assessment in Emergency Department Presentations](/vacancies/risk-assessment-ed/)  
+- [AI-Guided Biofabrication for Brain Tissue Regeneration](/vacancies/bioprinting/)  
+- [UI Development for AI-Guided Echocardiography](/vacancies/EchoUI/)  
+- [AI-Driven Assessment of Echocardiographic Image Quality](/vacancies/EchoQuality/)  
+- [Immersive Medical Training](/vacancies/EchoVR/)  
+- [Integrative AI for Echocardiographic Diagnosis: Enhancing Interpretation through Text-Image Fusion](/vacancies/echo_text_image_fusion/)  
+- [Analyzing morphological alternations of vessels in Multiple Sclerosis using SLO images of the eyes](/vacancies/MS-SLO/)  
 - [Designing and Evaluating AI-Enhanced Training Curricula for Clinicians in Image Acquisition](/vacancies/Designing and Evaluating AI-Enhanced Training Curricula for Clinicians in Image Acquisition/)
 
 ---
@@ -65,10 +66,8 @@ PhD programmes are funded for a 3-year period, and can start in February, May, a
 - **Home/settled/International students:** Sunday 21 September 2025 at 23:59pm  
 
 ---
+[Apply Now](https://evision.uwl.ac.uk/urd/sits.urd/run/siw_file_load.sso?snzSx5iEuwGggL9kmQINlTHSpjOaEuhcIx2VpyqTi8FtlAlvUN){: .btn .btn--primary .btn--large target="_blank"}
 
-<div class="text-center mt-4">
-  <a href="https://evision.uwl.ac.uk/urd/sits.urd/run/siw_file_load.sso?snzSx5iEuwGggL9kmQINlTHSpjOaEuhcIx2VpyqTi8FtlAlvUN" 
-     target="_blank" class="btn btn-primary btn-lg">Apply Now</a>
-</div>
+
 
 </div>

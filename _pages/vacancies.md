@@ -41,16 +41,9 @@ For each vacancy, please contact the relevant project supervisor(s) for informal
 
 We are currently recruiting for the following specific projects:  
 
-- [Investigation of Ocular Implications in Alport Syndrome (kidney disorder) through Deep Learning](/vacancies/alport-syndrome/)  
-- [AI-Enhanced home-based Optical Coherence Tomography for Eye Care](/vacancies/home-oct/)  
-- [AI for Risk Assessment in Emergency Department Presentations](/vacancies/risk-assessment-ed/)  
-- [AI-Guided Biofabrication for Brain Tissue Regeneration](/vacancies/bioprinting/)  
-- [UI Development for AI-Guided Echocardiography](/vacancies/EchoUI/)  
-- [AI-Driven Assessment of Echocardiographic Image Quality](/vacancies/EchoQuality/)  
-- [Immersive Medical Training](/vacancies/EchoVR/)  
-- [Integrative AI for Echocardiographic Diagnosis: Enhancing Interpretation through Text-Image Fusion](/vacancies/echo_text_image_fusion/)  
-- [Analyzing morphological alternations of vessels in Multiple Sclerosis using SLO images of the eyes](/vacancies/MS-SLO/)  
-- [Designing and Evaluating AI-Enhanced Training Curricula for Clinicians in Image Acquisition](/vacancies/Designing and Evaluating AI-Enhanced Training Curricula for Clinicians in Image Acquisition/)
+{% for vac in site.vacancies %}
+  -[{{ vac.title }}]({{ vac.url }})
+{% endfor %}
 
 ---
 

@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: single
 title: Vacancies
 author_profile: ture
-permalink: /vacancies/vacancies/
+permalink: /vacancies/
+toc: true
+toc_sticky: true
 ---
 
 <!-- PAGE STYLES + WRAPPER -->

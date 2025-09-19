@@ -207,6 +207,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  vacancies:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -284,6 +287,15 @@ defaults:
     values:
       layout: splash
       author_profile: false
+      share: false
+      comments: false
+  # _vacancies
+  - scope:
+      path: ""
+      type: vacancies
+    values:
+      layout: single
+      author_profile: true
       share: false
       comments: false
 

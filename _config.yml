@@ -210,6 +210,9 @@ collections:
   vacancies:
     output: true
     permalink: /:collection/:path/
+  datasets:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -298,7 +301,15 @@ defaults:
       author_profile: true
       share: false
       comments: false
-
+  # _datasets
+  - scope:
+      path: ""
+      type: datasets
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
 
 # Sass/SCSS
 sass:

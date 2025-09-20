@@ -1,3 +1,11 @@
+---
+layout: single
+title: TTE47 — Dataset Card & Reference Gallery
+author_profile: true
+permalink: /datasets/TTE47
+toc: true
+toc_sticky: true
+---
 <!-- PAGE STYLES + WRAPPER (add at very top, before # TTE47 …) -->
 <style>
   :root{ --primary:#2563eb; --primary-700:#1d4ed8; --border:#e5e7eb; }
@@ -17,15 +25,15 @@
 </style>
 <div class="page-wrap" markdown="1">
 
-<div style="text-align:right; margin:10px 0;">
+<!-- <div style="text-align:right; margin:10px 0;">
   <img src="/assets/images/logo/imperial_BHF.png" 
        alt="Project Logos" 
        style="max-width:250px; height:auto; float:right; margin-left:20px;">
-</div>
+</div> -->
 
 
 
-# TTE47 — Dataset Card & Reference Gallery
+<!-- # TTE47 — Dataset Card & Reference Gallery -->
 
 > **TTE47** is a dataset derived from a random sample of real-world echocardiographic studies collected at Imperial College Healthcare NHS Trust, comprising a total of **91,139 images**. Ethical approval for the study was granted by the Health Research Authority (Integrated Research Application System IRAS identifier: 243023). Only studies with complete demographic information and without intravenous contrast were included.
 
@@ -37,7 +45,7 @@ The **test subset**, containing **5,447 images** with annotations from all three
 
 ---
 
-<style>
+<!-- <style>
 .contents-box {
   background: #f1f5f9;
   border: 1px solid #ccc;
@@ -67,7 +75,7 @@ The **test subset**, containing **5,447 images** with annotations from all three
   <a href="#reference-gallery-47-classes">Reference Gallery (47 Classes)</a>
   <a href="#license--ethics">License & Ethics</a>
   <a href="#contact--access">Contact / Access</a>
-</div>
+</div> -->
 
 ---
 
@@ -210,6 +218,7 @@ button:hover {
   background-color: #005a9e;
 }
 </style>
+
 
 <section class="cat-section" id="apical" data-cat="apical">
   <h3>Apical (16 views)</h3>

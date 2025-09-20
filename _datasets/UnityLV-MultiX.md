@@ -1,12 +1,14 @@
 ---
-layout: default
-title: UnityLV-MultiX
-permalink: /datasets/test_multix/
-
+layout: single
+title: UnityLV-MultiX Dataset
+author_profile: true
+permalink: /datasets/UnityLV-MultiX
+toc: true
+toc_sticky: true
 ---
 
 <!-- PAGE STYLES + WRAPPER -->
-<style>
+<!-- <style>
   :root{ --primary:#2563eb; --primary-700:#1d4ed8; --border:#e5e7eb; }
   .page-wrap{ max-width:1500px; margin:0 auto; padding:28px; }
   .cat-section{ margin:28px 0; scroll-margin-top:80px; }
@@ -15,22 +17,16 @@ permalink: /datasets/test_multix/
   th,td{ padding:10px; border-bottom:1px solid var(--border); vertical-align:top; }
 </style>
 
-<div class="page-wrap" markdown="1">
+<div class="page-wrap" markdown="1"> -->
 
-<!-- <div style="text-align:left; margin:10px 0;">
-  <img src="/assets/images/logo/imperial_BHF.png" 
-       alt="Project Logos" 
-       style="max-width:180px; height:auto; float:left; margin-right:20px;">
-</div>
-<br style="clear:both;"> -->
-<div style="text-align:right; margin:10px 0;">
+<!-- <div style="text-align:right; margin:10px 0;">
   <img src="/assets/images/logo/imperial_BHF.png" 
        alt="Project Logos" 
        style="max-width:250px; height:auto; float:right; margin-left:20px;">
-</div>
+</div> -->
 
 
-# UnityLV-MultiX Dataset
+<!-- # UnityLV-MultiX Dataset -->
 
 The images used in this dataset were sourced from the Imperial College Healthcare NHS Trust, comprises 100 apical four-chamber (A4C) echocardiography videos collected in 2019. This dataset features a closely balanced gender distribution, with 47% male and 53% female participants, and a median age of 60 years (interquartile range: 48.5–73.0). For each video, one end-diastolic (ED) frame and one end-systolic (ES) frame were extracted, resulting in a total of 200 images. These images were independently annotated by 11 experts, who were unaware of each other’s annotations. This dataset serves as an independent external test for evaluation purposes.
 
@@ -99,4 +95,4 @@ We aim to make the dataset available for research purposes soon.
   <textarea name="message" rows="5" placeholder="Please let us know why you would like access to this dataset and what you intend to use it for" required></textarea><br><br>
   <button type="submit">Submit</button>
 </form>
-</div>
+<!-- </div> -->

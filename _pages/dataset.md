@@ -44,8 +44,8 @@ Join our annotation projects and help shape the future of cardiac imaging.
 - [ TTE47 — Dataset Card & Reference Gallery](/datasets/TTE47) 
 - [UnityLV-MultiX Dataset](/datasets/UnityLV-MultiX)   
 - [UNITY EchoPhase](/datasets/EchoPhase)
-- [Mitral Inflow](/datasets/MInD) 
-- [Tissue Doppler Imaging](/datasets/EchoTDI)  
+- [UNITY MInD](/datasets/MInD) 
+- [UNITY EchoTDI](/datasets/EchoTDI)  
 
 ---
 

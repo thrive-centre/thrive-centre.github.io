@@ -93,6 +93,20 @@ We aim to make the dataset available for research purposes soon.
   <input type="text" name="institution" placeholder="Institution/Workplace" required><br><br>
   <input type="text" name="dataset" value="UnityLV-MultiX" readonly>
   <textarea name="message" rows="5" placeholder="Please let us know why you would like access to this dataset and what you intend to use it for" required></textarea><br><br>
-  <button type="submit">Submit</button>
+  <button type="submit" class="btn-custom">Submit</button>
 </form>
-<!-- </div> -->
+<style>
+.btn-custom {
+  background-color: #0078D7;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-custom:hover {
+  background-color: #005a9e;
+}
+</style>
+

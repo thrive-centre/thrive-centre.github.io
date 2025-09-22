@@ -1,13 +1,21 @@
 ---
-layout: single
-title: UNITY EchoPhase — Multibeat Echocardiographic Phase Detection
-author_profile: true
+layout: default
+title: UNITY EchoTDI
 permalink: /datasets/EchoPhase
-toc: true
-toc_sticky: true
 ---
 
-<!-- # UNITY EchoPhase — Multibeat Echocardiographic Phase Detection -->
+<link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
+
+<div class="page-wrap" markdown="1">
+
+
+# UNITY EchoPhase — Multibeat Echocardiographic Phase Detection
+
+{: .text-center}
+[Go directly to Request Datasets](#req-data){: .btn .btn--primary .btn--large}
+[Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large}
+[Go directly to References](#reference){: .btn .btn--primary .btn--large}
+
 
 Our team has developed an automated model capable of identifying multiple **end-systolic (ES)** and **end-diastolic (ED)** frames in echocardiographic videos of arbitrary length with performance indistinguishable from human experts, but with significantly shorter processing time.  
 
@@ -54,7 +62,7 @@ The model is spatially and temporally deep, capable of processing multi-beat seq
 
 ---
 
-## Implementation
+## Implementation {#code-repo}
 
 - Framework: **TensorFlow 2.0**  
 - Hardware: **NVIDIA GTX 1080 Ti GPU**  
@@ -97,7 +105,7 @@ Also reported:
 
 ---
 
-## Request Dataset Access
+## Request Dataset Access {#req-data}
 
 We have made the **PACS-dataset** public for benchmarking.  
 
@@ -114,22 +122,9 @@ The dataset includes:
   <input type="text" name="institution" placeholder="Institution/Workplace" required><br><br>
   <input type="text" name="dataset" value="EchoPhase (PACS)" readonly>
   <textarea name="message" rows="5" placeholder="Please let us know why you would like access to this dataset and what you intend to use it for" required></textarea><br><br>
-  <button type="submit" class="btn-custom">Submit</button>
+  <button type="submit" class="btn btn--primary btn--large">Submit</button>
 </form>
-<style>
-.btn-custom {
-  background-color: #0078D7;
-  color: white;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-}
-.btn-custom:hover {
-  background-color: #005a9e;
-}
-</style>
+
 
 ---
 
@@ -154,6 +149,6 @@ Computers in Biology and Medicine 133 (2021): 104373.
 
 ---
 
-## References
+## References {#reference}
 
 - [Multibeat Echocardiographic Phase Detection Using Deep Neural Networks — Computers in Biology and Medicine](https://www.sciencedirect.com/science/article/abs/pii/S0010482521001670)  

@@ -1,13 +1,30 @@
 ---
+layout: default
+title: UNITY EchoTDI
+permalink: /datasets/MInD
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
+
+<div class="page-wrap" markdown="1">
+
+<!-- 
+---
 layout: single
 title: UNITY MInD — Automated Analysis of Mitral Inflow Doppler
 author_profile: true
 permalink: /datasets/MInD
 toc: true
 toc_sticky: true
----
+--- -->
 
-<!-- # UNITY MInD — Automated Analysis of Mitral Inflow Doppler -->
+# UNITY MInD — Automated Analysis of Mitral Inflow Doppler
+
+{: .text-center}
+[Go directly to Request Datasets](#req-data){: .btn .btn--primary .btn--large}
+[Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large}
+[Go directly to References](#reference){: .btn .btn--primary .btn--large}
+
 
 ## Abstract
 
@@ -73,7 +90,7 @@ Framework: **TensorFlow**, GPU: **NVIDIA RTX3090**.
 
 ---
 
-## Request Dataset Access
+## Request Dataset Access {#req-data}
 
 We aim to make the **UNITY MInD dataset** available for research purposes soon.  
 
@@ -85,28 +102,10 @@ We aim to make the **UNITY MInD dataset** available for research purposes soon.
   <input type="text" name="institution" placeholder="Institution/Workplace" required><br><br>
   <input type="text" name="dataset" value="Mitral Inflow Doppler (UNITY MInD)" readonly>
   <textarea name="message" rows="5" placeholder="Please let us know why you would like access to this dataset and what you intend to use it for" required></textarea><br><br>
-  <!-- <button type="submit">Submit</button> -->
-  
-  <button type="submit" class="btn-custom">Submit</button>
+  <button type="submit" class="btn btn--primary btn--large">Submit</button>
 
 
 </form>
-
-<style>
-.btn-custom {
-  background-color: #0078D7;
-  color: white;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-}
-.btn-custom:hover {
-  background-color: #005a9e;
-}
-</style>
-
 
 
 ---

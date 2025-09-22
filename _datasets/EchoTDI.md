@@ -3,27 +3,17 @@ layout: default
 title: UNITY EchoTDI
 permalink: /datasets/EchoTDI/
 ---
-<!-- ---
-layout: single
-title: UNITY EchoTDI
-author_profile: true
-permalink: /datasets/EchoTDI/
-toc: true
-toc_sticky: true
---- -->
 
-<style>
-  :root{ --primary:#2563eb; --primary-700:#1d4ed8; --border:#e5e7eb; }
-  .page-wrap{ max-width:1500px; margin:0 auto; padding:28px; }
-  .cat-section{ margin:28px 0; scroll-margin-top:80px; }
-  table{ width:100%; border-collapse:collapse; }
-  thead th{ background:#f3f4f6; text-align:left; }
-  th,td{ padding:10px; border-bottom:1px solid var(--border); vertical-align:top; }
-</style>
+<link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
 
 <div class="page-wrap" markdown="1">
 
 # UNITY EchoTDI - Automated Multibeat Tissue Doppler Echocardiography Analysis Using Deep Neural Networks
+
+{: .text-center}
+[Go directly to Request Datasets](#req-data){: .btn .btn--primary .btn--large}
+<!-- [Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large} -->
+[Go directly to References](#reference){: .btn .btn--primary .btn--large}
 
 ---
 
@@ -94,7 +84,7 @@ A reliable automated system could:
 
 ---
 
-## Dataset Request
+## Dataset Request {#req-data}  
 We aim to make the dataset available for research purposes soon.  
 
 **Request access by completing the form below:**
@@ -105,22 +95,8 @@ We aim to make the dataset available for research purposes soon.
   <input type="text" name="institution" placeholder="Institution/Workplace" required><br><br>
   <input type="text" name="dataset" value="TDI" readonly><br><br>
   <textarea name="message" rows="5" placeholder="Why do you want access?" required></textarea><br><br>
-  <button type="submit" class="btn-custom">Submit</button>
+  <button type="submit" class="btn btn--primary btn--large">Submit</button>
 </form>
-<style>
-.btn-custom {
-  background-color: #0078D7;
-  color: white;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-}
-.btn-custom:hover {
-  background-color: #005a9e;
-}
-</style>
 
 
 ---
@@ -132,6 +108,6 @@ We aim to make the dataset available for research purposes soon.
 
 ---
 
-## References
+## References {#reference}
 - [TDI Beat and Keypoint Detection (Springer)](https://link.springer.com/article/10.1007/s10554-017-1092-4)  
 - [Automated Multi-beat TDI Analysis using Deep Neural Networks (Springer)](https://link.springer.com/article/10.1007/s11517-022-02753-3)  

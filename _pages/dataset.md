@@ -1,11 +1,16 @@
 ---
+layout: default
+title: 
+permalink: /datasets/
+---
+<!-- ---
 layout: single
 title: 
 author_profile: true
 permalink: /datasets/
 toc: true
 toc_sticky: true
----
+--- -->
 <!-- layout: single
 title: Datasets
 author_profile: true
@@ -13,6 +18,38 @@ permalink: /datasets/
 toc: true
 toc_sticky: true
 --- -->
+
+<!-- <style>
+  :root{ --primary:#2563eb; --primary-700:#1d4ed8; --border:#e5e7eb; }
+  .page-wrap{ max-width:1500px; margin:0 auto; padding:28px; }
+  .cat-section{ margin:28px 0; scroll-margin-top:80px; }
+  table{ width:100%; border-collapse:collapse; }
+  thead th{ background:#f3f4f6; text-align:left; }
+  th,td{ padding:10px; border-bottom:1px solid var(--border); vertical-align:top; }
+  .btn.btn--primary.btn--large {
+  background-color: #007bff;   /* Bright blue */
+  color: #fff !important;      /* White text */
+  border-radius: 8px;          /* Rounded corners */
+  padding: 12px 28px;          /* Larger button */
+  font-size: 18px;             /* Bigger text */
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.btn.btn--primary.btn--large:hover {
+  background-color: #0056b3;   /* Darker blue on hover */
+}
+
+</style> -->
+<link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
+<div class="page-wrap" markdown="1">
+
+<div style="text-align:right; margin:10px 0;">
+  <img src="/assets/images/logo/imperial_BHF.png" 
+       alt="Project Logos" 
+       style="max-width:250px; height:auto; float:right; margin-left:20px;">
+</div>
 
 {: .text-center}
 # Unity Biobank  
@@ -25,7 +62,9 @@ Creating a unique **AI-targeted biobank of expertise**, supported by the
 [BHF](https://www.bhf.org.uk/), [BSE](https://www.bsecho.org/), and [NIHR](https://www.nihr.ac.uk/).  
 
 {: .text-center}
-[Go directly to Open Projects](#completed-projects){: .btn .btn--primary .btn--large}
+[Go directly to Open Projects](#open-projects){: .btn .btn--primary .btn--large}
+[Go directly to Available Datasets](#completed-projects){: .btn .btn--primary .btn--large}
+[Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large}
 
 ---
 
@@ -89,7 +128,7 @@ Secure Google login required.
 
 ---
 
-## Open Projects  
+## Open Projects  {#open-projects}  
 
 ## Image Quality – A4C View  
 - [Foreshortening](foreshortening.html)  
@@ -119,7 +158,7 @@ Secure Google login required.
 
 ---
 
-## Code Repositories  
+## Code Repositories  {#code-repo}
 
 All datasets and supporting code are available at our GitHub:  
 👉 [github.com/intsav](https://github.com/intsav)  

@@ -40,7 +40,7 @@ toc_sticky: true
 
 {: .text-center}
 [Download Dataset](#req-data){: .btn .btn--primary .btn--large}
-[Train Model](/projects/echoforge){: .btn .btn--primary .btn--large}
+[Trained Model](/projects/echoforge){: .btn .btn--primary .btn--large}
 [References](#reference){: .btn .btn--primary .btn--large}
 
 > **TTE47** is a dataset derived from a random sample of real-world echocardiographic studies collected at Imperial College Healthcare NHS Trust, comprising a total of **91,139 images**. Ethical approval for the study was granted by the Health Research Authority (Integrated Research Application System IRAS identifier: 243023). Only studies with complete demographic information and without intravenous contrast were included.

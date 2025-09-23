@@ -13,7 +13,7 @@ permalink: /datasets/EchoPhase
 {: .text-center}
 [Download Dataset](#req-data){: .btn .btn--primary .btn--large}
 [Code Repository](https://github.com/intsav/EchoPhaseDetection){: .btn .btn--primary .btn--large}
-[Train Model](/projects/echoforge){: .btn .btn--primary .btn--large}
+[Trained Model](/projects/echoforge){: .btn .btn--primary .btn--large}
 [References](#reference){: .btn .btn--primary .btn--large}
 
 ---

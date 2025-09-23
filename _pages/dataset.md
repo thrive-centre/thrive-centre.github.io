@@ -161,9 +161,9 @@ Secure Google login required.
 
 **Available datasets (images and labels):**  
 
-- [TTE47 — Dataset Card & Reference Gallery](/datasets/TTE47)  
-- [UnityLV-MultiX Dataset](/datasets/UnityLV-MultiX)  
-- [UNITY EchoPhase](/datasets/EchoPhase)  
+- [TTE47](/datasets/TTE47) — Dataset Card & Reference Gallery 
+- [UnityLV-MultiX](/datasets/UnityLV-MultiX)  
+- [UNITY EchoPhase](/datasets/EchoPhase) — Multibeat Echocardiographic Phase Detection  
 - [UNITY MInD](/datasets/MInD)  
 - [UNITY EchoTDI](/datasets/EchoTDI)  
 

@@ -12,7 +12,7 @@ permalink: /datasets/EchoPhase
 
 {: .text-center}
 [Download Dataset](#req-data){: .btn .btn--primary .btn--large}
-[Code Repository](#code-repo){: .btn .btn--primary .btn--large}
+[Code Repository](https://github.com/intsav/EchoPhaseDetection){: .btn .btn--primary .btn--large}
 [Train Model](/projects/echoforge){: .btn .btn--primary .btn--large}
 [References](#reference){: .btn .btn--primary .btn--large}
 
@@ -21,48 +21,75 @@ permalink: /datasets/EchoPhase
 ## Overview
 
 The **UNITY EchoPhase dataset** provides echocardiographic videos annotated with key cardiac phases — **end-systolic (ES)** and **end-diastolic (ED)**.  
-These phases are essential for calculating heart function measures such as ejection fraction, chamber volume, and myocardial strain.
+These phases are essential for calculating heart function measures such as ejection fraction, chamber volume, and myocardial strain.  
 
 The dataset enables research into automated phase detection and provides a benchmark resource for validating methods against expert human annotations.
 
 ---
 
-## Dataset
+## Important Information about the Dataset
 
-The dataset is composed of **three complementary sources**:
+We took a **large random sample of echocardiographic studies (2010–2020)** from *Imperial College Healthcare NHS Trust’s echocardiogram database*.  
 
-- **PACS-dataset** – made public for this study (training & testing)  
-- **MultiBeat-dataset** – private, reserved for testing only  
-- **EchoNet-dataset** – public dataset (Stanford University), included for external testing  
+- **Ethical approval** was obtained from the Health Regulatory Agency for the anonymised export of imaging data.  
+- **Patient consent** was not required since data had originally been acquired for clinical purposes.  
+- **Acquisition**: Images were collected during examinations by experienced echocardiographers, following standard protocols on GE and Philips ultrasound systems.  
+- **Inclusion criteria**: Only studies with full demographic data, and without intravenous contrast administration.  
+- **Anonymisation**: Automated pipeline removed all patient-identifiable information.  
+- **View selection**: A CNN (developed in-house) detected different echo views, isolating **apical 4-chamber (A4C)**.  
+- **Dataset size**: 1,000 anonymised videos of varying lengths were randomly selected.  
+- **Annotation process**:  
+  - Two accredited cardiologists independently selected **ED** and **ES** frames.  
+  - Each was blinded to the other’s choices.  
+  - A custom annotation tool mimicking echo hardware (trackball/arrow navigation) was used.  
+  - This setup replicates clinical workflow for Biplane Simpson’s measurements.  
+- **Resolution**: All sequences were **downsampled to 112×112 pixels** via cubic interpolation.  
 
-Annotations were performed by experienced cardiologists, with multiple annotations available in some datasets to assess **inter- and intra-observer variability**.
+---
 
+## Label Metadata
+
+Each video in the dataset is accompanied by a structured label file:  
+
+- **Op1** → Operator 1 annotations (used for training/testing the model).  
+- **Op2** → Operator 2 annotations (used for evaluation of observer variability).  
+- **AVIname** → The anonymised video filename.  
+- **Number of Frames** → Total frame count per video.  
+- **Training/Testing** → Indicates the dataset split.  
+- **Beats** → Up to 4 beats annotated per file (extended beat labels available on request).  
+- **Missing cells** → Indicate either:  
+  - The first frame of interest was an ES frame, or  
+  - The annotator did not select a frame.  
+
+**Example Label File Preview:**  
+
+![Example Labels](/assets/images/datasets/EchoPhase/labels-example.png)
 ---
 
 ## Dataset Summary
 
-| Attribute | PACS-dataset | MultiBeat-dataset | EchoNet-dataset |
-|-----------|--------------|-------------------|-----------------|
-| **Source** | Public (NHS Trust PACS Archives, Imperial College Healthcare) | Private (St Mary’s Hospital) | Public (Stanford University, [EchoNet](https://echonet.github.io/dynamic)) |
-| **Ultrasound machine** | Philips iE33 xMATRIX | GE Vivid.i, Philips iE33 xMATRIX | Siemens Acuson SC2000, Philips iE33/Epiq 5G/7C |
-| **Videos/Patients** | 1,000 | 40 | 10,030 |
-| **Video length** | 1–3 heartbeats | ≥10 heartbeats | 1 heartbeat |
-| **Annotations** | 2 experts | 6 annotations by 5 experts (1 repeated) | 1 annotation |
-| **Resolution** | (300–768)×(400–1024) | 422×636 | 112×112 |
-| **Frame rate** | 23–102 fps | 52–80 fps | ~50 fps |
-| **Format** | DICOM | DICOM | AVI |
-| **Intended use** | Training / Testing | Testing only | Testing only |
+| Attribute | UNITY EchoPhase |
+|-----------|-----------------|
+| **Source** | NHS Trust PACS Archives, Imperial College Healthcare |
+| **Ultrasound machines** | Philips iE33 xMATRIX, GE Vivid series |
+| **Size** | 1,000 videos (2010–2020) |
+| **Video length** | 1–3 heartbeats |
+| **Annotations** | 2 independent expert annotations (ED & ES) |
+| **Resolution** | (300–768)×(400–1024), downsampled to 112×112 |
+| **Frame rate** | 23–102 fps |
+| **Format** | DICOM → AVI |
+| **Use** | Training & Testing |
 
 ---
 
 ## Request Dataset Access {#req-data}
 
-The **PACS dataset** has been made **publicly available** for benchmarking and validation.  
+The **UNITY EchoPhase dataset** has been made available for research and benchmarking.  
 
 It includes:  
-- 1,000 anonymised echocardiographic videos (2010–2020)  
-- Ethical approval from the Health Regulatory Authority (IRAS ID XXXX)  
-- Expert frame-level annotations for ED and ES  
+- 1,000 anonymised echocardiographic videos  
+- Frame-level ED and ES labels from two cardiology experts  
+- Metadata describing operators, beats, and training/testing splits  
 
 **To request access, please complete the form below:**  
 
@@ -70,7 +97,7 @@ It includes:
   <input type="text" name="name" placeholder="Your Name" required><br><br>
   <input type="email" name="email" placeholder="Your Email" required><br><br>
   <input type="text" name="institution" placeholder="Institution/Workplace" required><br><br>
-  <input type="text" name="dataset" value="EchoPhase (PACS)" readonly>
+  <input type="text" name="dataset" value="UNITY EchoPhase" readonly>
   <textarea name="message" rows="5" placeholder="Please let us know why you would like access to this dataset and what you intend to use it for" required></textarea><br><br>
   <button type="submit" class="btn btn--primary btn--large">Submit</button>
 </form>
@@ -86,8 +113,8 @@ This dataset is licensed under a
 
 ## Project Team
 
-- [Elisabeth S Lane]
-- [Jevgeni Jevsikov]  
+- [Elisabeth S Lane](https://elisabethlane.github.io/)  
+- [Jevgeni Jevsikov](https://twitter.com/intsav_?lang=en-gb)  
 - [Neda Azarmehr](https://www.uwl.ac.uk/staff/neda-azarmehr)  
 - [Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni)  
 
@@ -98,6 +125,7 @@ This dataset is licensed under a
 - [Multibeat Echocardiographic Phase Detection Using Deep Neural Networks — Computers in Biology and Medicine](https://www.sciencedirect.com/science/article/abs/pii/S0010482521001670)
 
 </div>
+
 
 
 <!-- ---

@@ -67,7 +67,8 @@ feature_row3:
     excerpt: >
         A suite of secure, purpose-built platforms for expert annotation of clinical signals and images. These tools support collaborative workflows and integrate with both cloud and NAS environments.<br><br>
         – <a href="https://unityimaging.net/" target="_blank">Unity</a>: browser-based annotation of echocardiographic sequences<br>
-        – <a href="https://www.pulsenote.net/" target="_blank">PulseNote</a>: multimodal annotation of biological signals such as ECG and EEG
+        – <a href="https://www.pulsenote.net/" target="_blank">PulseNote</a>: multimodal annotation of biological signals such as ECG and EEG<br>
+        – <a href="https://thebraint.com/" target="_blank">Braint</a>: anotation workspace for traumatic brain ingury
 
 feature_row4:
   - image_path: assets/images/infrastructure/istockphoto-1730823257-612x612.jpg

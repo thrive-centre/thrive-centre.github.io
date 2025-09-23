@@ -45,11 +45,22 @@ toc_sticky: true
 <link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
 <div class="page-wrap" markdown="1">
 
-<!-- <div style="text-align:right; margin:10px 0;">
-  <img src="/assets/images/logo/imperial_BHF.png" 
-       alt="Project Logos" 
-       style="max-width:250px; height:auto; float:right; margin-left:20px;">
-</div> -->
+
+<div style="display:flex; justify-content:center; align-items:center; gap:50px; margin:30px 0;">
+  <img src="/assets/images/logo/bhf.png" 
+       alt="British Heart Foundation" 
+       style="height:70px; min-width:120px; object-fit:contain;">
+  <img src="/assets/images/uwl-logo.png" 
+       alt="University of West London" 
+       style="height:70px; object-fit:contain;">
+  <img src="/assets/images/logo/imperial.png" 
+       alt="Imperial College London" 
+       style="height:70px; object-fit:contain;">
+  <img src="/assets/images/logo/nhs.png" 
+       alt="NHS" 
+       style="height:70px; object-fit:contain;">
+</div>
+
 
 {: .text-center}
 # Unity Biobank  

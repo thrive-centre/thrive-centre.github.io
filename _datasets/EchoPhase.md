@@ -15,7 +15,7 @@ permalink: /datasets/EchoPhase
 [Download Datasets](#req-data){: .btn .btn--primary .btn--large}
 [Code Repositories ](#code-repo){: .btn .btn--primary .btn--large}
 [Train Model](/projects/echoforge){: .btn .btn--primary .btn--large}
-[Go directly to References](#reference){: .btn .btn--primary .btn--large}
+[References](#reference){: .btn .btn--primary .btn--large}
 
 
 Our team has developed an automated model capable of identifying multiple **end-systolic (ES)** and **end-diastolic (ED)** frames in echocardiographic videos of arbitrary length with performance indistinguishable from human experts, but with significantly shorter processing time.  

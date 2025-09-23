@@ -75,7 +75,7 @@ feature_row4:
     title: "Biobanks"
     excerpt: >
       Our well-curated biobanks and structured health datasets provide researchers with ethically governed access to biospecimens, imaging, and linked clinical data.<br><br>
-      – <a href="https://www.intsav.com/biobank.html" target="_blank">Explore our Biobank project</a>
+      – <a href="/datasets/" target="_blank">Explore our Biobank project</a>
 
 feature_row5:
   - image_path: assets/images/infrastructure/istockphoto-2143486801-612x612.jpg

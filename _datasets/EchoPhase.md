@@ -12,8 +12,9 @@ permalink: /datasets/EchoPhase
 # UNITY EchoPhase — Multibeat Echocardiographic Phase Detection
 
 {: .text-center}
-[Go directly to Request Datasets](#req-data){: .btn .btn--primary .btn--large}
-[Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large}
+[Download Datasets](#req-data){: .btn .btn--primary .btn--large}
+[Code Repositories ](#code-repo){: .btn .btn--primary .btn--large}
+[Train Model](/projects/echoforge){: .btn .btn--primary .btn--large}
 [Go directly to References](#reference){: .btn .btn--primary .btn--large}
 
 

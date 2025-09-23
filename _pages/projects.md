@@ -16,7 +16,7 @@ feature_row:
   - image_path: /assets/images/projects/biobank.png
     alt: "BioBank"
     title: "BioBank"
-    link: "https://www.intsav.com/biobank.html"
+    link: "/datasets/"
     areas: "Cardiology,Medical Imaging,AI"
     faculty: "Massoud Zolgharni,Nasim Dadashi"
     students: "Patricia Fernandes,Isreal Ufumaka,Alireza Alibakhshi"
@@ -26,7 +26,7 @@ feature_row:
     title: "PulseNote"
     link: "https://www.intsav.com/PulseNote.html"
     areas: "Cardiology,AI,Signal Processing"
-    faculty: "Massoud Zolgharni"
+    faculty: "Massoud Zolgharni,Mayur Agrawal"
     students: "Mohammad Zeinali"
 
   - image_path: /assets/images/projects/istockphoto-2147671579-612x612.jpg

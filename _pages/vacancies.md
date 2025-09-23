@@ -7,19 +7,10 @@ toc: true
 toc_sticky: true
 ---
 
-<!-- PAGE STYLES + WRAPPER -->
-<style>
-  :root{ --primary:#2563eb; --primary-700:#1d4ed8; --border:#e5e7eb; }
-  .page-wrap{ max-width:1500px; margin:0 auto; padding:28px; }
-  .cat-section{ margin:28px 0; scroll-margin-top:80px; }
-  table{ width:100%; border-collapse:collapse; }
-  thead th{ background:#f3f4f6; text-align:left; }
-  th,td{ padding:10px; border-bottom:1px solid var(--border); vertical-align:top; }
-</style>
-
+<link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
 <div class="page-wrap" markdown="1">
 
-# Vacancies
+<!-- # Vacancies -->
 
 ## Why work with us
 - We are a team of deeply passionate, creative problem solvers. From AI researchers and data scientists, to engineers and clinicians throughout the country, we work with our partners to transform AI technologies.  
@@ -61,7 +52,9 @@ PhD programmes are funded for a 3-year period, and can start in February, May, a
 - **Home/settled/International students:** Sunday 21 September 2025 at 23:59pm  
 
 ---
-[Apply Now](https://evision.uwl.ac.uk/urd/sits.urd/run/siw_file_load.sso?snzSx5iEuwGggL9kmQINlTHSpjOaEuhcIx2VpyqTi8FtlAlvUN){: .btn .btn--primary .btn--large target="_blank"}
+[Apply Now - PhD Computer Science](https://evision.uwl.ac.uk/urd/sits.urd/run/siw_file_load.sso?snzSx5iEuwGggL9kmQINlTHSpjOaEuhcIx2VpyqTi8FtlAlvUN){: .btn .btn--primary .btn--large target="_blank"}
+
+[Apply Now - PhD Translational Medicine](https://evision.uwl.ac.uk/urd/sits.urd/run/siw_file_load.sso?xalkyfNCYqJ6RTFpUhifvu9ZhxVJBiuo2qHvcIm8pqEhnTUBW8){: .btn .btn--primary .btn--large target="_blank"}
 
 
 

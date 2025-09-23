@@ -11,9 +11,9 @@ permalink: /datasets/EchoTDI/
 # UNITY EchoTDI - Automated Multibeat Tissue Doppler Echocardiography Analysis Using Deep Neural Networks
 
 {: .text-center}
-[Go directly to Request Datasets](#req-data){: .btn .btn--primary .btn--large}
+[Download Datasets](#req-data){: .btn .btn--primary .btn--large}
 <!-- [Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large} -->
-[Go directly to References](#reference){: .btn .btn--primary .btn--large}
+[References](#reference){: .btn .btn--primary .btn--large}
 
 ---
 

@@ -17,7 +17,7 @@ Through hands-on research, expert supervision, and cross-sector collaboration, T
 
 
 
-<a href="/vacancies/vacancies/" target="_blank">List of available PhD projects</a>  
+<a href="/vacancies/" target="_blank">List of available PhD projects</a>  
 <a href="https://www.intsav.com/internship.html" target="_blank">List of available Internship projects</a>  
 <a href="https://www.intsav.com/MSc.html" target="_blank">List of available MSc projects</a>  
 <a href="https://www.intsav.com/UG.html" target="_blank">List of available Undergraduate projects</a>

@@ -10,40 +10,11 @@ permalink: /datasets/UnityLV-MultiX
 
 
 
-
-<!-- ---
-layout: single
-title: UnityLV-MultiX Dataset
-author_profile: true
-permalink: /datasets/UnityLV-MultiX
-toc: true
-toc_sticky: true
---- -->
-
-<!-- PAGE STYLES + WRAPPER -->
-<!-- <style>
-  :root{ --primary:#2563eb; --primary-700:#1d4ed8; --border:#e5e7eb; }
-  .page-wrap{ max-width:1500px; margin:0 auto; padding:28px; }
-  .cat-section{ margin:28px 0; scroll-margin-top:80px; }
-  table{ width:100%; border-collapse:collapse; }
-  thead th{ background:#f3f4f6; text-align:left; }
-  th,td{ padding:10px; border-bottom:1px solid var(--border); vertical-align:top; }
-</style>
-
-<div class="page-wrap" markdown="1"> -->
-
-<!-- <div style="text-align:right; margin:10px 0;">
-  <img src="/assets/images/logo/imperial_BHF.png" 
-       alt="Project Logos" 
-       style="max-width:250px; height:auto; float:right; margin-left:20px;">
-</div> -->
-
-
 # UnityLV-MultiX Dataset
 
 
 {: .text-center}
-[Go directly to Request Datasets](#req-data){: .btn .btn--primary .btn--large}
+[Download Datasets](#req-data){: .btn .btn--primary .btn--large}
 <!-- [Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large} -->
 <!-- [Go directly to References](#reference){: .btn .btn--primary .btn--large} -->
 

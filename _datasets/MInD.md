@@ -8,21 +8,12 @@ permalink: /datasets/MInD
 
 <div class="page-wrap" markdown="1">
 
-<!-- 
----
-layout: single
-title: UNITY MInD — Automated Analysis of Mitral Inflow Doppler
-author_profile: true
-permalink: /datasets/MInD
-toc: true
-toc_sticky: true
---- -->
 
 # UNITY MInD — Automated Analysis of Mitral Inflow Doppler
 
 {: .text-center}
-[Go directly to Request Datasets](#req-data){: .btn .btn--primary .btn--large}
-[Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large}
+[Download Datasets](#req-data){: .btn .btn--primary .btn--large}
+[Code Repositories ](#code-repo){: .btn .btn--primary .btn--large}
 [Go directly to References](#reference){: .btn .btn--primary .btn--large}
 
 

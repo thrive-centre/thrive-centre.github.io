@@ -45,11 +45,11 @@ toc_sticky: true
 <link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
 <div class="page-wrap" markdown="1">
 
-<div style="text-align:right; margin:10px 0;">
+<!-- <div style="text-align:right; margin:10px 0;">
   <img src="/assets/images/logo/imperial_BHF.png" 
        alt="Project Logos" 
        style="max-width:250px; height:auto; float:right; margin-left:20px;">
-</div>
+</div> -->
 
 {: .text-center}
 # Unity Biobank  
@@ -62,9 +62,9 @@ Creating a unique **AI-targeted biobank of expertise**, supported by the
 [BHF](https://www.bhf.org.uk/), [BSE](https://www.bsecho.org/), and [NIHR](https://www.nihr.ac.uk/).  
 
 {: .text-center}
-[Go directly to Open Projects](#open-projects){: .btn .btn--primary .btn--large}
-[Go directly to Available Datasets](#completed-projects){: .btn .btn--primary .btn--large}
-[Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large}
+[Open Projects](#open-projects){: .btn .btn--primary .btn--large}
+[Available Datasets](#completed-projects){: .btn .btn--primary .btn--large}
+
 
 ---
 
@@ -158,8 +158,7 @@ Secure Google login required.
 
 ---
 
-## Code Repositories  {#code-repo}
-
+## Code Repositories 
 All datasets and supporting code are available at our GitHub:  
 👉 [github.com/intsav](https://github.com/intsav)  
 

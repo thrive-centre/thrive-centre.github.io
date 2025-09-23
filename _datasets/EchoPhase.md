@@ -1,5 +1,107 @@
 ---
 layout: default
+title: UNITY EchoPhase
+permalink: /datasets/EchoPhase
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
+
+<div class="page-wrap" markdown="1">
+
+# UNITY EchoPhase — Multibeat Echocardiographic Phase Detection
+
+{: .text-center}
+[Download Dataset](#req-data){: .btn .btn--primary .btn--large}
+[Code Repository](#code-repo){: .btn .btn--primary .btn--large}
+[Train Model](/projects/echoforge){: .btn .btn--primary .btn--large}
+[References](#reference){: .btn .btn--primary .btn--large}
+
+---
+
+## Overview
+
+The **UNITY EchoPhase dataset** provides echocardiographic videos annotated with key cardiac phases — **end-systolic (ES)** and **end-diastolic (ED)**.  
+These phases are essential for calculating heart function measures such as ejection fraction, chamber volume, and myocardial strain.
+
+The dataset enables research into automated phase detection and provides a benchmark resource for validating methods against expert human annotations.
+
+---
+
+## Dataset
+
+The dataset is composed of **three complementary sources**:
+
+- **PACS-dataset** – made public for this study (training & testing)  
+- **MultiBeat-dataset** – private, reserved for testing only  
+- **EchoNet-dataset** – public dataset (Stanford University), included for external testing  
+
+Annotations were performed by experienced cardiologists, with multiple annotations available in some datasets to assess **inter- and intra-observer variability**.
+
+---
+
+## Dataset Summary
+
+| Attribute | PACS-dataset | MultiBeat-dataset | EchoNet-dataset |
+|-----------|--------------|-------------------|-----------------|
+| **Source** | Public (NHS Trust PACS Archives, Imperial College Healthcare) | Private (St Mary’s Hospital) | Public (Stanford University, [EchoNet](https://echonet.github.io/dynamic)) |
+| **Ultrasound machine** | Philips iE33 xMATRIX | GE Vivid.i, Philips iE33 xMATRIX | Siemens Acuson SC2000, Philips iE33/Epiq 5G/7C |
+| **Videos/Patients** | 1,000 | 40 | 10,030 |
+| **Video length** | 1–3 heartbeats | ≥10 heartbeats | 1 heartbeat |
+| **Annotations** | 2 experts | 6 annotations by 5 experts (1 repeated) | 1 annotation |
+| **Resolution** | (300–768)×(400–1024) | 422×636 | 112×112 |
+| **Frame rate** | 23–102 fps | 52–80 fps | ~50 fps |
+| **Format** | DICOM | DICOM | AVI |
+| **Intended use** | Training / Testing | Testing only | Testing only |
+
+---
+
+## Request Dataset Access {#req-data}
+
+The **PACS dataset** has been made **publicly available** for benchmarking and validation.  
+
+It includes:  
+- 1,000 anonymised echocardiographic videos (2010–2020)  
+- Ethical approval from the Health Regulatory Authority (IRAS ID XXXX)  
+- Expert frame-level annotations for ED and ES  
+
+**To request access, please complete the form below:**  
+
+<form action="https://formspree.io/f/xvojyeao" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required><br><br>
+  <input type="email" name="email" placeholder="Your Email" required><br><br>
+  <input type="text" name="institution" placeholder="Institution/Workplace" required><br><br>
+  <input type="text" name="dataset" value="EchoPhase (PACS)" readonly>
+  <textarea name="message" rows="5" placeholder="Please let us know why you would like access to this dataset and what you intend to use it for" required></textarea><br><br>
+  <button type="submit" class="btn btn--primary btn--large">Submit</button>
+</form>
+
+---
+
+## License
+
+This dataset is licensed under a  
+[Creative Commons BY-NC-ND 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+---
+
+## Project Team
+
+- [Elisabeth S Lane]
+- [Jevgeni Jevsikov]  
+- [Neda Azarmehr](https://www.uwl.ac.uk/staff/neda-azarmehr)  
+- [Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni)  
+
+---
+
+## References {#reference}
+
+- [Multibeat Echocardiographic Phase Detection Using Deep Neural Networks — Computers in Biology and Medicine](https://www.sciencedirect.com/science/article/abs/pii/S0010482521001670)
+
+</div>
+
+
+<!-- ---
+layout: default
 title: UNITY EchoTDI
 permalink: /datasets/EchoPhase
 ---
@@ -152,4 +254,4 @@ Computers in Biology and Medicine 133 (2021): 104373.
 
 ## References {#reference}
 
-- [Multibeat Echocardiographic Phase Detection Using Deep Neural Networks — Computers in Biology and Medicine](https://www.sciencedirect.com/science/article/abs/pii/S0010482521001670)  
+- [Multibeat Echocardiographic Phase Detection Using Deep Neural Networks — Computers in Biology and Medicine](https://www.sciencedirect.com/science/article/abs/pii/S0010482521001670)   -->

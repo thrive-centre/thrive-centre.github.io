@@ -47,18 +47,71 @@ contact:
   link: ""
 ---
 
-
-
-{% if page.supervisory_team %}
+{% if page.supervisory_team and page.supervisory_team.size > 0 %}
 ## Supervisory Team
 {% for s in page.supervisory_team %}
 - **[{{ s.name }}]({{ s.link }})**
 {% endfor %}
 {% endif %}
 
-<!-- {% if page.project_description %}
+{% if page.project_description %}
+{% if page.project_description.intro and page.project_description.intro != blank %}
+## Introduction
+{{ page.project_description.intro }}
+{% endif %}
+
+{% if page.project_description.aims and page.project_description.aims.size > 0 %}
+## Aim
+{% for a in page.project_description.aims %}
+- {{ a }}
+{% endfor %}
+{% endif %}
+
+{% if page.project_description.objectives and page.project_description.objectives.size > 0 %}
+## Objectives
+{% for obj in page.project_description.objectives %}
+- {{ obj }}
+{% endfor %}
+{% endif %}
+
+{% if page.project_description.methodology and page.project_description.methodology.size > 0 %}
+## Methodology
+{% for m in page.project_description.methodology %}
+- {{ m }}
+{% endfor %}
+{% endif %}
+
+{% if page.project_description.timeline and page.project_description.timeline.size > 0 %}
+## Timeline
+{% for t in page.project_description.timeline %}
+- **{{ t.title }}**: {{ t.task }}
+{% endfor %}
+{% endif %}
+
+{% if page.project_description.expected_outcomes and page.project_description.expected_outcomes.size > 0 %}
+## Expected Outcomes
+{% for o in page.project_description.expected_outcomes %}
+- {{ o }}
+{% endfor %}
+{% endif %}
+{% endif %}
+
+{% if page.contact %}
+## Contact
+{% if page.contact.link and page.contact.link != blank %}[{{ page.contact.text }}]({{ page.contact.link }}){% else %}{{ page.contact.text }}{% endif %}
+{% endif %}
+
+
+<!-- {% if page.supervisory_team %}
+## Supervisory Team
+{% for s in page.supervisory_team %}
+- **[{{ s.name }}]({{ s.link }})**
+{% endfor %}
+{% endif %}
+
+{% if page.project_description %}
 ## Background
-{{ page.project_description.background }} -->
+{{ page.project_description.background }}
 
 ### Research Questions
 {% for q in page.project_description.research_questions %}
@@ -70,28 +123,28 @@ contact:
 - {{ a }}
 {% endfor %}
 
-<!-- ### Objectives
+### Objectives
 {% for obj in page.project_description.objectives %}
 - **{{ obj.title }}**
   {% for step in obj.steps %}
   - {{ step }}
   {% endfor %}
-{% endfor %} -->
+{% endfor %}
 
 ### Methodology
 {% for m in page.project_description.methodology %}
 - {{ m }}
 {% endfor %}
 
-<!-- ## Clinical Partners
+## Clinical Partners
 {% for c in page.project_description.clinical_partners %}
 - {{ c }}
 {% endfor %}
-{% endif %} -->
+{% endif %}
 
 
 {% if page.contact %}
 ## Contact
 {% if page.contact.link %}[{{ page.contact.text }}]({{ page.contact.link }}){% else %}{{ page.contact.text }}{% endif %}
-{% endif %}
+{% endif %} -->
 

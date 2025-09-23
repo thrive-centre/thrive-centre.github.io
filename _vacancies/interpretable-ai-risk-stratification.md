@@ -11,6 +11,7 @@ supervisory_team:
 project_description:
   intro: >
     Artificial intelligence (AI) offers a transformative opportunity to improve patient care in healthcare settings by uncovering subtle and complex patterns in high volume clinical data. However, clinical adoption remains limited, in part due to the lack of transparency in model decision-making and the complexity of features used. 
+
     This research project aims to develop interpretable, feature-aware AI decision support tools for risk stratification across common conditions in general healthcare. By leveraging multimodal data including structured clinical records, lab results, and imaging summaries we seek to support healthcare professionals in making informed, timely, and equitable decisions at key points in the care pathway. 
     The project will focus not only on model performance but also on the clinical relevance and interpretability of features used in prediction.
   aims:
@@ -48,9 +49,7 @@ contact:
   link: "https://www.uwl.ac.uk/staff/nasim-dadashi-serej"
 ---
 
-
-
-{% if page.supervisory_team %}
+{% if page.supervisory_team and page.supervisory_team.size > 0 %}
 ## Supervisory Team
 {% for s in page.supervisory_team %}
 - **[{{ s.name }}]({{ s.link }})**
@@ -58,41 +57,39 @@ contact:
 {% endif %}
 
 {% if page.project_description %}
-## Background
-{{ page.project_description.background }}
+{% if page.project_description.intro %}
+## Introduction
+{{ page.project_description.intro }}
+{% endif %}
 
-### Research Questions
-{% for q in page.project_description.research_questions %}
-- {{ q }}
-{% endfor %}
-
-### Aim
+{% if page.project_description.aims and page.project_description.aims.size > 0 %}
+## Aim
 {% for a in page.project_description.aims %}
 - {{ a }}
 {% endfor %}
+{% endif %}
 
-### Objectives
+{% if page.project_description.objectives and page.project_description.objectives.size > 0 %}
+## Objectives
 {% for obj in page.project_description.objectives %}
 - **{{ obj.title }}**
+  {% if obj.steps and obj.steps.size > 0 %}
   {% for step in obj.steps %}
   - {{ step }}
   {% endfor %}
+  {% endif %}
 {% endfor %}
+{% endif %}
 
-<!-- ### Methodology
-{% for m in page.project_description.methodology %}
-- {{ m }}
+{% if page.project_description.deliverables and page.project_description.deliverables.size > 0 %}
+## Deliverables
+{% for d in page.project_description.deliverables %}
+- {{ d }}
 {% endfor %}
-
-## Clinical Partners
-{% for c in page.project_description.clinical_partners %}
-- {{ c }}
-{% endfor %}
-{% endif %} -->
-
+{% endif %}
+{% endif %}
 
 {% if page.contact %}
 ## Contact
 {% if page.contact.link %}[{{ page.contact.text }}]({{ page.contact.link }}){% else %}{{ page.contact.text }}{% endif %}
 {% endif %}
-

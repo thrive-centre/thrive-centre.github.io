@@ -15,8 +15,6 @@ permalink: /datasets/UnityLV-MultiX
 
 {: .text-center}
 [Download Datasets](#req-data){: .btn .btn--primary .btn--large}
-<!-- [Go directly to Code Repositories ](#code-repo){: .btn .btn--primary .btn--large} -->
-<!-- [Go directly to References](#reference){: .btn .btn--primary .btn--large} -->
 
 The images used in this dataset were sourced from the Imperial College Healthcare NHS Trust, comprises 100 apical four-chamber (A4C) echocardiography videos collected in 2019. This dataset features a closely balanced gender distribution, with 47% male and 53% female participants, and a median age of 60 years (interquartile range: 48.5–73.0). For each video, one end-diastolic (ED) frame and one end-systolic (ES) frame were extracted, resulting in a total of 200 images. These images were independently annotated by 11 experts, who were unaware of each other’s annotations. This dataset serves as an independent external test for evaluation purposes.
 

@@ -3,45 +3,7 @@ layout: default
 title: 
 permalink: /datasets/
 ---
-<!-- ---
-layout: single
-title: 
-author_profile: true
-permalink: /datasets/
-toc: true
-toc_sticky: true
---- -->
-<!-- layout: single
-title: Datasets
-author_profile: true
-permalink: /datasets/
-toc: true
-toc_sticky: true
---- -->
 
-<!-- <style>
-  :root{ --primary:#2563eb; --primary-700:#1d4ed8; --border:#e5e7eb; }
-  .page-wrap{ max-width:1500px; margin:0 auto; padding:28px; }
-  .cat-section{ margin:28px 0; scroll-margin-top:80px; }
-  table{ width:100%; border-collapse:collapse; }
-  thead th{ background:#f3f4f6; text-align:left; }
-  th,td{ padding:10px; border-bottom:1px solid var(--border); vertical-align:top; }
-  .btn.btn--primary.btn--large {
-  background-color: #007bff;   /* Bright blue */
-  color: #fff !important;      /* White text */
-  border-radius: 8px;          /* Rounded corners */
-  padding: 12px 28px;          /* Larger button */
-  font-size: 18px;             /* Bigger text */
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.2s ease;
-}
-
-.btn.btn--primary.btn--large:hover {
-  background-color: #0056b3;   /* Darker blue on hover */
-}
-
-</style> -->
 <link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
 <div class="page-wrap" markdown="1">
 

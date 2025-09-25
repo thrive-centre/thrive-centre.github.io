@@ -28,11 +28,6 @@ toc_sticky: true
 </style>
 <div class="page-wrap" markdown="1">
 
-<!-- <div style="text-align:right; margin:10px 0;">
-  <img src="/assets/images/logo/imperial_BHF.png" 
-       alt="Project Logos" 
-       style="max-width:250px; height:auto; float:right; margin-left:20px;">
-</div> -->
 
 
 

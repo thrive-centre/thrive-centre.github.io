@@ -1,6 +1,6 @@
 ---
 layout: default
-title: UNITY EchoTDI
+title: UnityLV-MultiX
 permalink: /datasets/UnityLV-MultiX
 ---
 

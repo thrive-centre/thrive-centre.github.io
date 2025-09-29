@@ -44,7 +44,7 @@ Seven specialized visualization layouts optimized for different annotation tasks
 - Feature extraction view
 - And more...
 
-### 🔍 Interactive Visualization
+### Interactive Visualization
 - Zoomable, scrollable signal plots using Plotly.js
 - High-performance rendering for long-duration recordings
 - Responsive design for various screen sizes

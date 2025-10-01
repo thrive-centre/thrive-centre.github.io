@@ -3,6 +3,8 @@ layout: default
 title: TTE47 — Dataset Card & Reference Gallery
 author_profile: true
 permalink: /datasets/TTE47
+redirect_from:
+  - /datasets/tte47
 toc: true
 toc_sticky: true
 ---

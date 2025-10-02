@@ -17,7 +17,7 @@ We are committed to ensuring that the **THRIVE Centre website** is accessible to
 ---
 
 ## Our Commitment
-We aim to make our digital content usable and accessible in line with the **Web Content Accessibility Guidelines (WCAG) 2.1 AA standard**. This includes:
+We aim to make our digital content usable and accessible in line with the [**Web Content Accessibility Guidelines (WCAG) 2.1 AA standard**](https://www.w3.org/TR/WCAG21/). This includes:
 
 - Clear navigation and readable text  
 - Alt text for images  

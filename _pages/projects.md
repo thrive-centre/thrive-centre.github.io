@@ -24,7 +24,7 @@ feature_row:
   - image_path: /assets/images/projects/PulseNote.jpg
     alt: "PulseNote"
     title: "PulseNote"
-    link: "https://www.intsav.com/PulseNote.html"
+    link: "/projects/pulsenote"
     areas: "Cardiology,AI,Signal Processing"
     faculty: "Massoud Zolgharni,Mayur Agrawal"
     students: "Mohammad Zeinali"
@@ -40,7 +40,7 @@ feature_row:
   - image_path: /assets/images/projects/ecg.jpg
     alt: "Real-time ECG Analysis"
     title: "Real-time ECG Analysis"
-    link: "https://www.intsav.com/realtime_ecg.html"
+    link: "/projects/smart_clothing/"
     areas: "Cardiology,AI,Signal Processing"
     faculty: "Massoud Zolgharni,Sama Aleshaiker,Eman Alajrami"
     students: "Mohammad Zeinali"
@@ -48,7 +48,7 @@ feature_row:
   - image_path: /assets/images/projects/tbi.jpg
     alt: "Prognosis Prediction in Traumatic Brain Injury"
     title: "Prognosis Prediction in Traumatic Brain Injury"
-    link: "https://www.intsav.com/tbi.html"
+    link: "/projects/tbi/"
     areas: "Neurology,AI"
     faculty: "Massoud Zolgharni,Nasim Dadashi"
     students: "Alireza Alibakhshi"
@@ -80,7 +80,7 @@ feature_row:
   - image_path: /assets/images/projects/seizure.jpg
     alt: "Real-Time Seizure Detection"
     title: "Real-Time Seizure Detection"
-    link: "https://www.intsav.com/seizure_detection.html"
+    link: "/projects/seizure_detection/"
     areas: "Neurology,AI"
     faculty: "Massoud Zolgharni,Nasim Dadashi"
     students: ""
@@ -89,7 +89,7 @@ feature_row:
   - image_path: /assets/images/projects/electroglottography.jpg
     alt: "Electroglottography"
     title: "Electroglottography"
-    link: "https://www.intsav.com/electroglottography.html"
+    link: "/projects/electroglottography/"
     areas: "Otolaryngology,AI"
     faculty: "Massoud Zolgharni,Eugenio Donati"
     students: ""
@@ -98,7 +98,7 @@ feature_row:
   - image_path: /assets/images/projects/er.jpg
     alt: "Risk Assessment in Emergency"
     title: "Risk Assessment in Emergency"
-    link: "https://www.intsav.com/Risk_Assessment_ED.html"
+    link: "/projects/Risk_Assessment_ED/"
     areas: "Emergency Medicine,AI"
     faculty: "Massoud Zolgharni"
     students: ""

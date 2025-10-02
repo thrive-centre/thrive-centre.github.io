@@ -1,7 +1,6 @@
 ---
 title: "EchoForge"
 toc: false
-# permalink : /projects/echoforge/
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"

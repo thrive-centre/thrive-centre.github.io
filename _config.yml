@@ -125,7 +125,7 @@ author:
 footer:
   contact:
     name: "Thrive Research Centre"
-    addres: "University of West London"
+    address: "University of West London"
     zip: "Ealing, London, W5 5RF"
     phone: "0800 036 8888"
     email: "thrive@uwl.ac.uk"
@@ -142,7 +142,11 @@ footer:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@IntSaV"
-
+  legal:
+    - label: "Accessibility"
+      url: "/accessibility/"
+    - label: "Use of Cookies"
+      url: "/cookies/"
 
 # Reading Files
 include:

@@ -30,6 +30,29 @@
         <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
       {% endunless %}
     </ul>
-    <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. All Rights Reserved</div>
+    <!-- <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. All Rights Reserved</div>
   </div>
+  <div class="footer-legal">
+  {% if site.footer.legal %}
+    <ul class="footer-legal-links">
+      {% for link in site.footer.legal %}
+        <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div> -->
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }}
+  <a href="{{ site.copyright_url | default: site.url }}">
+    {{ site.copyright | default: site.title }}
+  </a>. All Rights Reserved <br>
+
+  {% if site.footer.legal %}
+    •
+    {% for link in site.footer.legal %}
+      <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} • {% endunless %}
+    {% endfor %}
+  {% endif %}
+</div>
+
 </div>

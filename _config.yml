@@ -86,7 +86,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/"
+    - "https://x.com/IntSaV_"
     - "https://www.facebook.com/"
 
 # Analytics
@@ -112,7 +112,7 @@ author:
       url: "https://uwl.ac.uk"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://x.com/IntSaV_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/thrive-centre"

@@ -4,8 +4,8 @@ title: Accessibility
 permalink: /accessibility/
 ---
 <link rel="stylesheet" href="{{ '/assets/css/datasets.css' | relative_url }}">
-
 <div class="page-wrap" markdown="1">
+
 # Accessibility Statement
 
 This statement relates only to web pages with a web address beginning **www.thrive-centre.com**, which are pages on the main THRIVE Centre website, created using the Jekyll static site generator and maintained via GitHub.  

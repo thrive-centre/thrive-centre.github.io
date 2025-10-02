@@ -107,7 +107,7 @@ gallery_items:
 # Welcome to THRIVE: Shaping the Future of Health
 {: style="text-align: center;"}
 
-THRIVE is an interdisciplinary research centre dedicated to advancing translational health innovation through visionary, impact-driven research. By uniting expertise across AI, biomedical sciences, and healthcare technologies, THRIVE fosters collaboration that bridges discovery and real-world clinical impact.
+THRIVE is an interdisciplinary research centre, at [University of West London](https://uwl.ac.uk), dedicated to advancing translational health innovation through visionary, impact-driven research. By uniting expertise across AI, biomedical sciences, and healthcare technologies, THRIVE fosters collaboration that bridges discovery and real-world clinical impact.
 {: style="text-align: center;"}
 
 The Centre supports cutting-edge [research]({{ '/projects/' | url_relative }}){:target="_blank" rel="noopener"} in diagnostics, therapeutics, digital health, and health equity. With strong partnerships across academia, industry, and the healthcare sector, THRIVE is committed to shaping the future of health and care through inclusive, data-informed, and patient-centred solutions.

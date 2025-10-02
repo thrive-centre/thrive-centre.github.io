@@ -38,7 +38,7 @@ toc: false
 
 ---
 
-THRIVE, the Centre for Translational Healthcare Research, Innovation, Vision, and Excellence, is a university-based initiative dedicated to accelerating the journey from scientific discovery to clinical impact. We bring together expertise in artificial intelligence, biomedical science, health systems, and patient engagement to transform how healthcare is delivered and experienced.
+THRIVE, the Centre for Translational Healthcare Research at the University of West London (UWL), is a university-based initiative dedicated to accelerating the journey from scientific discovery to clinical impact. We bring together expertise in artificial intelligence, biomedical science, health systems, and patient engagement to transform how healthcare is delivered and experienced.
 
 # Vision & Mission
 We aim to bridge the gap between academic research and real-world implementation by fostering interdisciplinary collaboration, clinical partnerships, and translational readiness from the outset of research programmes.

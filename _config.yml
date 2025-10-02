@@ -153,6 +153,9 @@ footer:
       url: "/accessibility/"
     - label: "Use of Cookies"
       url: "/cookies/"
+    - label: "Privacy"
+      url: "/privacy/
+
 
 # Reading Files
 include:

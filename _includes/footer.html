@@ -30,17 +30,7 @@
         <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
       {% endunless %}
     </ul>
-    <!-- <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. All Rights Reserved</div>
-  </div>
-  <div class="footer-legal">
-  {% if site.footer.legal %}
-    <ul class="footer-legal-links">
-      {% for link in site.footer.legal %}
-        <li><a href="{{ link.url }}">{{ link.label }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-</div> -->
+    
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }}
   <a href="{{ site.copyright_url | default: site.url }}">
@@ -56,3 +46,57 @@
 </div>
 
 </div>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" style="display:none; position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: #fff; padding: 15px; text-align: center; z-index: 9999;">
+  <p style="margin:0; font-size:14px;">
+    We use cookies to improve your browsing experience and analyze site traffic. 
+    <a href="/cookies/" style="color: #4da3ff; text-decoration: underline;">Learn more</a>.
+  </p>
+  <button id="accept-cookies" style="margin:10px; background:#4da3ff; border:none; padding:8px 16px; color:#fff; cursor:pointer; border-radius:4px;">
+    Accept
+  </button>
+  <button id="reject-cookies" style="margin:10px; background:#888; border:none; padding:8px 16px; color:#fff; cursor:pointer; border-radius:4px;">
+    Reject
+  </button>
+</div>
+
+<script>
+  function loadGoogleAnalytics() {
+    // Load GA script dynamically
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX"; // <-- Replace with your GA ID
+    document.head.appendChild(s);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag("js", new Date());
+    gtag("config", "UA-XXXXXXX"); // <-- Replace with your GA ID
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const banner = document.getElementById("cookie-banner");
+    const choice = localStorage.getItem("cookiesChoice");
+
+    if (!choice) {
+      banner.style.display = "block"; // Show banner if no choice yet
+    } else if (choice === "accepted") {
+      loadGoogleAnalytics(); // Load GA if already accepted
+    }
+
+    document.getElementById("accept-cookies").addEventListener("click", function() {
+      localStorage.setItem("cookiesChoice", "accepted");
+      banner.style.display = "none";
+      loadGoogleAnalytics();
+    });
+
+    document.getElementById("reject-cookies").addEventListener("click", function() {
+      localStorage.setItem("cookiesChoice", "rejected");
+      banner.style.display = "none";
+      // GA will not load if rejected
+    });
+  });
+</script>
+
+

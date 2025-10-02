@@ -8,9 +8,22 @@ permalink: /cookies/
 
 # Cookie & Data Collection Statement
 
-This statement applies to pages hosted on the **THRIVE Centre website** (www.thrive-centre.com), which is maintained using **Jekyll** and **GitHub Pages**.  
+This statement applies to pages hosted on the THRIVE Centre website: **www.thrive-centre.com**.
+ 
 
 We are committed to protecting your privacy and ensuring transparency in how we handle your data. This includes the use of cookies, as well as how we process any personal information you provide when interacting with the site (e.g., via access request forms).
+
+---
+# What Are Cookies?
+
+Cookies are small text files placed on your device when you visit a website. They help websites function effectively and enhance user experience. Depending on their purpose, cookies can remember your preferences, support navigation, improve performance, or tailor content and advertising. Common types include:
+
+<!-- ## Common Types of Cookies -->
+
+- **Strictly Necessary Cookies** – Essential for site functionality and session management.  
+- **Functionality Cookies** – Enable enhanced features or preferences based on your interactions.  
+- **Performance Cookies** – Collect anonymous data to help improve website performance.  
+- **Targeting/Advertising Cookies** – Track browsing habits to personalise content or ads.  
 
 ---
 

@@ -42,7 +42,7 @@ A total of **992 frames** were manually annotated by two operators, with annotat
 
 ## Network Architecture
 
-![FC-DenseNet Architecture](/assets/images/projects/unity/lv_segmentation/Arch.PNG)
+![FC-DenseNet Architecture](/assets/images/projects/unity/LV_Segmentation/Arch.PNG)
 *Fig. 2. Diagram of FC-DenseNet architecture for semantic segmentation.*
 
 The **U-Net** architecture was first used since it is applicable to multiple medical image segmentation problems.  
@@ -85,8 +85,8 @@ The following metrics were used to evaluate model performance:
 
 ## Experiment Results and Discussion
 
-![Model Results](/assets/images/projects/unity/lv_segmentation/result1-1.PNG)
-![Failed Case](/assets/images/projects/unity/lv_segmentation/result2-1.PNG)
+![Model Results](/assets/images/projects/unity/LV_Segmentation/result1-1.PNG)
+![Failed Case](/assets/images/projects/unity/LV_Segmentation/result2-1.PNG)
 
 Figure 3 shows example outputs from the three models trained using annotation provided by Operator-A.  
 The red solid line represents automated results, while the green line represents manual annotation.
@@ -98,11 +98,11 @@ Figure 4 illustrates a failed case for which all models struggled due to poor im
 
 ---
 
-![Table 1](/assets/images/projects/unity/lv_segmentation/table1.PNG)
+![Table 1](/assets/images/projects/unity/LV_Segmentation/table1.PNG)
 
 *Table 1. Comparison of evaluation measures of (DC), (HD), and (IoU) between the three models.*
 
-![Table 2](/assets/images/projects/unity/lv_segmentation/table2.PNG)
+![Table 2](/assets/images/projects/unity/LV_Segmentation/table2.PNG)
 
 *Table 2. Comparison of evaluation measures (DC), (HD), and (IoU) for the U-Net model between five possible scenarios.*
 

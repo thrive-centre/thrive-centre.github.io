@@ -43,7 +43,7 @@ feature_row:
     alt: "Tissue Doppler Imaging"
     title: "Tissue Doppler Imaging"
     excerpt: "Automated analysis of tissue Doppler images"
-    link: "https://www.intsav.com/tdi.html"
+    link: "/projects/unity/TDI/"
 
   - image_path: "https://www.intsav.com/assets/img/projects/STE/STE2.PNG"
     alt: "Speckle Tracking"

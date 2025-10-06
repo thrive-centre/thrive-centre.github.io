@@ -228,3 +228,9 @@ Mayur Agrawal:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/mayur-agrawal21/"
+
+Sinosha Paralikar:
+  name        : "Sinosha Paralikar"
+  bio         : "PhD in Biotherapeutic Drug Development"
+  avatar      : "assets/images/people/sinosha.jpg"
+

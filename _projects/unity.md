@@ -59,7 +59,7 @@ feature_row:
     alt: "View Classification"
     title: "View Classification"
     excerpt: "Neural Architecture Search of Classifiers"
-    link: "https://www.intsav.com/view_classification.html"
+    link: "/projects/unity/View_Classification/"
 
 ---
 

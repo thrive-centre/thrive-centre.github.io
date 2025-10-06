@@ -67,6 +67,15 @@ To exercise these rights, please contact us at: **thrive@uwl.ac.uk**
 
 ---
 
+## Cookies and analytics
+
+We use essential cookies and, with your consent, analytics cookies to understand usage and improve content. Manage preferences via the cookie banner. See https://www.thrive-centre.com/cookies/.
+
+If you would like to know more about the GDPR and data protection generally, please visit the Information Commissioner's website. (https://ico.org.uk/)
+
+
+---
+
 ## Contact
 
 For any concerns about data privacy or to make a formal data protection request, please contact:  

@@ -50,7 +50,7 @@ If you’re not happy with how we respond to your complaint, contact the [Equali
 ---
 
 ## Ongoing Improvements
-We are committed to regular accessibility reviews and have structured our digital support to ensure:
+We are committed to regular accessibility reviews and have structured our digital support to ensure:
 
 - Ongoing accessibility improvements across our site  
 - Compliance with cookie consent, privacy, and accessibility regulations  

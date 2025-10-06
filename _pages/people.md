@@ -143,8 +143,8 @@ phd_students:
     excerpt: "PhD Student"
     link: "https://www.linkedin.com/in/sama-pirkalkhoran-b24a8754/"
   - image_path: assets/images/people/sinosha.jpg
-    alt: "Sama Pirkalkhoran"
-    title: "Sama Pirkalkhoran"
+    alt: "Sinosha Paralikar"
+    title: "Sinosha Paralikar"
     excerpt: "PhD Student"
     link: "people/sinosha-paralikar"
 

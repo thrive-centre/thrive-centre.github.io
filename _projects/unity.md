@@ -37,7 +37,7 @@ feature_row:
     alt: "Loss Functions"
     title: "Loss Functions"
     excerpt: "Influence of Loss Functions on LV segmentation and EF"
-    link: "https://www.intsav.com/loss.html"
+    link: "/projects/unity/Loss_Functions/"
 
   - image_path: "https://www.intsav.com/assets/img/projects/TDI/TDI-Med-57.png"
     alt: "Tissue Doppler Imaging"

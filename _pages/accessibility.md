@@ -8,7 +8,7 @@ permalink: /accessibility/
 
 # Accessibility Statement
 
-This statement relates only to web pages with a web address beginning **www.thrive-centre.com**, which are pages on the main THRIVE Centre website, created using the Jekyll static site generator and maintained via GitHub.  
+This statement relates only to web pages with a web address beginning **www.thrive-centre.com**, which are pages on the main THRIVE Centre website.  
 
 For other web addresses you may be linked to, please refer to the accessibility statement for their domain or sub-domains. If you have any suggestions, please send us an email at [thrive@uwl.ac.uk](mailto:thrive@uwl.ac.uk).
 
@@ -50,7 +50,7 @@ If you’re not happy with how we respond to your complaint, contact the [Equali
 ---
 
 ## Ongoing Improvements
-We are committed to regular accessibility reviews and are working with the **University of West London’s Digital Team** to ensure:
+We are committed to regular accessibility reviews and have structured our digital support to ensure:
 
 - Ongoing accessibility improvements across our site  
 - Compliance with cookie consent, privacy, and accessibility regulations  

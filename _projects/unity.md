@@ -19,19 +19,19 @@ feature_row:
     alt: "Mitral Inflow"
     title: "Mitral Inflow"
     excerpt: "Mitral Inflow Analysis"
-    link: "https://www.intsav.com/doppler.html"
+    link: "/projects/unity/Mitral_Inflow/"
 
   - image_path: "https://www.intsav.com/assets/img/projects/lv_segmentation/heart.PNG"
     alt: "LV Segmentation"
     title: "LV Segmentation"
     excerpt: "Left Ventricle Segmentation"
-    link: "https://www.intsav.com/lv_segmentation.html"
+    link: "/projects/unity/LV_Segmentation/"
 
   - image_path: "https://www.intsav.com/assets/img/projects/Efficient_Annotations/Project_profile.PNG"
     alt: "Active Learning in Echocardiography"
     title: "Active Learning in Echocardiography"
     excerpt: "Efficient Annotations"
-    link: "https://www.intsav.com/efficient_annotations.html"
+    link: "/projects/unity/Efficient_Annotations/"
 
   - image_path: "https://www.intsav.com/assets/img/projects/loss%20functions/LV_volume.png"
     alt: "Loss Functions"

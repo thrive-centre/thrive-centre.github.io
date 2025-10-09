@@ -598,7 +598,6 @@ button:hover {
 
 <h2>Request Access to the Project Dataset</h2>
 
-<p>We aim to make the dataset available for research purposes soon.</p>
 <p><strong>If you wish to request access, please complete the form below:</strong></p>
 
 <form action="https://formspree.io/f/mpwlgleg" method="POST">

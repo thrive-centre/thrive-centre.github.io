@@ -47,8 +47,9 @@ The dataset package available for download includes the following:
   Each study includes two frames: the ED frame appears first, followed by the ES frame.  
 
   Example:  
-02-008cb0fa74df88e44971367a2291e4a2969741e21bafbeffdb27a0b0b72e29d3-0003.png
-02-008cb0fa74df88e44971367a2291e4a2969741e21bafbeffdb27a0b0b72e29d3-0041.png
+  02-008cb0fa74df88e44971367a2291e4a2969741e21bafbeffdb27a0b0b72e29d3-0003.png
+  
+  02-008cb0fa74df88e44971367a2291e4a2969741e21bafbeffdb27a0b0b72e29d3-0041.png
 
 
 In this example, `02-008cb0fa...` represents the unique identifier for the study (video), while **0003** and **0041** are the frame numbers corresponding to the ED and ES phases, respectively.  
@@ -70,8 +71,6 @@ The Unity web-based, interactive, real-time annotation platform enables clinical
 ---
 
 ## Request Access to the Project Dataset {#req-data}
-
-We aim to make the dataset available for research purposes soon.  
 
 **If you wish to request access, please complete the form below:**
 

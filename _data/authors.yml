@@ -233,4 +233,16 @@ Sinosha Paralikar:
   name        : "Sinosha Paralikar"
   bio         : "PhD in Biotherapeutic Drug Development"
   avatar      : "assets/images/people/sinosha.jpg"
-
+  links:
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "mailto:34127372@student.uwl.ac.uk"
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/sinoshaparalikar/"  
+  - label: "Research Gate"
+    icon: "fas fa-fw fa-external-link"
+    url: "https://www.researchgate.net/profile/Sinosha-Paralikar-2"
+  - label: "Scholar"
+    icon: "fab fa-fw fa-google"
+    url: "https://scholar.google.com/citations?hl=en&user=HqCN-0sAAAAJ&view_op=list_works&authuser=1&gmla=AH8HC4yTXIAhZmB2fhXC8iltg_uQWpNKrs3HLzrh3b4xgQrxYuhtjMp4ThYa5CHI5YMt_d_BYT-NiW0esL6LbFLyA91oROTD-qtc4nxSDNgUo5QPBi6uMIggvdJA2FWvifCz7bGrB5qQZso8uBSTTzXhpYwFqH01Ug&gmla=AH8HC4yZLXSoH3EsUJIBlv2upUAFZCen4jPNjzIUHsrge7I4KVp4JRXCIWuDBIS43sdNHOi7k5myZUjqXvI6U9GIdghglxTfuopoRE5g0mQ&sciund=9570800969892349019" 

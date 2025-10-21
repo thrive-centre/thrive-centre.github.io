@@ -588,7 +588,7 @@ button:hover {
 - **License (test subset):** CC BY-NC-SA 4.0  
 - **IRAS approvals:** 243023 (dataset derivation), 279328 (test subset release)  
 - **REC reference:** 20/SC/0386  
-- **Data governance:** Training split not public; **pre-trained/fine-tuned weights** available.
+- **Data governance:** Training split not public; **pre-trained/fine-tuned weights** [available here](https://github.com/thrive-centre/EchoForge/blob/main/echoforge/classification/models/EchoView47/README.md).
 
 ---
 

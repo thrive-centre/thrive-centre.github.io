@@ -44,7 +44,7 @@ project_description:
     - "Create generalisable models across multiple medical domains."
 contact:
   text: "Dr. Eman Alajrami"
-  link: ""
+  link: "https://www.uwl.ac.uk/staff/eman-alajrami"
 ---
 
 {% if page.supervisory_team and page.supervisory_team.size > 0 %}

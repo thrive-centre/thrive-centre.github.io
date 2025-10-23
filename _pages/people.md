@@ -39,11 +39,11 @@ core_members:
     title: "Nasim Dadashi Serej"
     excerpt: "**Core Academic**  \nLecturer in Computer Science"
     link: "https://www.uwl.ac.uk/staff/nasim-dadashi-serej"
-  - image_path: /assets/images/people/Eman.png
+  - image_path: /assets/images/people/eman.jpg
     alt: "Eman Alajrami"
     title: "Eman Alajrami"
     excerpt: "**Core Academic**  \nLecturer in Computer Science"
-    link: "https://emanalajrami.github.io/Emanajrami/index.html"
+    link: "https://www.uwl.ac.uk/staff/eman-alajrami"
   - image_path: /assets/images/people/sama.jpg
     alt: "Sama Aleshaiker"
     title: "Sama Aleshaiker"

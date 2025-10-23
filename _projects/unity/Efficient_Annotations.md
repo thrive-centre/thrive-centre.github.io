@@ -144,7 +144,7 @@ Future research directions include:
 
 - [**Professor Massoud Zolgharni**](https://www.uwl.ac.uk/staff/massoud-zolgharni)  
 - [**Dr Nasim Dadashi Serej**](https://www.uwl.ac.uk/staff/nasim-dadashi-serej)  
-- [**Dr Eman Alajrami**](https://www.researchgate.net/profile/Eman-Alajrami)  
+- [**Dr Eman Alajrami**](https://www.uwl.ac.uk/staff/eman-alajrami)  
 - [**Dr Jevgeni Jevsikov**](https://twitter.com/intsav_?lang=en-gb)
 
 ---

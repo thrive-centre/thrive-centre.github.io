@@ -104,18 +104,18 @@ Secure Google login required.
 ## Open Projects  {#open-projects}  
 
 ## Image Quality – A4C View  
-- [Foreshortening](foreshortening.html)  
-- [Alignment/Rotation](Orientation.html)  
-- [Endocardial Segments](endocardial_borders.html)  
-- [Valve Visibility](Valve_visibility.html)  
+- [Foreshortening](/datasets/foreshortening)  
+- [Alignment/Rotation](/datasets/orientation)  
+- [Endocardial Segments](/datasets/endocardial-segments)  
+- [Valve Visibility](/datasets/valve-visibility)  
 
 ## Image Quality – PLAX View  
-- [Foreshortening](PLAX_Foreshortening.html)  
-- [Alignment/Rotation](PLAX_Orientation.html)  
-- [Valve Visibility](PLAX_Valve_visibility.html)  
+- [Foreshortening](/datasets/plax-foreshortening)  
+- [Alignment/Rotation](/datasets/plax-orientation)  
+- [Valve Visibility](/datasets/plax-valve-visibility)  
 
 ## Image Classification  
-- [View Detection](view-detection.html) — Echo view classification  
+- [View Detection](/datasets/echo-view-classification) — Echo view classification  
 
 ---
 

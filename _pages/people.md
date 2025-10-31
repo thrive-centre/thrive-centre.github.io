@@ -215,7 +215,7 @@ alumni:
   - image_path: /assets/images/people/Neda2.jpg
     alt: "Neda Azarmehr"
     title: "Neda Azarmehr"
-    excerpt: "PhD Graduate"
+    excerpt: "Lecturer in Computer Science"
     link: "https://www.sheffield.ac.uk/ijc/people/neda-azarmehr"
   - image_path: /assets/images/people/scott.png
     alt: "Scott Yang"

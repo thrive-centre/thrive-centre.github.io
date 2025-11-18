@@ -37,7 +37,7 @@ We are currently recruiting for the following specific projects:
 {% endfor %}
 
 ---
-
+<!-- 
 ## Scholarships
 Scholarships are available for PhD research positions for **Home/UK students only**.  
 PhD programmes are funded for a 3-year period, and can start in February, May, and September each year. Funding includes bursaries at the standard rate and paid registration fees.  
@@ -49,9 +49,8 @@ PhD programmes are funded for a 3-year period, and can start in February, May, a
 
 ## Deadlines
 **Deadline for applications for February 2026 intake:**  
-- **Home/settled/International students:** Sunday 21 September 2025 at 23:59pm  
+- **Home/settled/International students:** Sunday 21 September 2025 at 23:59pm   -->
 
----
 [Apply Now - PhD Computer Science](https://evision.uwl.ac.uk/urd/sits.urd/run/siw_file_load.sso?snzSx5iEuwGggL9kmQINlTHSpjOaEuhcIx2VpyqTi8FtlAlvUN){: .btn .btn--primary .btn--large target="_blank"}
 
 [Apply Now - PhD Translational Medicine](https://evision.uwl.ac.uk/urd/sits.urd/run/siw_file_load.sso?xalkyfNCYqJ6RTFpUhifvu9ZhxVJBiuo2qHvcIm8pqEhnTUBW8){: .btn .btn--primary .btn--large target="_blank"}

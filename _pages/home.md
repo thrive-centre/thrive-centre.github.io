@@ -57,6 +57,14 @@ feature_row:
     link: "https://alumni.uwl.ac.uk/donate-now"
 gallery_items:
 
+  - title: "Thrive presented at AiIH2025"
+    description: "Well done to Patricia Fernandes, Preshen, Jevgeni Jevsikov, and Sara Adibzadeh for presenting your excellent work at the International Conference on Artificial Intelligence in Healthcare"
+    short_description: "AiIH2025 presentation."
+    type: "image"
+    url: "/assets/images/landing_page/sara.jpg"
+    link: "https://lnkd.in/eGBKsQ6z"
+    thumbnail: "/assets/images/landing_page/sara.jpg"
+
   - title: "Special Session: AI in Echocardiography"
     description: "We are hosting a special session at Jesus College, University of Cambridge, and invite researchers, clinicians, and industry experts to  join us in exploring how AI is shaping the future of echocardiography! This is a great platform to showcase your work and discuss the transformative impact of AI in echo analysis."
     short_description: "Special session at Jesus College, University of Cambridge!"

@@ -62,7 +62,7 @@ gallery_items:
     short_description: "AiIH2025 presentation."
     type: "image"
     url: "/assets/images/landing_page/sara.jpg"
-    link: "https://lnkd.in/eGBKsQ6z"
+    link: "https://www.linkedin.com/posts/thrive-centre-home_aiih2025-aiinhealthcare-intsav-activity-7371811198029185024-PdhV/"
     thumbnail: "/assets/images/landing_page/sara.jpg"
 
   - title: "Special Session: AI in Echocardiography"

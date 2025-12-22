@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎄 Merry Christmas! 🎅</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            background: linear-gradient(to bottom, #0a1931 0%, #1e3a5f 50%, #2c5f8d 100%);
+            height: 100vh;
+            position: relative;
+        }
+
+        /* بارش برف */
+        .snowflake {
+            position: absolute;
+            top: -10px;
+            color: white;
+            font-size: 1em;
+            animation: fall linear infinite;
+            opacity: 0.8;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(100vh) rotate(360deg);
+            }
+        }
+
+        /* کانتینر اصلی */
+        .scene {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        /* زمین برفی */
+        .ground {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 150px;
+            background: linear-gradient(to bottom, #ffffff 0%, #e8f4f8 100%);
+            border-radius: 0 0 50% 50% / 0 0 20px 20px;
+        }
+
+        /* ماه */
+        .moon {
+            position: absolute;
+            top: 50px;
+            right: 100px;
+            width: 100px;
+            height: 100px;
+            background: #fef9c7;
+            border-radius: 50%;
+            box-shadow: 0 0 40px #fef9c7, 0 0 80px rgba(254, 249, 199, 0.5);
+            animation: glow 3s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        /* ستاره‌ها */
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60%;
+        }
+
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 2s ease-in-out infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        /* درخت کریسمس */
+        .christmas-tree {
+            position: relative;
+            margin-bottom: 150px;
+            z-index: 10;
+        }
+
+        .tree-part {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tree-part-1 {
+            border-width: 0 60px 80px 60px;
+            border-color: transparent transparent #2d5016 transparent;
+            margin-bottom: -20px;
+        }
+
+        .tree-part-2 {
+            border-width: 0 80px 100px 80px;
+            border-color: transparent transparent #3a6b1f transparent;
+            margin-bottom: -20px;
+        }
+
+        .tree-part-3 {
+            border-width: 0 100px 120px 100px;
+            border-color: transparent transparent #2d5016 transparent;
+        }
+
+        .tree-trunk {
+            width: 40px;
+            height: 50px;
+            background: #6b4423;
+            margin: 0 auto;
+            border-radius: 0 0 5px 5px;
+        }
+
+        .tree-star {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #ffd700;
+            font-size: 40px;
+            animation: star-pulse 1s ease-in-out infinite;
+            filter: drop-shadow(0 0 10px #ffd700);
+        }
+
+        @keyframes star-pulse {
+            0%, 100% { transform: translateX(-50%) scale(1); }
+            50% { transform: translateX(-50%) scale(1.2); }
+        }
+
+        /* چراغ‌های درخت */
+        .light {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            animation: blink 1.5s ease-in-out infinite;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        .light-red { background: #ff0000; box-shadow: 0 0 10px #ff0000; }
+        .light-blue { background: #0066ff; box-shadow: 0 0 10px #0066ff; animation-delay: 0.5s; }
+        .light-yellow { background: #ffff00; box-shadow: 0 0 10px #ffff00; animation-delay: 1s; }
+        .light-green { background: #00ff00; box-shadow: 0 0 10px #00ff00; animation-delay: 0.75s; }
+
+        /* سورتمه با بابانوئل و گوزن‌ها */
+        .santa-sleigh-container {
+            position: absolute;
+            bottom: 60%;
+            display: flex;
+            align-items: flex-end;
+            gap: 10px;
+            z-index: 50;
+            transition: none;
+        }
+
+        /* گوزن‌ها */
+        .reindeer {
+            position: relative;
+            animation: reindeer-run 0.3s ease-in-out infinite;
+        }
+
+        @keyframes reindeer-run {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        .reindeer-body {
+            width: 70px;
+            height: 50px;
+            background: #8b4513;
+            border-radius: 40px;
+            position: relative;
+        }
+
+        .reindeer-head {
+            width: 40px;
+            height: 40px;
+            background: #8b4513;
+            border-radius: 50%;
+            position: absolute;
+            top: -10px;
+            right: -30px;
+        }
+
+        .reindeer-nose {
+            width: 12px;
+            height: 12px;
+            background: #ff0000;
+            border-radius: 50%;
+            position: absolute;
+            right: -8px;
+            top: 50%;
+            box-shadow: 0 0 15px #ff0000;
+            animation: nose-glow 1s ease-in-out infinite;
+        }
+
+        .reindeer-eye {
+            width: 4px;
+            height: 4px;
+            background: #000;
+            border-radius: 50%;
+            position: absolute;
+            right: 5px;
+            top: 35%;
+        }
+
+        @keyframes nose-glow {
+            0%, 100% { box-shadow: 0 0 15px #ff0000; }
+            50% { box-shadow: 0 0 25px #ff0000, 0 0 35px #ff0000; }
+        }
+
+        .reindeer-antler {
+            position: absolute;
+            width: 3px;
+            height: 25px;
+            background: #6b4423;
+            top: -20px;
+        }
+
+        .reindeer-antler-left { left: 5px; transform: rotate(-30deg); }
+        .reindeer-antler-right { right: 5px; transform: rotate(30deg); }
+
+        .reindeer-antler-branch {
+            position: absolute;
+            width: 2px;
+            height: 10px;
+            background: #6b4423;
+            top: 8px;
+        }
+
+        .branch-left { left: -5px; transform: rotate(-45deg); }
+        .branch-right { right: -5px; transform: rotate(45deg); }
+
+        .reindeer-legs {
+            position: absolute;
+            width: 6px;
+            height: 25px;
+            background: #6b4423;
+            border-radius: 5px;
+            bottom: -25px;
+        }
+
+        .leg-1 { left: 5px; }
+        .leg-2 { left: 18px; animation: leg-move 0.3s ease-in-out infinite; }
+        .leg-3 { right: 18px; animation: leg-move 0.3s ease-in-out infinite 0.15s; }
+        .leg-4 { right: 5px; }
+
+        @keyframes leg-move {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        /* هدایا */
+        .gifts {
+            position: absolute;
+            bottom: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+            z-index: 5;
+        }
+
+        .gift {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            animation: gift-appear 2s ease-in-out infinite;
+        }
+
+        @keyframes gift-appear {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .gift-box {
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+
+        .gift-1 { background: #ff4444; animation-delay: 0s; }
+        .gift-2 { background: #44ff44; animation-delay: 0.5s; }
+        .gift-3 { background: #4444ff; animation-delay: 1s; }
+
+        .gift-bow {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background: #ffd700;
+            border-radius: 50%;
+        }
+
+        .gift-bow::before,
+        .gift-bow::after {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: #ffd700;
+            border-radius: 50%;
+            top: 2px;
+        }
+
+        .gift-bow::before { left: -12px; }
+        .gift-bow::after { right: -12px; }
+
+        /* متن */
+        .message {
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: white;
+            z-index: 100;
+            font-family: 'Georgia', serif;
+        }
+
+        .message h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+            animation: text-glow 2s ease-in-out infinite;
+        }
+
+        @keyframes text-glow {
+            0%, 100% { text-shadow: 0 0 20px rgba(255, 215, 0, 0.8); }
+            50% { text-shadow: 0 0 30px rgba(255, 215, 0, 1), 0 0 40px rgba(255, 215, 0, 0.8); }
+        }
+
+        .message p {
+            font-size: 1.3em;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+
+        .thrive-text {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .thrive-text .thrive {
+            color: #ffd700;
+            text-shadow: 
+                0 0 10px #ffd700,
+                0 0 20px #ffd700,
+                0 0 30px #ffd700,
+                0 0 40px #ff9900;
+            animation: thrive-glow 2s ease-in-out infinite;
+        }
+
+        @keyframes thrive-glow {
+            0%, 100% { 
+                text-shadow: 
+                    0 0 10px #ffd700,
+                    0 0 20px #ffd700,
+                    0 0 30px #ffd700,
+                    0 0 40px #ff9900;
+            }
+            50% { 
+                text-shadow: 
+                    0 0 20px #ffd700,
+                    0 0 30px #ffd700,
+                    0 0 40px #ffd700,
+                    0 0 50px #ff9900,
+                    0 0 60px #ff9900;
+            }
+        }
+
+        /* ابرهای برفی */
+        .cloud {
+            position: absolute;
+            animation: cloud-float 30s linear infinite;
+        }
+
+        .cloud::before,
+        .cloud::after {
+            content: '';
+            position: absolute;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+        }
+
+        /* دایره وسط (بزرگترین) */
+        .cloud::before {
+            width: 100%;
+            height: 100%;
+            left: 0;
+            bottom: 0;
+            z-index: 2;
+        }
+
+        /* دایره چپ (متوسط) */
+        .cloud::after {
+            width: 70%;
+            height: 70%;
+            left: -25%;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        /* دایره راست (کوچک) */
+        .cloud-right {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            width: 55%;
+            height: 55%;
+            right: -20%;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        .cloud-1 {
+            width: 100px;
+            height: 100px;
+            top: 100px;
+            left: -100px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+        }
+
+        .cloud-2 {
+            width: 120px;
+            height: 120px;
+            top: 150px;
+            left: -150px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            animation-delay: 10s;
+        }
+
+        .cloud-3 {
+            width: 80px;
+            height: 80px;
+            top: 80px;
+            left: -80px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            animation-delay: 20s;
+        }
+
+        @keyframes cloud-float {
+            from { transform: translateX(0); }
+            to { transform: translateX(calc(100vw + 200px)); }
+        }
+
+        /* درخت‌های کوچک پس‌زمینه */
+        .bg-tree {
+            position: absolute;
+            bottom: 150px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            opacity: 0.4;
+        }
+
+        .bg-tree-1 {
+            left: 50px;
+            border-width: 0 30px 60px 30px;
+            border-color: transparent transparent #2d5016 transparent;
+        }
+
+        .bg-tree-2 {
+            right: 100px;
+            border-width: 0 40px 80px 40px;
+            border-color: transparent transparent #3a6b1f transparent;
+        }
+
+        .bg-tree-3 {
+            left: 250px;
+            border-width: 0 25px 50px 25px;
+            border-color: transparent transparent #2d5016 transparent;
+        }
+
+        /* سورتمه */
+        .sleigh {
+            position: relative;
+            margin-left: 20px;
+            transform: scaleX(-1);
+        }
+
+        .sleigh-body {
+            width: 120px;
+            height: 50px;
+            background: #c41e3a;
+            border-radius: 15px 15px 15px 60px;
+            position: relative;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .sleigh-runner {
+            width: 130px;
+            height: 10px;
+            background: #ffd700;
+            border-radius: 50px;
+            position: absolute;
+            bottom: -18px;
+            left: -5px;
+        }
+
+        /* بابانوئل در سورتمه */
+        .santa-in-sleigh {
+            position: absolute;
+            top: -70px;
+            left: 60%;
+            transform: translateX(-50%) scaleX(-1);
+        }
+
+        .santa-head {
+            width: 40px;
+            height: 40px;
+            background: #ffdab9;
+            border-radius: 50%;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .santa-body {
+            width: 50px;
+            height: 60px;
+            background: #c41e3a;
+            border-radius: 0 0 25px 25px;
+            position: relative;
+            margin: 0 auto;
+            margin-top: -5px;
+        }
+
+        .santa-hat {
+            width: 50px;
+            height: 35px;
+            background: #c41e3a;
+            border-radius: 50% 50% 0 0;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .santa-hat-ball {
+            width: 12px;
+            height: 12px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: -6px;
+            right: 5px;
+            animation: ball-bounce 0.5s ease-in-out infinite;
+        }
+
+        @keyframes ball-bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-3px); }
+        }
+
+        .santa-beard {
+            width: 30px;
+            height: 22px;
+            background: white;
+            border-radius: 0 0 15px 15px;
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .santa-eyes {
+            width: 5px;
+            height: 5px;
+            background: #000;
+            border-radius: 50%;
+            position: absolute;
+            top: 12px;
+        }
+
+        .santa-eye-left { left: 10px; }
+        .santa-eye-right { right: 10px; }
+
+        .santa-nose {
+            width: 6px;
+            height: 6px;
+            background: #ff4444;
+            border-radius: 50%;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            border: 1px solid #cc0000;
+        }
+
+        .santa-belt {
+            width: 50px;
+            height: 8px;
+            background: #000;
+            position: absolute;
+            top: 50%;
+        }
+
+        .santa-buckle {
+            width: 12px;
+            height: 12px;
+            background: #ffd700;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid #000;
+        }
+
+        .santa-arm {
+            width: 15px;
+            height: 35px;
+            background: #c41e3a;
+            border-radius: 10px;
+            position: absolute;
+            top: 10px;
+        }
+
+        .santa-arm-left {
+            left: -10px;
+            transform: rotate(-20deg);
+            animation: arm-wave 1s ease-in-out infinite;
+        }
+
+        .santa-arm-right {
+            right: -10px;
+            transform: rotate(20deg);
+        }
+
+        @keyframes arm-wave {
+            0%, 100% { transform: rotate(-20deg); }
+            50% { transform: rotate(-40deg); }
+        }
+
+        /* طناب اتصال */
+        .reins {
+            position: absolute;
+            height: 2px;
+            background: #8b4513;
+            top: 50%;
+            right: 100%;
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ماه -->
+    <div class="moon"></div>
+
+    <!-- ستاره‌ها -->
+    <div class="stars" id="stars"></div>
+
+    <!-- ابرها -->
+    <div class="cloud cloud-1">
+        <div class="cloud-right"></div>
+    </div>
+    <div class="cloud cloud-2">
+        <div class="cloud-right"></div>
+    </div>
+    <div class="cloud cloud-3">
+        <div class="cloud-right"></div>
+    </div>
+
+    <!-- سورتمه بابانوئل با گوزن‌ها -->
+    <div class="santa-sleigh-container" id="santaSleigh">
+        <!-- سورتمه با بابانوئل -->
+        <div class="sleigh">
+            <div class="santa-in-sleigh">
+                <div class="santa-head">
+                    <div class="santa-hat">
+                        <div class="santa-hat-ball"></div>
+                    </div>
+                    <div class="santa-eyes santa-eye-left"></div>
+                    <div class="santa-eyes santa-eye-right"></div>
+                    <div class="santa-nose"></div>
+                    <div class="santa-beard"></div>
+                </div>
+                <div class="santa-body">
+                    <div class="santa-arm santa-arm-left"></div>
+                    <div class="santa-arm santa-arm-right"></div>
+                    <div class="santa-belt">
+                        <div class="santa-buckle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sleigh-body"></div>
+            <div class="sleigh-runner"></div>
+        </div>
+
+        <!-- گوزن اول -->
+        <div class="reindeer">
+            <div class="reins"></div>
+            <div class="reindeer-body">
+                <div class="reindeer-legs leg-1"></div>
+                <div class="reindeer-legs leg-2"></div>
+                <div class="reindeer-legs leg-3"></div>
+                <div class="reindeer-legs leg-4"></div>
+            </div>
+            <div class="reindeer-head">
+                <div class="reindeer-nose"></div>
+                <div class="reindeer-eye"></div>
+                <div class="reindeer-antler reindeer-antler-left">
+                    <div class="reindeer-antler-branch branch-left"></div>
+                </div>
+                <div class="reindeer-antler reindeer-antler-right">
+                    <div class="reindeer-antler-branch branch-right"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- گوزن دوم -->
+        <div class="reindeer" style="animation-delay: 0.15s;">
+            <div class="reins"></div>
+            <div class="reindeer-body">
+                <div class="reindeer-legs leg-1"></div>
+                <div class="reindeer-legs leg-2"></div>
+                <div class="reindeer-legs leg-3"></div>
+                <div class="reindeer-legs leg-4"></div>
+            </div>
+            <div class="reindeer-head">
+                <div class="reindeer-eye"></div>
+                <div class="reindeer-antler reindeer-antler-left">
+                    <div class="reindeer-antler-branch branch-left"></div>
+                </div>
+                <div class="reindeer-antler reindeer-antler-right">
+                    <div class="reindeer-antler-branch branch-right"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- متن -->
+    <div class="message">
+        <h1>🎄 Merry Christmas! 🎅</h1>
+        <p>Wishing you joy and happiness!</p>
+        <p class="thrive-text"><span class="thrive">THRIVE</span> centre</p>
+    </div>
+
+    <!-- صحنه اصلی -->
+    <div class="scene">
+        <!-- درخت‌های پس‌زمینه -->
+        <div class="bg-tree bg-tree-1"></div>
+        <div class="bg-tree bg-tree-2"></div>
+        <div class="bg-tree bg-tree-3"></div>
+
+        <!-- درخت کریسمس -->
+        <div class="christmas-tree">
+            <div class="tree-star">⭐</div>
+            <div class="tree-part tree-part-1" id="tree1"></div>
+            <div class="tree-part tree-part-2" id="tree2"></div>
+            <div class="tree-part tree-part-3" id="tree3"></div>
+            <div class="tree-trunk"></div>
+        </div>
+
+        <!-- هدایا -->
+        <div class="gifts">
+            <div class="gift" style="margin-left: -180px; margin-bottom: 0;">
+                <div class="gift-box gift-1"></div>
+                <div class="gift-bow"></div>
+            </div>
+            <div class="gift" style="margin-left: -130px; margin-bottom: 0;">
+                <div class="gift-box gift-3"></div>
+                <div class="gift-bow"></div>
+            </div>
+            <div class="gift" style="margin-left: -80px; margin-bottom: 0;">
+                <div class="gift-box gift-2"></div>
+                <div class="gift-bow"></div>
+            </div>
+            <div class="gift" style="margin-left: -30px; margin-bottom: 0;">
+                <div class="gift-box gift-1"></div>
+                <div class="gift-bow"></div>
+            </div>
+            <div class="gift" style="margin-left: 20px; margin-bottom: 0;">
+                <div class="gift-box gift-3"></div>
+                <div class="gift-bow"></div>
+            </div>
+            <div class="gift" style="margin-left: 70px; margin-bottom: 0;">
+                <div class="gift-box gift-2"></div>
+                <div class="gift-bow"></div>
+            </div>
+            <div class="gift" style="margin-left: 120px; margin-bottom: 0;">
+                <div class="gift-box gift-1"></div>
+                <div class="gift-bow"></div>
+            </div>
+        </div>
+
+        <!-- زمین -->
+        <div class="ground"></div>
+    </div>
+
+    <!-- برف -->
+    <div id="snow"></div>
+
+    <script>
+        // ایجاد ستاره‌ها
+        const starsContainer = document.getElementById('stars');
+        for (let i = 0; i < 100; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 60 + '%';
+            star.style.animationDelay = Math.random() * 2 + 's';
+            starsContainer.appendChild(star);
+        }
+
+        // ایجاد بارش برف
+        const snowContainer = document.getElementById('snow');
+        const snowflakes = ['❄', '❅', '❆', '•', '∘'];
+        
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.className = 'snowflake';
+            snowflake.textContent = snowflakes[Math.floor(Math.random() * snowflakes.length)];
+            snowflake.style.left = Math.random() * 100 + '%';
+            snowflake.style.fontSize = (Math.random() * 1 + 0.5) + 'em';
+            snowflake.style.animationDuration = (Math.random() * 3 + 5) + 's';
+            snowflake.style.animationDelay = Math.random() * 5 + 's';
+            snowContainer.appendChild(snowflake);
+
+            // حذف برف بعد از سقوط
+            setTimeout(() => {
+                snowflake.remove();
+            }, 10000);
+        }
+
+        // ایجاد برف به صورت مداوم
+        setInterval(createSnowflake, 200);
+
+        // اضافه کردن چراغ‌های رنگی به درخت
+        const colors = ['light-red', 'light-blue', 'light-yellow', 'light-green'];
+        const christmasTree = document.querySelector('.christmas-tree');
+        
+        // موقعیت‌های قسمت‌های مختلف درخت (از بالا به پایین)
+        const treeLevels = [
+            { top: 40, width: 120, lights: 6 },   // بالا
+            { top: 100, width: 160, lights: 8 },  // وسط بالا
+            { top: 160, width: 200, lights: 10 }, // وسط
+            { top: 230, width: 240, lights: 12 }, // پایین
+        ];
+        
+        treeLevels.forEach((level, levelIndex) => {
+            for (let i = 0; i < level.lights; i++) {
+                const light = document.createElement('div');
+                light.className = 'light ' + colors[Math.floor(Math.random() * colors.length)];
+                
+                // موقعیت افقی (توزیع در عرض درخت)
+                const xOffset = (i / level.lights - 0.5) * level.width * 0.8;
+                const yOffset = Math.random() * 40 - 20; // تغییرات عمودی
+                
+                light.style.left = `calc(50% + ${xOffset}px)`;
+                light.style.top = (level.top + yOffset) + 'px';
+                light.style.animationDelay = Math.random() * 1.5 + 's';
+                
+                christmasTree.appendChild(light);
+            }
+        });
+
+        // حرکت رندوم سورتمه با بابانوئل و گوزن‌ها
+        const santaSleigh = document.getElementById('santaSleigh');
+        let isMoving = false;
+
+        function moveSantaSleigh() {
+            if (isMoving) return;
+            isMoving = true;
+
+            // انتخاب رندوم جهت حرکت
+            const fromLeft = Math.random() > 0.5;
+            const screenWidth = window.innerWidth;
+            
+            // تنظیم موقعیت شروع
+            if (fromLeft) {
+                santaSleigh.style.left = '-400px';
+                santaSleigh.style.transform = 'scaleX(1)';
+            } else {
+                santaSleigh.style.left = screenWidth + 'px';
+                santaSleigh.style.transform = 'scaleX(-1)';
+            }
+
+            // ارتفاع رندوم (40% تا 70% از صفحه)
+            const randomHeight = 40 + Math.random() * 30;
+            santaSleigh.style.bottom = randomHeight + '%';
+
+            // سرعت رندوم (5 تا 10 ثانیه)
+            const duration = 5000 + Math.random() * 5000;
+            
+            // محاسبه موقعیت پایان
+            const endPosition = fromLeft ? screenWidth + 400 : -400;
+            const startPosition = fromLeft ? -400 : screenWidth + 400;
+            
+            // انیمیشن حرکت
+            const startTime = Date.now();
+            
+            function animate() {
+                const elapsed = Date.now() - startTime;
+                const progress = elapsed / duration;
+                
+                if (progress < 1) {
+                    const currentPos = startPosition + (endPosition - startPosition) * progress;
+                    santaSleigh.style.left = currentPos + 'px';
+                    requestAnimationFrame(animate);
+                } else {
+                    isMoving = false;
+                    // زمان رندوم برای حرکت بعدی (3 تا 8 ثانیه)
+                    const nextMoveDelay = 3000 + Math.random() * 5000;
+                    setTimeout(moveSantaSleigh, nextMoveDelay);
+                }
+            }
+            
+            animate();
+        }
+
+        // شروع حرکت بعد از 2 ثانیه
+        setTimeout(moveSantaSleigh, 2000);
+    </script>
+</body>
+</html>

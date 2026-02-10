@@ -122,11 +122,6 @@ phd_students:
     title: "Alireza Alibakhshi"
     excerpt: "PhD Student"
     link: "people/alireza-alibakhshi"
-  - image_path: /assets/images/people/Preshen.jpg
-    alt: "Preshen Naidoo"
-    title: "Preshen Naidoo"
-    excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/preshen-n-190350a5/"
   - image_path: /assets/images/people/Wiktoria.jpeg
     alt: "Wiktoria Roksana"
     title: "Wiktoria Roksana"
@@ -147,6 +142,16 @@ phd_students:
     title: "Sinosha Paralikar"
     excerpt: "PhD Student"
     link: "people/sinosha-paralikar"
+  - image_path: /assets/images/people/arshian.jpg
+    alt: "Arshian Hussain"
+    title: "Arshian Hussain"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/arshian-hussain-8b9b53264/"
+  - image_path: /assets/images/people/yush.jpg
+    alt: "Yush Shrestha"
+    title: "Yush Shrestha"
+    excerpt: "PhD Student"
+    link: "/people/yush-shrestha"
 
 # Visiting Academics Feature Row
 visiting_academics:
@@ -157,31 +162,18 @@ visiting_academics:
     link: "https://github.com/jjevsikov"
 
 # Interns Feature Row
-interns:
-  - image_path: /assets/images/people/arshian.jpg
-    alt: "Arshian Hussain"
-    title: "Arshian Hussain"
-    excerpt: "Intern"
-    link: "https://www.linkedin.com/in/arshian-hussain-8b9b53264/"
-  - image_path: /assets/images/people/malcolm.jpg
-    alt: "Malcolm Sanha"
-    title: "Malcolm Sanha"
-    excerpt: "Intern"
-    link: "https://www.linkedin.com/in/malcolm-sanha-138918269/"
-  - image_path: /assets/images/people/yush.jpg
-    alt: "Yush Shrestha"
-    title: "Yush Shrestha"
-    excerpt: "Intern"
-    link: "/people/yush-shrestha"
+# interns:
+
+
 
 
 # Alumni Feature Row
 alumni:
-  - image_path: /assets/images/people/Eman.png
-    alt: "Eman Alajrami"
-    title: "Eman Alajrami"
-    excerpt: "PhD Graduate"
-    link: "https://emanalajrami.github.io/Emanajrami/index.html"
+  # - image_path: /assets/images/people/Eman.png
+  #   alt: "Eman Alajrami"
+  #   title: "Eman Alajrami"
+  #   excerpt: "PhD Graduate"
+  #   link: "https://emanalajrami.github.io/Emanajrami/index.html"
   - image_path: /assets/images/people/Cristiane.jpeg
     alt: "Cristiane Girotto"
     title: "Cristiane Girotto"
@@ -247,6 +239,16 @@ alumni:
     title: "May Hlaing Kyi"
     excerpt: "Intern"
     link: "http://linkedin.com/in/may-h-kyi-76651b248/"
+  - image_path: /assets/images/people/Preshen.jpg
+    alt: "Preshen Naidoo"
+    title: "Preshen Naidoo"
+    excerpt: "PhD Student"
+    link: "https://www.linkedin.com/in/preshen-n-190350a5/"
+  - image_path: /assets/images/people/malcolm.jpg
+    alt: "Malcolm Sanha"
+    title: "Malcolm Sanha"
+    excerpt: "Intern"
+    link: "https://www.linkedin.com/in/malcolm-sanha-138918269/"
 ---
 <br>
 <br>
@@ -270,10 +272,10 @@ Our team brings together a wide range of expertise from across various schools a
 
 {% include feature_row id="phd_students" %}
 
-## Interns
+<!-- ## Interns
 {: .text-center}
 
-{% include feature_row id="interns" %}
+{% include feature_row id="interns" %} -->
 
 ## Visiting Academics
 {: .text-center}

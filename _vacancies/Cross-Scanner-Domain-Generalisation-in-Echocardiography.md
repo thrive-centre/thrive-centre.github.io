@@ -2,7 +2,7 @@
 toc: true
 toc_sticky: true
 author_profile: true
-date: 2025-09-17
+date: 2026-02-26
 title: "Cross-Scanner Domain Generalisation in Echocardiography via Frequency-Based Style Normalisation"
 permalink: /vacancies/Cross-Scanner-Domain-Generalisation-in-Echocardiography/
 supervisory_team:

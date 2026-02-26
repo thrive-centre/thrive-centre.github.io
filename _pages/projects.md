@@ -21,6 +21,15 @@ feature_row:
     faculty: "Massoud Zolgharni,Nasim Dadashi"
     students: "Patricia Fernandes,Isreal Ufumaka,Alireza Alibakhshi"
     
+  - image_path: /assets/images/projects/echolearn/echolearn.jpeg
+    alt: "Echolearn"
+    title: "Echolearn"
+    link: "/projects/echolearn"
+    areas: "Cardiology,AI,Signal Processing"
+    faculty: "Massoud Zolgharni"
+    students: ""
+
+
   - image_path: /assets/images/projects/PulseNote.jpg
     alt: "PulseNote"
     title: "PulseNote"

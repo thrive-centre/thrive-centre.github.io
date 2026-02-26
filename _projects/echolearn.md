@@ -4,7 +4,7 @@ toc: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
-  overlay_image: /assets/images/projects/echolearn/echolearn.jpeg
+  overlay_image: /assets/images/projects/echolearn/echolearn4.png
   caption: ""
 excerpt: "AI-Powered Echocardiography Training and Acquisition Intelligence Platform (The UNITY Operator Guidance Platform)."
 intro: 

@@ -21,7 +21,7 @@ feature_row:
     faculty: "Massoud Zolgharni,Nasim Dadashi"
     students: "Patricia Fernandes,Isreal Ufumaka,Alireza Alibakhshi"
     
-  - image_path: /assets/images/projects/echolearn/echolearn.jpeg
+  - image_path: /assets/images/projects/echolearn/echolearn4.png
     alt: "EchoLearn"
     title: "EchoLearn"
     link: "/projects/echolearn"

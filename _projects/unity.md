@@ -21,7 +21,7 @@ feature_row:
     excerpt: "UNITY Cognitive Biobank"
     link: "/datasets/"
 
-  - image_path: /assets/images/projects/echolearn/echolearn.jpeg
+  - image_path: /assets/images/projects/echolearn/echolearn4.png
     alt: "EchoLearn"
     title: "EchoLearn"
     excerpt: "Operator Guidance Platform"

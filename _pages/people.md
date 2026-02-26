@@ -132,11 +132,6 @@ phd_students:
     title: "Hamid Heidari"
     excerpt: "PhD Student"
     link: "https://www.linkedin.com/in/hamid-heidari-kashkooli-85380581/"
-  - image_path: /assets/images/people/Sama-Pirkalkhoran.png
-    alt: "Sama Pirkalkhoran"
-    title: "Sama Pirkalkhoran"
-    excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/sama-pirkalkhoran-b24a8754/"
   - image_path: assets/images/people/sinosha.jpg
     alt: "Sinosha Paralikar"
     title: "Sinosha Paralikar"
@@ -242,13 +237,18 @@ alumni:
   - image_path: /assets/images/people/Preshen.jpg
     alt: "Preshen Naidoo"
     title: "Preshen Naidoo"
-    excerpt: "PhD Student"
+    excerpt: "PhD Graduate"
     link: "https://www.linkedin.com/in/preshen-n-190350a5/"
   - image_path: /assets/images/people/malcolm.jpg
     alt: "Malcolm Sanha"
     title: "Malcolm Sanha"
     excerpt: "Intern"
     link: "https://www.linkedin.com/in/malcolm-sanha-138918269/"
+  - image_path: /assets/images/people/Sama-Pirkalkhoran.png
+    alt: "Sama Pirkalkhoran"
+    title: "Sama Pirkalkhoran"
+    excerpt: "PhD Graduate"
+    link: "https://www.linkedin.com/in/sama-pirkalkhoran-b24a8754/"
 ---
 <br>
 <br>

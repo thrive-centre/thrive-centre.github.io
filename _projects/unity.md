@@ -15,6 +15,18 @@ intro:
       Key initiatives are outlined below.
 
 feature_row:
+  - image_path: /assets/images/projects/biobank.png
+    alt: "BioBank"
+    title: "BioBank"
+    excerpt: "UNITY Cognitive Biobank"
+    link: "/datasets/"
+
+  - image_path: /assets/images/projects/echolearn/echolearn.jpeg
+    alt: "EchoLearn"
+    title: "EchoLearn"
+    excerpt: "Operator Guidance Platform"
+    link: "/projects/echolearn"
+
   - image_path: "https://www.intsav.com/assets/img/projects/Mitral_Inflow/MIPW.png"
     alt: "Mitral Inflow"
     title: "Mitral Inflow"

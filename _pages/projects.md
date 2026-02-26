@@ -22,8 +22,8 @@ feature_row:
     students: "Patricia Fernandes,Isreal Ufumaka,Alireza Alibakhshi"
     
   - image_path: /assets/images/projects/echolearn/echolearn.jpeg
-    alt: "Echolearn"
-    title: "Echolearn"
+    alt: "EchoLearn"
+    title: "EchoLearn"
     link: "/projects/echolearn"
     areas: "Cardiology,AI,Signal Processing"
     faculty: "Massoud Zolgharni"

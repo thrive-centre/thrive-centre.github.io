@@ -591,6 +591,10 @@ button:hover {
 - **Data governance:** Training split not public; **pre-trained/fine-tuned weights** [available here](https://github.com/thrive-centre/EchoForge/blob/main/echoforge/classification/models/EchoView47/README.md).
 
 ---
+## References {#reference}
+
+- [Robust fine-grained echocardiographic view classification with supervised contrastive learning](https://www.sciencedirect.com/science/article/pii/S1361841526000757)
+---
 
 ## Contact / Access {#req-data}
 

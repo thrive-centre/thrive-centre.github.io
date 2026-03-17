@@ -246,3 +246,18 @@ Sinosha Paralikar:
   - label: "Scholar"
     icon: "fab fa-fw fa-google"
     url: "https://scholar.google.com/citations?hl=en&user=HqCN-0sAAAAJ&view_op=list_works&authuser=1&gmla=AH8HC4yTXIAhZmB2fhXC8iltg_uQWpNKrs3HLzrh3b4xgQrxYuhtjMp4ThYa5CHI5YMt_d_BYT-NiW0esL6LbFLyA91oROTD-qtc4nxSDNgUo5QPBi6uMIggvdJA2FWvifCz7bGrB5qQZso8uBSTTzXhpYwFqH01Ug&gmla=AH8HC4yZLXSoH3EsUJIBlv2upUAFZCen4jPNjzIUHsrge7I4KVp4JRXCIWuDBIS43sdNHOi7k5myZUjqXvI6U9GIdghglxTfuopoRE5g0mQ&sciund=9570800969892349019" 
+
+Nazanin Fraradonbeh:
+  name        : "Nazanin Fraradonbeh"
+  bio         : "PhD in Translational Medicine"
+  avatar      : "assets/images/people/Nazanin.png"
+  links:
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "mailto:Nazanin.AlaeiFaradonbeh@uwl.ac.uk"
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://http://www.linkedin.com/in/naf2026"  
+  - label: "Scholar"
+    icon: "fab fa-fw fa-google"
+    url: "https://scholar.google.com/citations?user=pHP8vzMAAAAJ&hl=en" 

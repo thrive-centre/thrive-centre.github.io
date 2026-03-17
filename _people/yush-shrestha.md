@@ -2,7 +2,7 @@
 
 title: ""
 author: Yush Shrestha
-excerpt: "MSc Artificial Intelligence"
+excerpt: "PhD in Computer Science"
 toc: true
 toc_sticky: true
 

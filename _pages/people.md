@@ -147,6 +147,11 @@ phd_students:
     title: "Yush Shrestha"
     excerpt: "PhD Student"
     link: "/people/yush-shrestha"
+  - image_path: /assets/images/people/Nazanin.png
+    alt: "Nazanin Fraradonbeh"
+    title: "Nazanin Fraradonbeh"
+    excerpt: "PhD Student"
+    link: "/people/nazanin-fraradonbeh"
 
 # Visiting Academics Feature Row
 visiting_academics:
@@ -164,11 +169,6 @@ visiting_academics:
 
 # Alumni Feature Row
 alumni:
-  # - image_path: /assets/images/people/Eman.png
-  #   alt: "Eman Alajrami"
-  #   title: "Eman Alajrami"
-  #   excerpt: "PhD Graduate"
-  #   link: "https://emanalajrami.github.io/Emanajrami/index.html"
   - image_path: /assets/images/people/Cristiane.jpeg
     alt: "Cristiane Girotto"
     title: "Cristiane Girotto"

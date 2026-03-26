@@ -152,6 +152,11 @@ phd_students:
     title: "Nazanin Fraradonbeh"
     excerpt: "PhD Student"
     link: "/people/nazanin-fraradonbeh"
+  - image_path: /assets/images/people/vara.jpg
+    alt: "Vara Prasad Repakula"
+    title: "Vara Prasad Repakula"
+    excerpt: "PhD Student"
+    link: "/people/Vara-Prasad-Repakula"
 
 # Visiting Academics Feature Row
 visiting_academics:

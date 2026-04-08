@@ -119,7 +119,7 @@ Secure Google login required.
 - [View Detection](/datasets/echo-view-classification) — Echo view classification   -->
 
 <!-- --- -->
-## Open Projects {#open-projects}
+# Open Projects {#open-projects}
 
 <div class="text-center">
   <!-- <h2>OPEN PROJECTS</h2> -->
@@ -177,7 +177,7 @@ Secure Google login required.
 
 <div class="project-grid">
 
-<div class="project-card">
+<!-- <div class="project-card">
   <img src="/assets/images/datasets/Foreshortening/Foreshortening(2).jpg" alt="Foreshortening">
   <a href="/datasets/foreshortening">Foreshortening</a>
 </div>
@@ -185,17 +185,17 @@ Secure Google login required.
 <div class="project-card">
   <img src="/assets/images/datasets/orientation/anti_clockwise.png" alt="Alignment/Rotation">
   <a href="/datasets/orientation">Alignment/Rotation</a>
-</div>
+</div> -->
 
 <div class="project-card">
   <img src="/assets/images/datasets/endocardial-segments/Borders.jpg" alt="Endocardial Segments">
   <a href="/datasets/endocardial-segments">Endocardial Segments</a>
 </div>
 
-<div class="project-card">
+<!-- <div class="project-card">
   <img src="/assets/images/datasets/valve-visibility/valves_(2).png" alt="Valve Visibility">
   <a href="/datasets/valve-visibility">Valve Visibility</a>
-</div>
+</div> -->
 
 </div>
 
@@ -229,6 +229,79 @@ Secure Google login required.
 
 ---
 
+<!-- ### Image Classification
+
+<div class="project-grid">
+
+<div class="project-card">
+  <img src="/assets/images/datasets/echo-view-classification/classification.png" alt="View Detection">
+  <a href="/datasets/echo-view-classification">View Detection</a>
+  <p style="font-size: 14px; color: #444;">Echo view classification</p>
+</div>
+
+</div> -->
+---
+
+# Completed Projects {#completed-projects}  
+
+---
+
+### Image Quality – A4C View
+
+<div class="project-grid">
+
+<div class="project-card">
+  <img src="/assets/images/datasets/Foreshortening/Foreshortening(2).jpg" alt="Foreshortening">
+  <a href="/datasets/foreshortening">Foreshortening</a>
+</div>
+
+<div class="project-card">
+  <img src="/assets/images/datasets/orientation/anti_clockwise.png" alt="Alignment/Rotation">
+  <a href="/datasets/orientation">Alignment/Rotation</a>
+</div>
+
+<!-- <div class="project-card">
+  <img src="/assets/images/datasets/endocardial-segments/Borders.jpg" alt="Endocardial Segments">
+  <a href="/datasets/endocardial-segments">Endocardial Segments</a>
+</div> -->
+
+<div class="project-card">
+  <img src="/assets/images/datasets/valve-visibility/valves_(2).png" alt="Valve Visibility">
+  <a href="/datasets/valve-visibility">Valve Visibility</a>
+</div>
+
+</div>
+
+---
+
+<!-- ### Image Quality – PLAX View
+
+<div class="project-grid">
+
+<div class="project-card">
+  <img src="/assets/images/datasets/plax-foreshortening/Picture1.jpg" alt="Foreshortening">
+  <a href="/datasets/plax-foreshortening">Foreshortening</a>
+</div>
+
+<div class="project-card">
+  <img src="/assets/images/datasets/plax-orientation/normal.png" alt="Alignment/Rotation">
+  <a href="/datasets/plax-orientation">Alignment/Rotation</a>
+</div>
+
+<div class="project-card">
+  <img src="/assets/images/datasets/plax-valve-visibility/Picture2.png" alt="Valve Visibility">
+  <a href="/datasets/plax-valve-visibility">Valve Visibility</a>
+</div>
+
+<div class="project-card">
+  <img src="/assets/images/datasets/phase-timing-detection-plax/01-0a0e5fd3ca9604ff0a7462ba64f92c246129b8cedd17a4a63cd197d6857666fe.gif" alt="Phase Timing Detection">
+  <a href="/datasets/phase-timing-detection-plax">Phase Timing Detection</a>
+</div>
+
+</div> -->
+
+---
+
 ### Image Classification
 
 <div class="project-grid">
@@ -241,8 +314,6 @@ Secure Google login required.
 
 </div>
 ---
-
-## Completed Projects {#completed-projects}  
 
 **Available datasets (images and labels):**  
 

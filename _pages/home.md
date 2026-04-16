@@ -57,6 +57,14 @@ feature_row:
     link: "https://alumni.uwl.ac.uk/donate-now"
 gallery_items:
 
+  - title: "THRIVE featured in UWL Research Showcase"
+    description: "THRIVE was highlighted as part of the University of West London’s School of Computing and Engineering research success, showcasing impactful work across AI, healthcare, and industry collaboration."
+    short_description: "UWL research feature."
+    type: "image"
+    url: "/assets/images/landing_page/uwl_research.jpg"
+    link: "https://www.linkedin.com/posts/university-of-west-london_research-at-the-school-of-computing-and-engineering-activity"
+    thumbnail: "/assets/images/landing_page/uwl_research.jpg"
+
   - title: "Thrive presented at AiIH2025"
     description: "Well done to Patricia Fernandes, Preshen, Jevgeni Jevsikov, and Sara Adibzadeh for presenting your excellent work at the International Conference on Artificial Intelligence in Healthcare"
     short_description: "AiIH2025 presentation."

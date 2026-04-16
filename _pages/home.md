@@ -65,6 +65,14 @@ gallery_items:
     link: "https://www.linkedin.com/posts/university-of-west-london_research-at-the-school-of-computing-and-engineering-activity"
     thumbnail: "/assets/images/landing_page/uwl_research.jpg"
 
+  - title: "New paper and dataset release: TTE47"
+    description: "THRIVE introduces TTE47 as part of the UNITY Biobank, supporting research in echocardiography and AI-driven healthcare through a newly released paper and dataset."
+    short_description: "TTE47 dataset release."
+    type: "image"
+    url: "/assets/images/projects/istockphoto-2194245609-612x612.jpg"
+    link: "https://www.linkedin.com/posts/thrive-centre-home_new-paper-dataset-release-activity"
+    thumbnail: "/assets/images/projects/istockphoto-2194245609-612x612.jpg"
+
   - title: "Thrive presented at AiIH2025"
     description: "Well done to Patricia Fernandes, Preshen, Jevgeni Jevsikov, and Sara Adibzadeh for presenting your excellent work at the International Conference on Artificial Intelligence in Healthcare"
     short_description: "AiIH2025 presentation."

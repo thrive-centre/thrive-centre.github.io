@@ -77,11 +77,6 @@ phd_students:
     title: "Arian Farokh"
     excerpt: "PhD Student"
     link: "/people/arian-farokh"
-  - image_path: /assets/images/people/Patty.PNG
-    alt: "Patricia Fernandes"
-    title: "Patricia Fernandes"
-    excerpt: "PhD Student"
-    link: "people/patricia-fernandes"
   - image_path: /assets/images/people/Sara_Adibzadeh.jpeg
     alt: "Sara Adibzadeh"
     title: "Sara Adibzadeh"
@@ -122,11 +117,6 @@ phd_students:
     title: "Alireza Alibakhshi"
     excerpt: "PhD Student"
     link: "people/alireza-alibakhshi"
-  - image_path: /assets/images/people/Wiktoria.jpeg
-    alt: "Wiktoria Roksana"
-    title: "Wiktoria Roksana"
-    excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/wiktoria-roksana-grabowska-5124881a9/"
   - image_path: /assets/images/people/Hamid.jpeg
     alt: "Hamid Heidari"
     title: "Hamid Heidari"
@@ -254,6 +244,16 @@ alumni:
     title: "Sama Pirkalkhoran"
     excerpt: "PhD Graduate"
     link: "https://www.linkedin.com/in/sama-pirkalkhoran-b24a8754/"
+  - image_path: /assets/images/people/Patty.PNG
+    alt: "Patricia Fernandes"
+    title: "Patricia Fernandes"
+    excerpt: "PhD Graduate"
+    link: "people/patricia-fernandes"
+  - image_path: /assets/images/people/Wiktoria.jpeg
+    alt: "Wiktoria Roksana"
+    title: "Wiktoria Roksana"
+    excerpt: "PhD Graduate"
+    link: "https://www.linkedin.com/in/wiktoria-roksana-grabowska-5124881a9/"
 ---
 <br>
 <br>

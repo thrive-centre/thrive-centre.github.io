@@ -62,7 +62,7 @@ gallery_items:
     short_description: "UWL research feature."
     type: "image"
     url: "/assets/images/landing_page/uwl_research.jpg"
-    link: "https://www.linkedin.com/posts/university-of-west-london_research-at-the-school-of-computing-and-engineering-activity"
+    link: "https://www.linkedin.com/posts/university-of-west-london_research-at-the-school-of-computing-and-engineering-ugcPost-7449833963201720321-ObzR"
     thumbnail: "/assets/images/landing_page/uwl_research.jpg"
 
   - title: "New paper and dataset release: TTE47"
@@ -70,7 +70,7 @@ gallery_items:
     short_description: "TTE47 dataset release."
     type: "image"
     url: "/assets/images/projects/istockphoto-2194245609-612x612.jpg"
-    link: "https://www.linkedin.com/posts/thrive-centre-home_new-paper-dataset-release-activity"
+    link: "https://www.linkedin.com/posts/thrive-centre-home_tte47-dataset-card-reference-gallery-activity-7434171037229060096-ueHk"
     thumbnail: "/assets/images/projects/istockphoto-2194245609-612x612.jpg"
 
   - title: "Thrive presented at AiIH2025"

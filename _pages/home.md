@@ -62,7 +62,7 @@ gallery_items:
     short_description: "PhD defence at THRIVE."
     type: "image"
     url: "assets/images/landing_page/patty_phd_post.jpg"
-    link: "https://www.linkedin.com/posts/thrive-centre-home_huge-congratulations-to-dr-wiktoria-grabowska-activity-7450283818885926912-0qdY"
+    link: "https://www.linkedin.com/posts/thrive-centre-home_phd-ai-thrive-activity-7450757972592455680-6G4V/"
     thumbnail: "assets/images/landing_page/patty_phd_post.jpg"
 
   - title: "Congratulations on PhD completion"

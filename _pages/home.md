@@ -57,12 +57,28 @@ feature_row:
     link: "https://alumni.uwl.ac.uk/donate-now"
 gallery_items:
 
+  - title: "Congratulations on PhD defence"
+    description: "THRIVE congratulates <a href='https://www.thrive-centre.com/people/patricia-fernandes/'>Dr Patricia Fernandes</a> on successfully defending her PhD, recognising her achievement and contribution to the Centre."
+    short_description: "PhD defence at THRIVE."
+    type: "image"
+    url: "assets/images/landing_page/patty_phd_post.jpg"
+    link: "https://www.linkedin.com/posts/thrive-centre-home_huge-congratulations-to-dr-wiktoria-grabowska-activity-7450283818885926912-0qdY"
+    thumbnail: "assets/images/landing_page/patty_phd_post.jpg"
+
+  - title: "Congratulations on PhD completion"
+    description: "THRIVE congratulates <a href='https://www.linkedin.com/in/wiktoria-roksana-grabowska-5124881a9/'>Dr Viktoria Grabowska</a> on successfully passing her PhD viva, recognising her achievement and the dedication of doctoral researchers and supervisors within the Centre."
+    short_description: "PhD completion at THRIVE."
+    type: "image"
+    url: "assets/images/landing_page/wiktoria_phd.jpg"
+    link: "https://www.linkedin.com/posts/thrive-centre-home_phd-viva-congratulations-activity"
+    thumbnail: "assets/images/landing_page/wiktoria_phd.jpg"
+
   - title: "THRIVE featured in UWL Research Showcase"
     description: "THRIVE was highlighted as part of the University of West London’s School of Computing and Engineering research success, showcasing impactful work across AI, healthcare, and industry collaboration."
     short_description: "UWL research feature."
     type: "image"
     url: "/assets/images/landing_page/uwl_research.jpg"
-    link: "https://www.linkedin.com/posts/university-of-west-london_research-at-the-school-of-computing-and-engineering-ugcPost-7449833963201720321-ObzR"
+    link: "https://www.uwl.ac.uk/news/translating-research-real-world-impact"
     thumbnail: "/assets/images/landing_page/uwl_research.jpg"
 
   - title: "New paper and dataset release: TTE47"
@@ -143,3 +159,5 @@ The Centre supports cutting-edge [research]({{ '/projects/' | url_relative }}){:
 {: style="text-align: center;"}
 
 {% include media_gallery.html items=page.gallery_items %}
+
+{{ item.description | markdownify }}

@@ -70,7 +70,7 @@ gallery_items:
     short_description: "PhD completion at THRIVE."
     type: "image"
     url: "assets/images/landing_page/wiktoria_phd.jpg"
-    link: "https://www.linkedin.com/posts/thrive-centre-home_phd-viva-congratulations-activity"
+    link: "https://www.linkedin.com/posts/thrive-centre-home_huge-congratulations-to-dr-wiktoria-grabowska-activity-7450283818885926912-0qdY"
     thumbnail: "assets/images/landing_page/wiktoria_phd.jpg"
 
   - title: "THRIVE featured in UWL Research Showcase"

@@ -127,7 +127,7 @@ phd_students:
     title: "Sinosha Paralikar"
     excerpt: "PhD Student"
     link: "people/sinosha-paralikar"
-  - image_path: /assets/images/people/arshian.jpg
+  - image_path: /assets/images/people/arshian.jpeg
     alt: "Arshian Hussain"
     title: "Arshian Hussain"
     excerpt: "PhD Student"

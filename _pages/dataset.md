@@ -177,25 +177,16 @@ Secure Google login required.
 
 <div class="project-grid">
 
-<!-- <div class="project-card">
-  <img src="/assets/images/datasets/Foreshortening/Foreshortening(2).jpg" alt="Foreshortening">
-  <a href="/datasets/foreshortening">Foreshortening</a>
-</div>
-
-<div class="project-card">
-  <img src="/assets/images/datasets/orientation/anti_clockwise.png" alt="Alignment/Rotation">
-  <a href="/datasets/orientation">Alignment/Rotation</a>
-</div> -->
 
 <div class="project-card">
   <img src="/assets/images/datasets/endocardial-segments/Borders.jpg" alt="Endocardial Segments">
   <a href="/datasets/endocardial-segments">Endocardial Segments</a>
 </div>
 
-<!-- <div class="project-card">
-  <img src="/assets/images/datasets/valve-visibility/valves_(2).png" alt="Valve Visibility">
-  <a href="/datasets/valve-visibility">Valve Visibility</a>
-</div> -->
+<div class="project-card">
+  <img src="/assets/images/datasets/a4ch-lvborder/a4ch lv p.png" alt="Endocardial Segments">
+  <a href="/datasets/a4ch-lvborder">A4CH Endocardial LV Border</a>
+</div>
 
 </div>
 

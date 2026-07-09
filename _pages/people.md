@@ -131,7 +131,7 @@ phd_students:
     alt: "Arshian Hussain"
     title: "Arshian Hussain"
     excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/arshian-hussain-8b9b53264/"
+    link: "/people/arshian-hussain"
   - image_path: /assets/images/people/yush.jpg
     alt: "Yush Shrestha"
     title: "Yush Shrestha"
@@ -147,6 +147,11 @@ phd_students:
     title: "Vara Prasad Repakula"
     excerpt: "PhD Student"
     link: "/people/Vara-Prasad-Repakula"
+  - image_path: /assets/images/people/christian.jpeg
+    alt: "Christian Williams"
+    title: "Christian Williams"
+    excerpt: "PhD Student"
+    link: "/people/christian-williams"
 
 # Visiting Academics Feature Row
 visiting_academics:

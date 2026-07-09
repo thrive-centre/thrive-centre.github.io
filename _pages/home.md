@@ -57,6 +57,7 @@ feature_row:
     link: "https://alumni.uwl.ac.uk/donate-now"
 gallery_items:
 
+
   - title: "Congratulations on PhD defence"
     description: "THRIVE congratulates <a href='https://www.thrive-centre.com/people/patricia-fernandes/'>Dr Patricia Fernandes</a> on successfully defending her PhD, recognising her achievement and contribution to the Centre."
     short_description: "PhD defence at THRIVE."

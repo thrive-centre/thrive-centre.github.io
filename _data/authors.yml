@@ -282,3 +282,32 @@ Vara Prasad Repakula:
     - label: "Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AEk_c1s9JKXferQWudKzWHUj2W--t7kAUV6QAQNXf0QBzYaRbdIcgHAZ665_38xrfR_0HP4Pr0wLsem9AOW0LmZgJQts&user=KuiNGGcAAAAJ&inst=2875008412762124371"
+
+
+
+Christian Williams:
+  name        : "Christian Williams"
+  bio         : "PhD in Biomedical Sciences"
+  avatar      : "assets/images/people/christian.jpeg"
+  links:
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "mailto:34137778@student.uwl.ac.uk"
+
+Arshian Hussain:
+  name        : "Arshian Hussain"
+  bio         : "PhD in Computer Science"
+  avatar      : "assets/images/people/arshian.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:arshian.hussain@uwl.ac.uk"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/aarshhh2"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "linkedin.com/in/arshian-hussain-8b9b53264"
+    
+
+

@@ -21,7 +21,7 @@ My research is driven by the belief that healthcare innovation should be both sc
 - BSc Molecular and Cellular Biology (And Biotechnology) With Honours, University of Glasgow, Glasgow, United Kingdom (2023)
 
 # Supervisors 
-[Dr Fang Xiao], [Professor Hanieh Khalili](https://www.uwl.ac.uk/staff/hanieh-khalili)
+[Dr Fang Xiao](https://www.uwl.ac.uk/staff/fang-xiao), [Professor Hanieh Khalili](https://www.uwl.ac.uk/staff/hanieh-khalili)
 
 
 # Research Projects

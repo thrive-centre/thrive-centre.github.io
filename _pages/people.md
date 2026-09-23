@@ -117,11 +117,6 @@ phd_students:
     title: "Alireza Alibakhshi"
     excerpt: "PhD Student"
     link: "people/alireza-alibakhshi"
-  - image_path: /assets/images/people/Hamid.jpeg
-    alt: "Hamid Heidari"
-    title: "Hamid Heidari"
-    excerpt: "PhD Student"
-    link: "https://www.linkedin.com/in/hamid-heidari-kashkooli-85380581/"
   - image_path: assets/images/people/sinosha.jpg
     alt: "Sinosha Paralikar"
     title: "Sinosha Paralikar"
@@ -259,6 +254,11 @@ alumni:
     title: "Wiktoria Roksana"
     excerpt: "PhD Graduate"
     link: "https://www.linkedin.com/in/wiktoria-roksana-grabowska-5124881a9/"
+  - image_path: /assets/images/people/Hamid.jpeg
+    alt: "Hamid Heidari"
+    title: "Hamid Heidari"
+    excerpt: "PhD Graduate"
+    link: "https://www.linkedin.com/in/hamid-heidari-kashkooli-85380581/"
 ---
 <br>
 <br>

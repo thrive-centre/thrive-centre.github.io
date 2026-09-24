@@ -57,6 +57,22 @@ feature_row:
     link: "https://alumni.uwl.ac.uk/donate-now"
 gallery_items:
 
+  - title: "Uncertainty-Weighted Multi-Task Learning"
+    description: "New research from the THRIVE team on uncertainty-weighted multi-task learning, where a model learns several related tasks together and balances them according to how confident it is in each, supporting more robust AI-driven healthcare."
+    short_description: "Multi-task learning research."
+    type: "image"
+    url: "/assets/images/landing_page/arshian_aiih.jpeg"
+    link: "https://www.linkedin.com/posts/arshian-hussain-8b9b53264_uncertainty-weighted-multi-task-learning-activity-7495132387022954496-mdne"
+    thumbnail: "/assets/images/landing_page/arshian_aiih.jpeg"
+
+  - title: "Phase-Guided Quality Regression in Apical Echocardiography"
+    description: "New work from the THRIVE team on phase-guided quality regression for apical echocardiographic views, supporting objective, automated image quality assessment in AI-driven echocardiography."
+    short_description: "Echo quality assessment research."
+    type: "image"
+    url: "/assets/images/landing_page/alireza_aiih.jpeg"
+    link: "https://www.linkedin.com/posts/alireza-alibakhshi_phase-guided-quality-regression-in-apical-activity-7493734485671456769-fL73"
+    thumbnail: "/assets/images/landing_page/alireza_aiih.jpeg"
+
   - title: "3D Printing in Drug Delivery and Biopharmaceuticals"
     description: "THRIVE shares its latest work on 3D printing for drug delivery and biopharmaceuticals, exploring how additive manufacturing can enable more precise, personalised medicine."
     short_description: "3D printing for drug delivery."

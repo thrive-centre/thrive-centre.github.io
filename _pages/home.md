@@ -58,6 +58,15 @@ feature_row:
 gallery_items:
 
 
+  - title: "Thrive presented at AiIH2026"
+    description: "Well done to <a href='https://www.thrive-centre.com/people/alireza-alibakhshi/'>Alireza Alibakhshi</a>, <a href='https://www.thrive-centre.com/people/isreal-ufumaka/'>Isreal Ufumaka</a>, <a href='https://www.thrive-centre.com/people/abas-abdi/'>Abas Abdi</a>, <a href='https://www.thrive-centre.com/people/arshian-hussain/'>Arshian Hussain</a> for presenting your excellent work at the International Conference on Artificial Intelligence in Healthcare"
+    short_description: "AiIH2026 presentation."
+    type: "image"
+    url: "/assets/images/landing_page/aiih_2026.jpeg"
+    link: "https://www.linkedin.com/posts/alireza-alibakhshi_aiih2026-artificialintelligence-healthcareai-ugcPost-7499115173975121920-_0Ut"
+    thumbnail: "/assets/images/landing_page/aiih_2026.jpeg"
+
+
   - title: "Congratulations on PhD defence"
     description: "THRIVE congratulates <a href='https://www.thrive-centre.com/people/patricia-fernandes/'>Dr Patricia Fernandes</a> on successfully defending her PhD, recognising her achievement and contribution to the Centre."
     short_description: "PhD defence at THRIVE."

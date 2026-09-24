@@ -57,6 +57,13 @@ feature_row:
     link: "https://alumni.uwl.ac.uk/donate-now"
 gallery_items:
 
+  - title: "3D Printing in Drug Delivery and Biopharmaceuticals"
+    description: "THRIVE shares its latest work on 3D printing for drug delivery and biopharmaceuticals, exploring how additive manufacturing can enable more precise, personalised medicine."
+    short_description: "3D printing for drug delivery."
+    type: "image"
+    url: "/assets/images/landing_page/3d_printed.jpg"
+    link: "https://www.linkedin.com/posts/thrive-centre-home_drugdelivery-biopharmaceuticals-3dprinting-activity-7505919298998132736-PZ0S"
+    thumbnail: "/assets/images/landing_page/3d_printed.jpg"
 
   - title: "Thrive presented at AiIH2026"
     description: "Well done to <a href='https://www.thrive-centre.com/people/alireza-alibakhshi/'>Alireza Alibakhshi</a>, <a href='https://www.thrive-centre.com/people/isreal-ufumaka/'>Isreal Ufumaka</a>, <a href='https://www.thrive-centre.com/people/abas-abdi/'>Abas Abdi</a>, <a href='https://www.thrive-centre.com/people/arshian-hussain/'>Arshian Hussain</a> for presenting your excellent work at the International Conference on Artificial Intelligence in Healthcare"
@@ -95,7 +102,7 @@ gallery_items:
     description: "THRIVE congratulates <a href='https://www.linkedin.com/in/sama-pirkalkhoran-b24a8754/'>Dr Sama PirKalkhoran</a> on successfully defending her PhD, recognising her achievement and contribution to the Centre."
     short_description: "PhD defence at THRIVE."
     type: "image"
-    url: "assets/images/landing_page/sama_phd.jpg"
+    url: "assets/images/landing_page/sama_phd.jpeg"
     link: "https://www.linkedin.com/posts/hanieh-khalili-6030bb32_many-congratulations-to-dr-sama-pirkalkhoran-activity-7427105233388089344-sXG_"
     thumbnail: "assets/images/landing_page/sama_phd.jpeg"
 

@@ -90,6 +90,15 @@ gallery_items:
     thumbnail: "/assets/images/landing_page/aiih_2026.jpeg"
 
 
+  - title: "International Women in Engineering Day"
+    description: "THRIVE marks International Women in Engineering Day, celebrating the women engineers and researchers behind its work in AI-driven healthcare."
+    short_description: "Celebrating women in engineering."
+    type: "image"
+    url: "/assets/images/landing_page/eman_slb.jpg"
+    link: "https://www.linkedin.com/posts/eman-alajrami_internationalwomeninengineeringday-womeninengineering-ugcPost-7475266508408049666-UfvA"
+    thumbnail: "/assets/images/landing_page/eman_slb.jpg"
+
+
   - title: "Congratulations on PhD defence"
     description: "THRIVE congratulates <a href='https://www.thrive-centre.com/people/patricia-fernandes/'>Dr Patricia Fernandes</a> on successfully defending her PhD, recognising her achievement and contribution to the Centre."
     short_description: "PhD defence at THRIVE."

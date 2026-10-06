@@ -8,7 +8,7 @@ permalink: /datasets/a4ch-lvborder
 
 <div class="page-wrap" markdown="1">
 
-# PLAX Orientation
+# A4CH Endocardial LV Border
 
 {: .text-center}
 [Start Labelling →](https://unityimaging.net/fiducial/uwl-echo-ufumaka-a4ch-lv-border-multi-expert-set1){: .btn .btn--primary .btn--large target="_blank"}

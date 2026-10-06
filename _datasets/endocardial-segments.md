@@ -27,7 +27,7 @@ When this occurs, the exact order of ranking is **not critical** — just ensure
 
 ## Interactive Segment Map
 
-<div align="center">
+<!-- <div align="center">
   <h3>Click on each segment in the image to start annotating or use the buttons provided below.</h3>
   <img src="/assets/images/datasets/endocardial-segments/A4C_segments(3).jpg" alt="A4C Endocardial Segments" usemap="#workmap" width="40%">
   <map name="workmap">
@@ -39,6 +39,63 @@ When this occurs, the exact order of ranking is **not critical** — just ensure
     <area shape="poly" coords="220,259,235,309,256,304,255,283,248,252" href="https://unityimaging.net/compare/uwl-echo-zolgharni-biobank-a4c-endo-segments-basal-inferoseptal" target="_blank">
     <area shape="poly" coords="371,214,335,238,357,281,361,298,397,285,394,264,382,233" href="https://unityimaging.net/compare/uwl-echo-zolgharni-biobank-a4c-endo-segments-basal-anterolateral" target="_blank">
   </map>
+</div> -->
+
+<div align="center">
+
+  <h3>Click on each segment in the image to start annotating or use the buttons provided below.</h3>
+
+  <img src="/assets/images/datasets/endocardial-segments/A4C_segments(3).jpg"
+       alt="A4C Endocardial Segments"
+       usemap="#workmap"
+       width="40%">
+
+  <map name="workmap">
+
+    <!-- Apex -->
+    <area shape="poly"
+          coords="189,132,188,102,203,94,231,91,262,101"
+          href="https://unityimaging.net/compare/uwl-echo-zolgharni-biobank-a4c-endo-segments-apex"
+          target="_blank">
+
+    <!-- Apical Septal -->
+    <area shape="poly"
+          coords="202,197,231,193,225,158,223,131,226,122,226,119,189,135,195,146,197,172"
+          href="https://unityimaging.net/compare/uwl-echo-zolgharni-biobank-a4c-endo-segments-apical-septal"
+          target="_blank">
+
+    <!-- Apical Lateral -->
+    <area shape="poly"
+          coords="291,172,322,151,267,101,230,117,232,121,257,136"
+          href="https://unityimaging.net/compare/uwl-echo-zolgharni-biobank-a4c-endo-segments-apical-lateral"
+          target="_blank">
+
+    <!-- Mid Inferoseptal -->
+    <area shape="poly"
+          coords="203,200,233,195,247,250,219,256"
+          href="https://unityimaging.net/compare/uwl-echo-zolgharni-biobank-a4c-endo-segments-mid-inferoseptal"
+          target="_blank">
+
+    <!-- Mid Anterolateral -->
+    <area shape="poly"
+          coords="324,153,293,173,334,237,370,212,346,179"
+          href="https://unityimaging.net/compare/uwl-echo-zolgharni-biobank-a4c-endo-segments-mid-antlateral"
+          target="_blank">
+
+    <!-- Basal Inferoseptal -->
+    <area shape="poly"
+          coords="220,259,235,309,256,304,255,283,248,252"
+          href="https://unityimaging.net/compare/uwl-echo-zolgharni-biobank-a4c-endo-segments-basal-inferoseptal"
+          target="_blank">
+
+    <!-- Basal Anterolateral -->
+    <area shape="poly"
+          coords="371,214,335,238,357,281,361,298,397,285,394,264,382,233"
+          href="https://unityimaging.net/compare/uwl-echo-zolgharni-biobank-a4c-endo-segments-basal-anterolateral"
+          target="_blank">
+
+  </map>
+
 </div>
 
 ---

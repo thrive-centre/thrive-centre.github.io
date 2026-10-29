@@ -309,5 +309,14 @@ Arshian Hussain:
       icon: "fab fa-fw fa-linkedin"
       url: "linkedin.com/in/arshian-hussain-8b9b53264"
     
+Per Colliander Simonsson:
+  name        : "Per Colliander Simonsson"
+  bio         : "PhD in Translational Medicine"
+  avatar      : "/assets/images/people/per.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:Per.CollianderSimonsson@uwl.ac.uk"
+    
 
 

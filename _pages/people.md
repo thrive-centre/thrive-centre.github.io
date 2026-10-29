@@ -147,6 +147,11 @@ phd_students:
     title: "Christian Williams"
     excerpt: "PhD Student"
     link: "/people/christian-williams"
+  - image_path: /assets/images/people/per.jpeg
+    alt: "Per Colliander Simonsson"
+    title: "Per Colliander Simonsson"
+    excerpt: "PhD Student"
+    link: "/people/per-simonsson"
 
 # Visiting Academics Feature Row
 visiting_academics:

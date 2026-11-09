@@ -29,6 +29,12 @@ excerpt: "AI-assisted echocardiography acquisition and training, providing struc
   margin: 0 auto;
   color: var(--el-ink);
 }
+.page__hero--overlay .btn--large {
+  font-size: 1rem;
+}
+.page__hero--overlay .page__title {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
 .echolearn-page * {
   box-sizing: border-box;
 }
@@ -43,7 +49,7 @@ excerpt: "AI-assisted echocardiography acquisition and training, providing struc
   padding-bottom: 10px;
   border-bottom: 1px solid var(--el-line);
   color: #252b2f;
-  font-size: clamp(1.45rem, 2.7vw, 1.9rem);
+  font-size: clamp(1.3rem, 2.3vw, 1.6rem);
   line-height: 1.25;
 }
 .echolearn-page h3 {

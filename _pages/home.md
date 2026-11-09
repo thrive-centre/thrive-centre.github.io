@@ -57,6 +57,17 @@ feature_row:
     link: "https://alumni.uwl.ac.uk/donate-now"
 gallery_items:
 
+  - title: "EchoLearn begins Phase 1 clinical evaluation"
+    description: "Medical students and cardiology registrars at Hammersmith Hospital have begun supervised scanning sessions using EchoLearn, an AI-assisted platform developed at UWL's THRIVE Centre to support echocardiography training."
+    short_description: ""
+    type: "image"
+    images:
+      - "/assets/images/landing_page/Hammer.png"
+      - "/assets/images/landing_page/registrar.png"
+    url: "/assets/images/landing_page/Hammer.png"
+    link: "/projects/echolearn/"
+    thumbnail: "/assets/images/landing_page/Hammer.png"
+
   - title: "Uncertainty-Weighted Multi-Task Learning"
     description: "New research from the THRIVE team on uncertainty-weighted multi-task learning, where a model learns several related tasks together and balances them according to how confident it is in each, supporting more robust AI-driven healthcare."
     short_description: "Multi-task learning research."

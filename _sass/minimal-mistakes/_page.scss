@@ -797,7 +797,20 @@ body {
   margin-bottom: 15px;
 }
 
+.media-gallery__image-container--multiple {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.media-gallery__image-container--multiple .media-gallery__image {
+  aspect-ratio: 4 / 3;
+  max-height: none;
+  object-fit: cover;
+}
+
 .media-gallery__image {
+  display: block;
   width: 100%;
   max-height: 400px;
   object-fit: contain;
@@ -815,6 +828,10 @@ body {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  .media-gallery__image-container--multiple {
+    grid-template-columns: 1fr;
+  }
+
   .media-gallery {
     flex-direction: column;
     max-height: none;

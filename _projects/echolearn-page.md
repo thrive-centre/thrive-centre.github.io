@@ -6,7 +6,7 @@ permalink: /projects/echolearn-page/
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
-  overlay_image: /assets/images/projects/echolearn/echolearn4.png
+  overlay_image: /assets/images/projects/echolearn/lab.png
   actions:
     - label: "How EchoLearn Works"
       url: "/projects/echolearn-page/#how"
@@ -15,7 +15,7 @@ header:
     - label: "Collaborate"
       url: "/projects/echolearn-page/#collaborate"
   caption: ""
-excerpt: "AI-assisted echocardiography acquisition and training, providing structured feedback to support supervised practice and workforce development."
+excerpt: "AI-assisted echocardiography acquisition and training."
 ---
 
 <style>
@@ -139,50 +139,20 @@ excerpt: "AI-assisted echocardiography acquisition and training, providing struc
   font-size: 1.3rem;
   font-weight: 800;
 }
-.echolearn-page .interface-placeholder {
-  display: grid;
-  min-height: 300px;
+.echolearn-page .lab-photo {
   margin-top: 22px;
-  padding: 14px;
   border: 1px solid #d5dfe5;
   border-radius: 6px;
-  background: #edf2f5;
-}
-.echolearn-page .interface-window {
-  display: grid;
-  grid-template-rows: 34px 1fr;
   overflow: hidden;
-  border: 1px solid #d7e0e5;
-  border-radius: 4px;
   background: #fff;
 }
-.echolearn-page .interface-toolbar {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 0 12px;
-  border-bottom: 1px solid #e1e7eb;
-  background: #f8fafb;
+.echolearn-page .lab-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.echolearn-page .interface-toolbar span {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #c5d0d6;
-}
-.echolearn-page .interface-screen {
-  display: grid;
-  place-content: center;
-  justify-items: center;
-  min-height: 230px;
-  padding: 24px;
-  text-align: center;
-}
-.echolearn-page .interface-screen strong {
-  margin-bottom: 6px;
-  color: #35434b;
-}
-.echolearn-page .interface-screen span {
+.echolearn-page .lab-photo figcaption {
+  padding: 10px 14px;
   color: var(--el-muted);
   font-size: 0.92rem;
 }
@@ -326,9 +296,6 @@ excerpt: "AI-assisted echocardiography acquisition and training, providing struc
   .echolearn-page .evaluation {
     grid-template-columns: minmax(0, 1fr);
   }
-  .echolearn-page .interface-placeholder {
-    min-height: 240px;
-  }
 }
 </style>
 
@@ -354,7 +321,7 @@ excerpt: "AI-assisted echocardiography acquisition and training, providing struc
     </div>
     <div class="notice">
       <strong>Latest news</strong>
-      <p>EchoLearn enters Phase 1 clinical evaluation. Supervised scanning sessions with medical students began in August 2026 at Hammersmith Hospital. <a href="#">Read the announcement.</a></p>
+      <p>EchoLearn enters Phase 1 clinical evaluation. Supervised scanning sessions with medical students began in August 2026 at Hammersmith Hospital. <a href="https://www.thrive-centre.com/#latest-news-and-events">Read the announcement.</a></p>
     </div>
   </section>
 
@@ -385,15 +352,10 @@ excerpt: "AI-assisted echocardiography acquisition and training, providing struc
         <p>Where enabled, session data support review and research into training workflows.</p>
       </article>
     </div>
-    <div class="interface-placeholder" role="img" aria-label="Reserved space for EchoLearn interface screenshot">
-      <div class="interface-window">
-        <div class="interface-toolbar" aria-hidden="true"><span></span><span></span><span></span></div>
-        <div class="interface-screen">
-          <strong>EchoLearn interface preview</strong>
-          <span>Screenshot or demonstration of the live interface will be added here</span>
-        </div>
-      </div>
-    </div>
+    <figure class="lab-photo">
+      <img src="{{ '/assets/images/projects/echolearn/lab.png' | relative_url }}" alt="EchoLearn experiment taking place in the lab" loading="lazy">
+      <!-- <figcaption>EchoLearn experiment in the lab</figcaption> -->
+    </figure>
   </section>
 
   <section id="platform">

@@ -28,13 +28,14 @@
           ></iframe>
         </div>
       {% else %}
-        <div class="media-gallery__image-container">
-          <img 
-            src="{{ first_item.url }}" 
-            alt="{{ first_item.title }}" 
-            class="media-gallery__image" 
-            id="image-display"
-          />
+        <div class="media-gallery__image-container{% if first_item.images.size > 1 %} media-gallery__image-container--multiple{% endif %}">
+          {% if first_item.images %}
+            {% for image in first_item.images %}
+              <img src="{{ image | relative_url }}" alt="{{ first_item.title }}" class="media-gallery__image"{% if forloop.first %} id="image-display"{% endif %}>
+            {% endfor %}
+          {% else %}
+            <img src="{{ first_item.url | relative_url }}" alt="{{ first_item.title }}" class="media-gallery__image" id="image-display">
+          {% endif %}
         </div>
       {% endif %}
       
@@ -71,11 +72,13 @@
         {% else %}
           {% assign thumbnail = item.thumbnail %}
         {% endif %}
+        {% if item.images %}{% capture item_images_json %}[{% for image in item.images %}{{ image | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endcapture %}{% endif %}
         
         <div class="media-gallery__list-item{% if forloop.first %} active{% endif %}" 
              data-id="{{ item_id }}"
              data-type="{{ item.type }}"
-             data-url="{{ item.url }}"
+             data-url="{% if item.type == 'video' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
+             {% if item.images %}data-images="{{ item_images_json | escape }}"{% endif %}
              data-title="{{ item.title | escape }}"
              data-description="{{ item.description | escape }}"
              {% if item.type == "video" %}

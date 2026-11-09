@@ -7,6 +7,8 @@ function selectMediaItem(element) {
   // Get data attributes
   const type = element.getAttribute('data-type');
   const url = element.getAttribute('data-url');
+  const images = JSON.parse(element.getAttribute('data-images') || '[]');
+  const imageUrls = images.length ? images : [url];
   const title = element.getAttribute('data-title');
   const description = element.getAttribute('data-description');
   
@@ -46,18 +48,10 @@ function selectMediaItem(element) {
     // It's an image
     const display = document.getElementById('media-display');
     const link = element.getAttribute('data-link');
+    let imageContainer = display.querySelector('.media-gallery__image-container');
     
-    // Check if we need to replace video with image
-    if (!document.getElementById('image-display')) {
+    if (!imageContainer) {
       display.innerHTML = `
-        <div class="media-gallery__image-container">
-          <img 
-            src="${url}" 
-            alt="${title}" 
-            class="media-gallery__image" 
-            id="image-display"
-          />
-        </div>
         <div class="media-gallery__item-info">
           <h2 class="media-gallery__item-title" id="item-title">
             <a href="${link}" target="_blank">${title}</a>
@@ -65,11 +59,21 @@ function selectMediaItem(element) {
           <div class="media-gallery__item-description" id="item-description">${description}</div>
         </div>
       `;
-    } else {
-      // Just update the image source and title
-      document.getElementById('image-display').src = url;
-      document.getElementById('image-display').alt = title;
-      document.getElementById('item-title').innerHTML = `<a href="${link}" target="_blank">${title}</a>`;
+      imageContainer = document.createElement('div');
+      imageContainer.className = 'media-gallery__image-container';
+      display.insertBefore(imageContainer, display.firstChild);
     }
+
+    imageContainer.replaceChildren();
+    imageContainer.classList.toggle('media-gallery__image-container--multiple', imageUrls.length > 1);
+    imageUrls.forEach((imageUrl, index) => {
+      const image = document.createElement('img');
+      image.src = imageUrl;
+      image.alt = title;
+      image.className = 'media-gallery__image';
+      if (index === 0) image.id = 'image-display';
+      imageContainer.appendChild(image);
+    });
+    document.getElementById('item-title').innerHTML = `<a href="${link}" target="_blank">${title}</a>`;
   }
 }

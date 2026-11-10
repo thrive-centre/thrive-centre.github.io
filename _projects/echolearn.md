@@ -2,7 +2,7 @@
 title: "EchoLearn"
 toc: false
 layout: splash
-permalink: /projects/echolearn-page/
+permalink: /projects/echolearn/
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"

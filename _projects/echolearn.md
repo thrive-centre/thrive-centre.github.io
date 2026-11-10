@@ -25,6 +25,7 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   --el-muted: #667178;
   --el-line: #e2e8eb;
   --el-soft: #f5f8fa;
+  font-size: 1rem;
   max-width: 1040px;
   margin: 0 auto;
   color: var(--el-ink);
@@ -74,9 +75,6 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   max-width: 78ch;
   margin-bottom: 24px;
 }
-.echolearn-page .intro p {
-  font-size: 1.05rem;
-}
 .echolearn-page .facts,
 .echolearn-page .card-grid,
 .echolearn-page .steps,
@@ -116,7 +114,6 @@ excerpt: "AI-assisted echocardiography acquisition and training."
 .echolearn-page .status-card p,
 .echolearn-page .partner-card p {
   color: var(--el-muted);
-  font-size: 0.94rem;
 }
 .echolearn-page .card-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -140,7 +137,11 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   font-weight: 800;
 }
 .echolearn-page .lab-photo {
+  max-width: 820px;
+  aspect-ratio: 16 / 9;
   margin-top: 22px;
+  margin-right: auto;
+  margin-left: auto;
   border: 1px solid #d5dfe5;
   border-radius: 6px;
   overflow: hidden;
@@ -149,12 +150,13 @@ excerpt: "AI-assisted echocardiography acquisition and training."
 .echolearn-page .lab-photo img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .echolearn-page .lab-photo figcaption {
   padding: 10px 14px;
   color: var(--el-muted);
-  font-size: 0.92rem;
 }
 .echolearn-page .status-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -196,7 +198,6 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   padding: 16px;
   border: 1px solid var(--el-line);
   background: #fff;
-  font-size: 0.92rem;
 }
 .echolearn-page .evaluation-status strong {
   display: block;
@@ -224,7 +225,6 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   border-left: 4px solid #7a858b;
   background: #f5f6f7;
   color: #515b60;
-  font-size: 0.9rem;
 }
 .echolearn-page .table-container {
   overflow-x: auto;
@@ -233,7 +233,6 @@ excerpt: "AI-assisted echocardiography acquisition and training."
 .echolearn-page table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.94rem;
 }
 .echolearn-page th,
 .echolearn-page td {
@@ -262,7 +261,6 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   color: #fff;
   text-decoration: none;
   font-weight: 700;
-  font-size: 0.94rem;
   padding: 10px 18px;
   border-radius: 3px;
   border: 1px solid var(--el-blue);

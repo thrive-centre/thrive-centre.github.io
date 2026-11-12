@@ -9,17 +9,17 @@ header:
   overlay_image: /assets/images/projects/echolearn/lab.png
   actions:
     - label: "How EchoLearn Works"
-      url: "/projects/echolearn-page/#how"
+      url: "/projects/echolearn/#how"
     - label: "Clinical Evaluation"
-      url: "/projects/echolearn-page/#clinical"
+      url: "/projects/echolearn/#clinical"
     - label: "Collaborate"
-      url: "/projects/echolearn-page/#collaborate"
+      url: "/projects/echolearn/#collaborate"
   caption: ""
 excerpt: "AI-assisted echocardiography acquisition and training."
 ---
 
 <style>
-.echolearn-page {
+.echolearn {
   --el-blue: #0068b3;
   --el-ink: #3d4144;
   --el-muted: #667178;
@@ -36,16 +36,16 @@ excerpt: "AI-assisted echocardiography acquisition and training."
 .page__hero--overlay .page__title {
   font-size: clamp(2rem, 4vw, 3rem);
 }
-.echolearn-page * {
+.echolearn * {
   box-sizing: border-box;
 }
-.echolearn-page section {
+.echolearn section {
   margin: 56px 0;
 }
-.echolearn-page section:first-child {
+.echolearn section:first-child {
   margin-top: 8px;
 }
-.echolearn-page h2 {
+.echolearn h2 {
   margin: 0 0 14px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--el-line);
@@ -53,17 +53,17 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   font-size: clamp(1.3rem, 2.3vw, 1.6rem);
   line-height: 1.25;
 }
-.echolearn-page h3 {
+.echolearn h3 {
   margin: 0 0 8px;
   color: #252b2f;
   font-size: 1.12rem;
   line-height: 1.35;
 }
-.echolearn-page p {
+.echolearn p {
   margin: 0 0 14px;
   line-height: 1.7;
 }
-.echolearn-page .eyebrow {
+.echolearn .eyebrow {
   margin-bottom: 8px;
   color: var(--el-blue);
   font-size: 0.78rem;
@@ -71,62 +71,62 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
-.echolearn-page .intro {
+.echolearn .intro {
   max-width: 78ch;
   margin-bottom: 24px;
 }
-.echolearn-page .facts,
-.echolearn-page .card-grid,
-.echolearn-page .steps,
-.echolearn-page .status-grid,
-.echolearn-page .partner-grid {
+.echolearn .facts,
+.echolearn .card-grid,
+.echolearn .steps,
+.echolearn .status-grid,
+.echolearn .partner-grid {
   display: grid;
   gap: 16px;
 }
-.echolearn-page .facts {
+.echolearn .facts {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   margin: 24px 0;
 }
-.echolearn-page .fact,
-.echolearn-page .card,
-.echolearn-page .step,
-.echolearn-page .status-card,
-.echolearn-page .partner-card {
+.echolearn .fact,
+.echolearn .card,
+.echolearn .step,
+.echolearn .status-card,
+.echolearn .partner-card {
   min-width: 0;
   padding: 20px;
   border: 1px solid var(--el-line);
   border-top: 3px solid var(--el-blue);
   background: #fff;
 }
-.echolearn-page .fact {
+.echolearn .fact {
   padding: 16px 18px;
   background: var(--el-soft);
   border-top: 0;
 }
-.echolearn-page .fact strong {
+.echolearn .fact strong {
   display: block;
   margin-bottom: 4px;
   color: #252b2f;
 }
-.echolearn-page .fact span,
-.echolearn-page .card p,
-.echolearn-page .step p,
-.echolearn-page .status-card p,
-.echolearn-page .partner-card p {
+.echolearn .fact span,
+.echolearn .card p,
+.echolearn .step p,
+.echolearn .status-card p,
+.echolearn .partner-card p {
   color: var(--el-muted);
 }
-.echolearn-page .card-grid {
+.echolearn .card-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.echolearn-page .steps {
+.echolearn .steps {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   counter-reset: el-step;
 }
-.echolearn-page .step {
+.echolearn .step {
   position: relative;
   padding-top: 58px;
 }
-.echolearn-page .step::before {
+.echolearn .step::before {
   counter-increment: el-step;
   content: "0" counter(el-step);
   position: absolute;
@@ -136,7 +136,7 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   font-size: 1.3rem;
   font-weight: 800;
 }
-.echolearn-page .lab-photo {
+.echolearn .lab-photo {
   max-width: 820px;
   aspect-ratio: 16 / 9;
   margin-top: 22px;
@@ -147,21 +147,21 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   overflow: hidden;
   background: #fff;
 }
-.echolearn-page .lab-photo img {
+.echolearn .lab-photo img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
-.echolearn-page .lab-photo figcaption {
+.echolearn .lab-photo figcaption {
   padding: 10px 14px;
   color: var(--el-muted);
 }
-.echolearn-page .status-grid {
+.echolearn .status-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-.echolearn-page .status-label {
+.echolearn .status-label {
   display: inline-block;
   margin-bottom: 12px;
   padding: 4px 8px;
@@ -173,15 +173,15 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-.echolearn-page ul {
+.echolearn ul {
   margin: 8px 0 0;
   padding-left: 20px;
 }
-.echolearn-page li {
+.echolearn li {
   margin: 0 0 7px;
   line-height: 1.5;
 }
-.echolearn-page .evaluation {
+.echolearn .evaluation {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) minmax(220px, 0.7fr);
   gap: 24px;
@@ -191,71 +191,71 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   border-left: 4px solid var(--el-blue);
   background: var(--el-soft);
 }
-.echolearn-page .evaluation p:last-child {
+.echolearn .evaluation p:last-child {
   margin-bottom: 0;
 }
-.echolearn-page .evaluation-status {
+.echolearn .evaluation-status {
   padding: 16px;
   border: 1px solid var(--el-line);
   background: #fff;
 }
-.echolearn-page .evaluation-status strong {
+.echolearn .evaluation-status strong {
   display: block;
   margin-bottom: 4px;
   color: #252b2f;
 }
-.echolearn-page .partner-grid {
+.echolearn .partner-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.echolearn-page .partner-card a,
-.echolearn-page .contact a {
+.echolearn .partner-card a,
+.echolearn .contact a {
   font-weight: 700;
 }
-.echolearn-page .contact {
+.echolearn .contact {
   padding: 24px;
   border: 1px solid var(--el-line);
   background: var(--el-soft);
 }
-.echolearn-page .contact p:last-child {
+.echolearn .contact p:last-child {
   margin-bottom: 0;
 }
-.echolearn-page .notice {
+.echolearn .notice {
   margin: 28px 0 8px;
   padding: 14px 18px;
   border-left: 4px solid #7a858b;
   background: #f5f6f7;
   color: #515b60;
 }
-.echolearn-page .table-container {
+.echolearn .table-container {
   overflow-x: auto;
   margin: 24px 0;
 }
-.echolearn-page table {
+.echolearn table {
   width: 100%;
   border-collapse: collapse;
 }
-.echolearn-page th,
-.echolearn-page td {
+.echolearn th,
+.echolearn td {
   border: 1px solid var(--el-line);
   padding: 12px 16px;
   text-align: left;
 }
-.echolearn-page th {
+.echolearn th {
   background: var(--el-soft);
   font-weight: 700;
   color: #252b2f;
 }
-.echolearn-page td ul {
+.echolearn td ul {
   margin: 0;
   padding-left: 18px;
 }
-.echolearn-page .btnrow {
+.echolearn .btnrow {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   margin: 20px 0 24px;
 }
-.echolearn-page .btn {
+.echolearn .btn {
   display: inline-block;
   background: var(--el-blue);
   color: #fff;
@@ -265,39 +265,39 @@ excerpt: "AI-assisted echocardiography acquisition and training."
   border-radius: 3px;
   border: 1px solid var(--el-blue);
 }
-.echolearn-page .btn:hover {
+.echolearn .btn:hover {
   background: #005591;
 }
-.echolearn-page .btn.alt {
+.echolearn .btn.alt {
   background: #fff;
   color: var(--el-blue);
 }
-.echolearn-page .btn.alt:hover {
+.echolearn .btn.alt:hover {
   background: var(--el-soft);
 }
 
 @media (max-width: 800px) {
-  .echolearn-page .steps,
-  .echolearn-page .status-grid {
+  .echolearn .steps,
+  .echolearn .status-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (max-width: 600px) {
-  .echolearn-page section {
+  .echolearn section {
     margin: 42px 0;
   }
-  .echolearn-page .facts,
-  .echolearn-page .card-grid,
-  .echolearn-page .steps,
-  .echolearn-page .status-grid,
-  .echolearn-page .partner-grid,
-  .echolearn-page .evaluation {
+  .echolearn .facts,
+  .echolearn .card-grid,
+  .echolearn .steps,
+  .echolearn .status-grid,
+  .echolearn .partner-grid,
+  .echolearn .evaluation {
     grid-template-columns: minmax(0, 1fr);
   }
 }
 </style>
 
-<div class="echolearn-page">
+<div class="echolearn">
   <section id="overview">
     <div class="intro">
       <h2>EchoLearn</h2>

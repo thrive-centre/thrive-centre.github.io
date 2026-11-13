@@ -152,6 +152,11 @@ phd_students:
     title: "Per Colliander Simonsson"
     excerpt: "PhD Student"
     link: "/people/per-simonsson"
+  - image_path: /assets/images/people/rami.jpg
+    alt: "Rami Keishk"
+    title: "Rami Keishk"
+    excerpt: "PhD Student"
+    link: ""
 
 # Visiting Academics Feature Row
 visiting_academics:

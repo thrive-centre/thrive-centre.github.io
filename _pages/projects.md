@@ -6,37 +6,12 @@ excerpt: "Thrive Projects"
 last_modified_at: 2025-05-14T11:59:26-04:00
 feature_row:
   - image_path: /assets/images/projects/istockphoto-2194245609-612x612.jpg
-    alt: "UNITY"
-    title: "UNITY"
-    link: "/projects/unity/"
-    areas: "Cardiology,Medical Imaging,AI"
-    faculty: "Massoud Zolgharni,Nasim Dadashi,Ali Gheitasy,Eman Alajrami,Jevgeni Jevsikov"
+    alt: "AI in Echocardiography"
+    title: "AI in Echocardiography"
+    link: "/projects/ai-in-echocardiography/"
+    areas: "Cardiology,Medical Imaging,AI,Signal Processing"
+    faculty: "Massoud Zolgharni,Nasim Dadashi,Ali Gheitasy,Eman Alajrami,Jevgeni Jevsikov,Mayur Agrawal"
     students: "Patricia Fernandes,Isreal Ufumaka,Preshen Naidoo,Sara Adibzadeh,Abas Abdi,Soroush Elyasi,Alireza Alibakhshi"
-
-  - image_path: /assets/images/projects/biobank.png
-    alt: "BioBank"
-    title: "BioBank"
-    link: "/datasets/"
-    areas: "Cardiology,Medical Imaging,AI"
-    faculty: "Massoud Zolgharni,Nasim Dadashi"
-    students: "Patricia Fernandes,Isreal Ufumaka,Alireza Alibakhshi"
-    
-  - image_path: /assets/images/projects/echolearn/lab.png
-    alt: "EchoLearn"
-    title: "EchoLearn"
-    link: "/projects/echolearn"
-    areas: "Cardiology,AI,Signal Processing"
-    faculty: "Massoud Zolgharni"
-    students: ""
-
-  - image_path: /assets/images/projects/echocruise/echocruise.jpg
-    alt: "EchoCruise"
-    title: "EchoCruise"
-    link: "/projects/echocruise/"
-    areas: "Cardiology,Medical Imaging,AI"
-    faculty: "Massoud Zolgharni"
-    students: ""
-
 
   - image_path: /assets/images/projects/PulseNote.jpg
     alt: "PulseNote"
@@ -46,14 +21,6 @@ feature_row:
     faculty: "Massoud Zolgharni,Mayur Agrawal"
     students: "Mohammad Zeinali"
 
-  - image_path: /assets/images/projects/istockphoto-2147671579-612x612.jpg
-    alt: "EchoForge"
-    title: "EchoForge"
-    link: "/projects/echoforge/"
-    areas: "Cardiology,Medical Imaging,AI"
-    faculty: "Massoud Zolgharni,Nasim Dadashi,Mayur Agrawal"
-    students: "Isreal Ufumaka"
-    
   - image_path: /assets/images/projects/ecg.jpg
     alt: "Real-time ECG Analysis"
     title: "Real-time ECG Analysis"

@@ -413,7 +413,7 @@ excerpt: "AI-assisted echocardiography acquisition and training."
         </tr>
         <tr>
           <td>Reusable AI model resources for echocardiography.<br><a href="https://www.thrive-centre.com/projects/echoforge/">EchoForge</a></td>
-          <td>Expert annotation and dataset infrastructure.<br><a href="https://intsav.github.io/biobank.html">UNITY Biobank</a></td>
+          <td>Expert annotation and dataset infrastructure.<br><a href="https://intsav.github.io/biobank.html">Biobank</a></td>
           <td>A live acquisition and feedback environment for prospective evaluation, built on these resources.</td>
         </tr>
       </table>
@@ -436,7 +436,7 @@ excerpt: "AI-assisted echocardiography acquisition and training."
       <h2>Collaboration & Contact</h2>
       <p>We welcome conversations with echocardiography educators, NHS training programmes, and researchers interested in image quality, operator guidance and independent evaluation.</p>
       <p>For enquiries contact: <a href="mailto:massoud.zolgharni@uwl.ac.uk">Massoud Zolgharni</a> or <a href="mailto:info@thrive-centre.com">info@thrive-centre.com</a></p>
-      <p>Related: <a href="https://www.thrive-centre.com/projects/echoforge/">EchoForge</a> | <a href="https://intsav.github.io/biobank.html">UNITY Biobank</a></p>
+      <p>Part of the <a href="/projects/ai-in-echocardiography/">THRIVE Ecosystem</a>: <a href="/datasets/">Biobank</a> | <a href="/projects/echoforge/">EchoForge</a> | <a href="/projects/echocruise/">EchoCruise</a></p>
     </div>
     <div class="notice">EchoLearn is a research platform. It does not provide diagnostic interpretation or automated clinical decision-making. Any use in clinical care requires appropriate evaluation and validation.</div>
   </section>

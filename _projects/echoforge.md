@@ -88,3 +88,4 @@ EchoForge is supported by:
 
 We welcome collaboration with clinicians, researchers and developers to enhance and extend the EchoForge platform.
 
+*Part of the [THRIVE Ecosystem](/projects/ai-in-echocardiography/): [Biobank](/datasets/) | [EchoLearn](/projects/echolearn/) | [EchoCruise](/projects/echocruise/)*

@@ -15,18 +15,6 @@ intro:
       Key initiatives are outlined below.
 
 feature_row:
-  - image_path: /assets/images/projects/biobank.png
-    alt: "BioBank"
-    title: "BioBank"
-    excerpt: "UNITY Cognitive Biobank"
-    link: "/datasets/"
-
-  - image_path: /assets/images/projects/echolearn/echolearn4.png
-    alt: "EchoLearn"
-    title: "EchoLearn"
-    excerpt: "Operator Guidance Platform"
-    link: "/projects/echolearn"
-
   - image_path: "https://www.intsav.com/assets/img/projects/Mitral_Inflow/MIPW.png"
     alt: "Mitral Inflow"
     title: "Mitral Inflow"
@@ -78,3 +66,4 @@ feature_row:
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
 
+*UNITY is part of [AI in Echocardiography](/projects/ai-in-echocardiography/). See also the [THRIVE Ecosystem](/projects/ai-in-echocardiography/#ecosystem): [Biobank](/datasets/) | [EchoForge](/projects/echoforge/) | [EchoLearn](/projects/echolearn/) | [EchoCruise](/projects/echocruise/)*

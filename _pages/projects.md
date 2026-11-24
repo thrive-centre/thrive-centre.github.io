@@ -29,6 +29,14 @@ feature_row:
     faculty: "Massoud Zolgharni"
     students: ""
 
+  - image_path: /assets/images/projects/echocruise/echocruise.jpg
+    alt: "EchoCruise"
+    title: "EchoCruise"
+    link: "/projects/echocruise/"
+    areas: "Cardiology,Medical Imaging,AI"
+    faculty: "Massoud Zolgharni"
+    students: ""
+
 
   - image_path: /assets/images/projects/PulseNote.jpg
     alt: "PulseNote"

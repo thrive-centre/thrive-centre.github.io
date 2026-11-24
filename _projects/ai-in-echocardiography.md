@@ -13,7 +13,7 @@ header:
     - label: "Ecosystem"
       url: "/projects/ai-in-echocardiography/#ecosystem"
   caption: ""
-excerpt: "THRIVE's research theme on AI in echocardiography: the UNITY research programme, individual studies, and the Echocardiography AI Ecosystem of data, models and applications."
+excerpt: "THRIVE's research theme on AI in echocardiography: the UNITY research programme and the Echocardiography AI Ecosystem of data, models and applications."
 ecosystem:
   - image_path: /assets/images/projects/biobank.png
     alt: "Biobank"
@@ -324,19 +324,20 @@ ecosystem:
   <section id="overview">
     <div class="intro">
       <h2>AI in Echocardiography</h2>
-      <p>THRIVE's research theme on applying artificial intelligence to echocardiography. It brings together a flagship research programme, UNITY, and an ecosystem of data, models and applications that support the research and carry it towards clinical use.</p>
+      <p>This theme brings together the UNITY research programme and the Echocardiography AI Ecosystem, a growing set of data, models and applications. Together they aim to carry AI in echocardiography from research towards clinical use.</p>
     </div>
   </section>
 
   <section id="research">
     <p class="eyebrow">Research</p>
     <h2>UNITY research programme</h2>
-    <p><a href="/projects/unity/">UNITY</a> is THRIVE's flagship research programme in echocardiography, developing open, AI-powered tools to standardise, accelerate and democratise echocardiography across clinical and global settings.</p>
-    <p><strong>Funder.</strong> UNITY is funded by the <a href="https://www.bhf.org.uk/">British Heart Foundation</a> through a Programme Grant (RG/F/22/110059, 2022 to 2027) titled <em>UNITY: UK Collaborative for integrating AI into echocardiography</em>.</p>
-    <p><strong>Partners.</strong> The programme is delivered in collaboration with:</p>
+    <p><a href="/projects/unity/">UNITY</a> is a UK research consortium integrating AI into echocardiography. Its open, AI-powered tools aim to standardise, accelerate and democratise echocardiography across clinical and global settings.</p>
+    <p><strong>Funder.</strong> UNITY is funded by the <a href="https://www.bhf.org.uk/">British Heart Foundation</a> through Programme Grant RG/F/22/110059, titled <em>UNITY: UK Collaborative for integrating AI into echocardiography</em>.</p>
+    <p><strong>Partners.</strong></p>
     <ul>
       <li><a href="https://www.bsecho.org">British Society of Echocardiography (BSE)</a></li>
       <li><a href="https://www.imperial.ac.uk/nhli">National Heart and Lung Institute (NHLI), Imperial College London</a></li>
+      <li>University of West London (THRIVE Centre)</li>
       <li>11 hospitals across the UK</li>
     </ul>
     <p>Its individual research studies are described on the UNITY page. Other studies, including independently funded projects and PhD research, also sit within this theme.</p>
@@ -346,7 +347,7 @@ ecosystem:
   <section id="ecosystem">
     <p class="eyebrow">Echocardiography AI Ecosystem</p>
     <h2>Ecosystem of resources and applications</h2>
-    <p>The Echocardiography AI Ecosystem is the set of lasting resources and applications THRIVE is building around echocardiography. It is not tied to a single funding cycle or programme, and it supports research across this theme, including UNITY.</p>
+    <p>The Echocardiography AI Ecosystem is a growing set of data, models and applications for echocardiography. It is built to last beyond any single funding cycle, and it carries research from data and models towards use in practice. UNITY and other research in this theme draw on it, and feed back into it.</p>
     {% include feature_row id="ecosystem" %}
   </section>
 

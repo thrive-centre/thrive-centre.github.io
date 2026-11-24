@@ -92,7 +92,7 @@ gallery_items:
     link: "https://www.linkedin.com/posts/thrive-centre-home_drugdelivery-biopharmaceuticals-3dprinting-activity-7505919298998132736-PZ0S"
     thumbnail: "/assets/images/landing_page/3d_printed.jpg"
 
-  - title: "Thrive presented at AiIH2026"
+  - title: "THRIVE presented at AiIH2026"
     description: "Well done to <a href='https://www.thrive-centre.com/people/alireza-alibakhshi/'>Alireza Alibakhshi</a>, <a href='https://www.thrive-centre.com/people/isreal-ufumaka/'>Isreal Ufumaka</a>, <a href='https://www.thrive-centre.com/people/abas-abdi/'>Abas Abdi</a>, <a href='https://www.thrive-centre.com/people/arshian-hussain/'>Arshian Hussain</a> for presenting your excellent work at the International Conference on Artificial Intelligence in Healthcare"
     short_description: "AiIH2026 presentation."
     type: "image"
@@ -166,7 +166,7 @@ gallery_items:
     link: "https://www.linkedin.com/posts/thrive-centre-home_tte47-dataset-card-reference-gallery-activity-7434171037229060096-ueHk"
     thumbnail: "/assets/images/projects/istockphoto-2194245609-612x612.jpg"
 
-  - title: "Thrive presented at AiIH2025"
+  - title: "THRIVE presented at AiIH2025"
     description: "Well done to Patricia Fernandes, Preshen, Jevgeni Jevsikov, and Sara Adibzadeh for presenting your excellent work at the International Conference on Artificial Intelligence in Healthcare"
     short_description: "AiIH2025 presentation."
     type: "image"

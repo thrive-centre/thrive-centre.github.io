@@ -172,3 +172,10 @@ This work is licensed under a [**Creative Commons Attribution–NonCommercial–
 
 If you use this dataset or cite the paper, please reference:  
 > *Lane, Elisabeth S., Neda Azarmehr, Jevgeni Jevsikov, James P. Howard, Matthew J. Shun-Shin, Graham D. Cole, Darrel P. Francis, and Massoud Zolgharni. "Multibeat echocardiographic phase detection using deep neural networks." Computers in Biology and Medicine 133 (2021): 104373.*
+
+---
+
+## Related Resources
+
+- **Dataset:** [UNITY EchoPhase](/datasets/EchoPhase), in the Biobank
+- **AI model:** cardiac phase detection in [EchoForge](/projects/echoforge/) ([EchoPDNet](https://github.com/thrive-centre/EchoForge/tree/main/echoforge/phasedetection/models/echopdnet))

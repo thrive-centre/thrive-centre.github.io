@@ -83,9 +83,17 @@ Visit our GitHub repository to see full model specifications, usage examples, be
 EchoForge is supported by:
 
 - The **Intelligent Sensing and Vision Lab**, University of West London  
-- Thrive Research Centre  
+- THRIVE Centre  
 - The IntSaV research group  
 
 We welcome collaboration with clinicians, researchers and developers to enhance and extend the EchoForge platform.
 
-*Part of the [THRIVE Ecosystem](/projects/ai-in-echocardiography/): [Biobank](/datasets/) | [EchoLearn](/projects/echolearn/) | [EchoCruise](/projects/echocruise/)*
+## Research and Data Behind the Models
+
+Several EchoForge models relate to published UNITY research studies and Biobank datasets:
+
+- **View classification:** [research study](/projects/unity/View_Classification/) and the [TTE47](/datasets/TTE47) dataset
+- **Left ventricle segmentation:** [research study](/projects/unity/LV_Segmentation/) and the related [UnityLV-MultiX](/datasets/UnityLV-MultiX) dataset
+- **Phase detection:** [research study](/projects/unity/phase_detection/) and the [UNITY EchoPhase](/datasets/EchoPhase) dataset
+
+*Part of the [Echocardiography AI Ecosystem](/projects/ai-in-echocardiography/): [Biobank](/datasets/) | [EchoLearn](/projects/echolearn/) | [EchoCruise](/projects/echocruise/)*

@@ -2,7 +2,7 @@
 layout: splash
 permalink: /people/
 title: "Our Team"
-excerpt: "Thrive Team"
+excerpt: "THRIVE Team"
 toc: true
 toc_sticky: true
 author_profile: false

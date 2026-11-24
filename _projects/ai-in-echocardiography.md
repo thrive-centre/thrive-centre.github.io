@@ -13,13 +13,17 @@ header:
     - label: "Ecosystem"
       url: "/projects/ai-in-echocardiography/#ecosystem"
   caption: ""
-excerpt: "THRIVE's research theme on AI in echocardiography: the UNITY research programme, individual studies, and the THRIVE Ecosystem of data, models and applications."
+excerpt: "THRIVE's research theme on AI in echocardiography: the UNITY research programme, individual studies, and the Echocardiography AI Ecosystem of data, models and applications."
 ecosystem:
   - image_path: /assets/images/projects/biobank.png
     alt: "Biobank"
     title: "Biobank"
     link: "/datasets/"
     excerpt: "Data and expert annotations for echocardiography research."
+  - image_path: /assets/images/projects/istockphoto-2194245609-612x612.jpg
+    alt: "ScanNote"
+    title: "ScanNote"
+    excerpt: "Annotation platform for medical imaging. Coming soon."
   - image_path: /assets/images/projects/istockphoto-2147671579-612x612.jpg
     alt: "EchoForge"
     title: "EchoForge"
@@ -327,24 +331,22 @@ ecosystem:
   <section id="research">
     <p class="eyebrow">Research</p>
     <h2>UNITY research programme</h2>
-    <p><a href="/projects/unity/">UNITY</a> is THRIVE's flagship research programme in echocardiography, developing open, AI-powered tools to standardise, accelerate and democratise echocardiography. Its individual studies address specific scientific questions and methods:</p>
+    <p><a href="/projects/unity/">UNITY</a> is THRIVE's flagship research programme in echocardiography, developing open, AI-powered tools to standardise, accelerate and democratise echocardiography across clinical and global settings.</p>
+    <p><strong>Funder.</strong> UNITY is funded by the <a href="https://www.bhf.org.uk/">British Heart Foundation</a> through a Programme Grant (RG/F/22/110059, 2022 to 2027) titled <em>UNITY: UK Collaborative for integrating AI into echocardiography</em>.</p>
+    <p><strong>Partners.</strong> The programme is delivered in collaboration with:</p>
     <ul>
-      <li><a href="/projects/unity/LV_Segmentation/">Left ventricle segmentation</a></li>
-      <li><a href="/projects/unity/View_Classification/">View classification</a></li>
-      <li><a href="/projects/unity/phase_detection/">Multibeat phase detection</a></li>
-      <li><a href="/projects/unity/Mitral_Inflow/">Mitral inflow analysis</a></li>
-      <li><a href="/projects/unity/TDI/">Tissue Doppler imaging</a></li>
-      <li><a href="/projects/unity/speckle_tracking/">Speckle tracking</a></li>
-      <li><a href="/projects/unity/Efficient_Annotations/">Active learning for efficient annotation</a></li>
-      <li><a href="/projects/unity/Loss_Functions/">Influence of loss functions on segmentation and ejection fraction</a></li>
+      <li><a href="https://www.bsecho.org">British Society of Echocardiography (BSE)</a></li>
+      <li><a href="https://www.imperial.ac.uk/nhli">National Heart and Lung Institute (NHLI), Imperial College London</a></li>
+      <li>11 hospitals across the UK</li>
     </ul>
-    <p>Other studies, including independently funded projects and PhD research, also sit within this theme.</p>
+    <p>Its individual research studies are described on the UNITY page. Other studies, including independently funded projects and PhD research, also sit within this theme.</p>
+    <p><a class="btn btn--primary" href="/projects/unity/">Explore UNITY</a></p>
   </section>
 
   <section id="ecosystem">
-    <p class="eyebrow">THRIVE Ecosystem</p>
+    <p class="eyebrow">Echocardiography AI Ecosystem</p>
     <h2>Ecosystem of resources and applications</h2>
-    <p>The THRIVE Ecosystem is the set of lasting resources and applications THRIVE is building around echocardiography. It is not tied to a single funding cycle or programme, and it supports research across this theme, including UNITY.</p>
+    <p>The Echocardiography AI Ecosystem is the set of lasting resources and applications THRIVE is building around echocardiography. It is not tied to a single funding cycle or programme, and it supports research across this theme, including UNITY.</p>
     {% include feature_row id="ecosystem" %}
   </section>
 

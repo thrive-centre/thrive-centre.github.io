@@ -20,7 +20,7 @@ He also earned a B.Sc. in Software Engineering from Shahid Beheshti University, 
 [Dr. Nasim Dadashi Serej](https://www.uwl.ac.uk/staff/nasim-dadashi-serej), [Professor Massoud Zolgharni](https://www.uwl.ac.uk/staff/massoud-zolgharni)
 
 # Research Projects
-- [Unity](https://www.intsav.com/biobank.html)
+- [UNITY](https://www.intsav.com/biobank.html)
 
 # Research Interests
 - Computer Vision

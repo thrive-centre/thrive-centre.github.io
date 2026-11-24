@@ -2,7 +2,7 @@
 layout: splash
 permalink: /projects/
 title: "projects"
-excerpt: "Thrive Projects"
+excerpt: "THRIVE Projects"
 last_modified_at: 2025-05-14T11:59:26-04:00
 feature_row:
   - image_path: /assets/images/projects/istockphoto-2194245609-612x612.jpg

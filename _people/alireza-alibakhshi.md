@@ -13,7 +13,7 @@ Hey there, I’m Alireza Alibakhshi, a PhD student at the University of West Lon
 
 My toolbox is stacked: I code in Python (NumPy, Pandas, TensorFlow), R, and Java; tinker with SQL Server, MySQL, and MongoDB; and even wrangle data in PowerBI and Arena Simulation. I also have teaching and research capabilities (I hope so.)
 
-I maintain a GitHub lab of experimental code, and I’m always up for a collaboration or a chat about the next big breakthrough in Thrive’s quest to turn medical data into life-saving insights.
+I maintain a GitHub lab of experimental code, and I’m always up for a collaboration or a chat about the next big breakthrough in THRIVE’s quest to turn medical data into life-saving insights.
 
 # Qualifications 
 - Computer Science, University of West London, London, United Kingdom, PhD (Ongoing)
@@ -26,7 +26,7 @@ I maintain a GitHub lab of experimental code, and I’m always up for a collabor
 
 # Research Projects
 - [TBI](https://www.intsav.com/tbi.html)
-- [Unity](https://www.intsav.com/biobank.html)
+- [UNITY](https://www.intsav.com/biobank.html)
 - [BioBank](https://www.intsav.com/biobank.html)
 
 

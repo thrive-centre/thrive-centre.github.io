@@ -183,3 +183,10 @@ A correlation between image quality and accuracy was also observed.
 - [**Neural Architecture Search of Echocardiography View Classifiers — Journal of Medical Imaging (SPIE)**](https://doi.org/10.1117/1.JMI.8.3.034002)
 
 </div>
+
+---
+
+## Related Resources
+
+- **Dataset:** [TTE47](/datasets/TTE47), in the Biobank
+- **AI model:** view classification in [EchoForge](/projects/echoforge/), including the [EchoFine classifier](https://github.com/thrive-centre/EchoForge/tree/main/echoforge/classification/models/EchoFine) trained on TTE47

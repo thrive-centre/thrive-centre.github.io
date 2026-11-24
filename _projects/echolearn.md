@@ -436,7 +436,7 @@ excerpt: "AI-assisted echocardiography acquisition and training."
       <h2>Collaboration & Contact</h2>
       <p>We welcome conversations with echocardiography educators, NHS training programmes, and researchers interested in image quality, operator guidance and independent evaluation.</p>
       <p>For enquiries contact: <a href="mailto:massoud.zolgharni@uwl.ac.uk">Massoud Zolgharni</a> or <a href="mailto:info@thrive-centre.com">info@thrive-centre.com</a></p>
-      <p>Part of the <a href="/projects/ai-in-echocardiography/">THRIVE Ecosystem</a>: <a href="/datasets/">Biobank</a> | <a href="/projects/echoforge/">EchoForge</a> | <a href="/projects/echocruise/">EchoCruise</a></p>
+      <p>Part of the <a href="/projects/ai-in-echocardiography/">Echocardiography AI Ecosystem</a>: <a href="/datasets/">Biobank</a> | <a href="/projects/echoforge/">EchoForge</a> | <a href="/projects/echocruise/">EchoCruise</a></p>
     </div>
     <div class="notice">EchoLearn is a research platform. It does not provide diagnostic interpretation or automated clinical decision-making. Any use in clinical care requires appropriate evaluation and validation.</div>
   </section>

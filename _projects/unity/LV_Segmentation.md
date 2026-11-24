@@ -131,3 +131,10 @@ Future work will include using more diverse datasets, exploring different cardia
 ## References
 
 [Segmentation of Left Ventricle in 2D Echocardiography Using Deep Learning](https://link.springer.com/chapter/10.1007/978-3-030-39343-4_43)
+
+---
+
+## Related Resources
+
+- **Related dataset:** [UnityLV-MultiX](/datasets/UnityLV-MultiX), multi-expert annotated left ventricle videos in the Biobank
+- **Related AI model:** left ventricle segmentation in [EchoForge](/projects/echoforge/) ([EchoLVSNet](https://github.com/thrive-centre/EchoForge/tree/main/echoforge/segmentation/models/echolvsnet))

@@ -340,7 +340,7 @@ excerpt: "Exploring the future of AI-assisted cardiac ultrasound through researc
       <h2>Interested in exploring what comes next?</h2>
       <p>We welcome conversations with clinical, academic and technology partners working in ultrasound, AI and digital health.</p>
       <p>For enquiries contact: <a href="mailto:massoud.zolgharni@uwl.ac.uk">Massoud Zolgharni</a> or <a href="mailto:info@thrive-centre.com">info@thrive-centre.com</a></p>
-      <p>Part of the <a href="/projects/ai-in-echocardiography/">THRIVE Ecosystem</a>: <a href="/datasets/">Biobank</a> | <a href="/projects/echoforge/">EchoForge</a> | <a href="/projects/echolearn/">EchoLearn</a></p>
+      <p>Part of the <a href="/projects/ai-in-echocardiography/">Echocardiography AI Ecosystem</a>: <a href="/datasets/">Biobank</a> | <a href="/projects/echoforge/">EchoForge</a> | <a href="/projects/echolearn/">EchoLearn</a></p>
     </div>
     <div class="notice">EchoCruise is a research initiative only. It is not a medical device and is not available for clinical use.</div>
   </section>

@@ -20,17 +20,17 @@ The outcome of these studies led to the creation of a **biobank of echocardiogra
 
 ## Dataset
 
-![Sample Image from the Unity Dataset](/assets/images/projects/unity/Efficient_Annotations/Sample_image.png)
+![Sample Image from the UNITY Dataset](/assets/images/projects/unity/Efficient_Annotations/Sample_image.png)
 
-*Fig. 1 A sample image from the Unity dataset.*
+*Fig. 1 A sample image from the UNITY dataset.*
 
-Three echocardiographic datasets were used for experimentation: **CAMUS**, **Unity**, and **Consensus**.
+Three echocardiographic datasets were used for experimentation: **CAMUS**, **UNITY**, and **Consensus**.
 
 - **CAMUS dataset:**  
   Public, fully annotated dataset for 2D echocardiographic assessment.  
   Details: [CAMUS Challenge](https://www.creatis.insa-lyon.fr/Challenge/camus/index.html)
 
-- **Unity dataset:**  
+- **UNITY dataset:**  
   Private dataset of 1,224 apical four-chamber echocardiogram videos from Imperial College Healthcare NHS Trust’s database.  
   Ethically approved (IRAS ID 243023). Contains 2,800 labelled images (70% train, 15% validation, 15% test).
 
@@ -56,7 +56,7 @@ TensorFlow was used for implementation on an Nvidia RTX3090 GPU.
 
 This study evaluated existing AL strategies (uncertainty and representativeness-based methods), establishing a strong baseline for further experiments.
 
-**Datasets:** CAMUS and Unity  
+**Datasets:** CAMUS and UNITY  
 **Framework:** Pool-based AL with iterative model retraining.  
 **Uncertainty Methods:** Pixel-wise, Max Entropy, MCD Ensemble (Entropy, Variance, BALD)
 
@@ -68,10 +68,10 @@ This study evaluated existing AL strategies (uncertainty and representativeness-
 - Batch size: 8  
 
 **Results:**  
-Max Entropy achieved **97.7%** of full dataset performance on CAMUS using **25%** of data, and **~99%** on Unity using **20%** of labels.
+Max Entropy achieved **97.7%** of full dataset performance on CAMUS using **25%** of data, and **~99%** on UNITY using **20%** of labels.
 
-![AL Results on CAMUS and Unity](/assets/images/projects/unity/Efficient_Annotations/Merge_unc_5.jpg)
-*Fig. 3 Active learning performance on CAMUS and Unity datasets.*
+![AL Results on CAMUS and UNITY](/assets/images/projects/unity/Efficient_Annotations/Merge_unc_5.jpg)
+*Fig. 3 Active learning performance on CAMUS and UNITY datasets.*
 
 More details: [ScienceDirect Paper](https://www.sciencedirect.com/science/article/pii/S016926072400107X)  
 
@@ -89,13 +89,13 @@ This study explored ensemble-based AL using **different loss functions and archi
 
 **Results:**  
 - Multi-loss ensemble achieved >98% of full performance with <30% data on CAMUS.  
-- On Unity, 98% performance was reached with only **7%** labelled samples.
+- On UNITY, 98% performance was reached with only **7%** labelled samples.
 
 ![CAMUS Ensemble Results](/assets/images/projects/unity/Efficient_Annotations/Picture3.jpg)
 *Ensemble-based AL results on CAMUS dataset.*
 
-![Unity Ensemble Results](/assets/images/projects/unity/Efficient_Annotations/Picture4.jpg)
-*Ensemble-based AL results on Unity dataset.*
+![UNITY Ensemble Results](/assets/images/projects/unity/Efficient_Annotations/Picture4.jpg)
+*Ensemble-based AL results on UNITY dataset.*
 
 More details: [Frontiers in Physiology, 2023](https://www.pure.ed.ac.uk/ws/portalfiles/portal/409667993/9782832512319_1_.PDF#page=103)  
 
@@ -148,3 +148,7 @@ Future research directions include:
 - [**Dr Jevgeni Jevsikov**](https://twitter.com/intsav_?lang=en-gb)
 
 ---
+
+## Related Resources
+
+- **Biobank:** the [Biobank](/datasets/) of expert echocardiographic annotations that this work helped to create
